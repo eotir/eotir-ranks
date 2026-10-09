@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-09T16:06:48.848549+00:00",
+  "commit": "4cc5f653bfdb6bf432fcb5e325d5691c114ff6b7",
+  "workflow_run": 37956438118,
+  "workflow_conclusion": "success",
+  "gallery_url": "https://eotir.github.io/eotir-ranks/assets/code-cylinder-review.html?v=4cc5f65",
+  "files": [
+    {
+      "path": "assets/code-cylinder-review.html",
+      "url": "https://eotir.github.io/eotir-ranks/assets/code-cylinder-review.html?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 19651,
+      "sha256": "694201830116fd3c1ed768686342d505b22ee5fec6ec0d13b902481d5e1d567f",
+      "local_equal": true
+    },
+    {
+      "path": "assets/site/cylinder-gallery.css",
+      "url": "https://eotir.github.io/eotir-ranks/assets/site/cylinder-gallery.css?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 2419,
+      "sha256": "f577fe0b2006f500686cf72f09675fb381423fe8caab5f628c15325ef237f0f4",
+      "local_equal": true
+    },
+    {
+      "path": "assets/site/rank-catalog.css",
+      "url": "https://eotir.github.io/eotir-ranks/assets/site/rank-catalog.css?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 21683,
+      "sha256": "f528cfd0dd7426a36b3bb3a861370fe31be8d8c8e1bcb3670dfdb825fc19b5ca",
+      "local_equal": true
+    },
+    {
+      "path": "data/code-cylinder-engravings-v3.json",
+      "url": "https://eotir.github.io/eotir-ranks/data/code-cylinder-engravings-v3.json?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 38910,
+      "sha256": "2da3248baf28902a576e8760ea2d1574940254cddf41bd6bcd0bb00a1aed4ef3",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v2/long-blue-dosimeter-v2.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1288073,
+      "sha256": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v2/compact-grooved-blue-v2.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v2/compact-grooved-blue-v2.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1012090,
+      "sha256": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v2/ribbed-pilot-silver-v2.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1080697,
+      "sha256": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/long-blue-dosimeter-standard-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/long-blue-dosimeter-standard-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1284602,
+      "sha256": "0244aaab6b17ba02a60540b9593148f38a76834a7fbbcbe1340bd28cd9f74887",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/long-blue-dosimeter-standard-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/long-blue-dosimeter-standard-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1270975,
+      "sha256": "98cab01a977b218860065450b83af4a421389e42466342d3b9b9cb6b192d0851",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/long-blue-dosimeter-shield-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/long-blue-dosimeter-shield-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1290928,
+      "sha256": "c6a0f1676885794e0096fec672dfe507bebef016f019dd189a537f26c3ba9274",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/long-blue-dosimeter-shield-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/long-blue-dosimeter-shield-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1245603,
+      "sha256": "a2979e1f05fb863ae0efa32a637f151bb69ffab4624fdcaef906f10d8f0c5e73",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/compact-grooved-blue-standard-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/compact-grooved-blue-standard-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 978198,
+      "sha256": "9dd08f40e98e51e3cbd46f1b299bac06f766060eab50e5e5254213193177a9a1",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/compact-grooved-blue-standard-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/compact-grooved-blue-standard-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 969054,
+      "sha256": "c88beefd749ad9bbb105bfe2a9a62e8eb9d8c2ae95c92601bf30925bed96eb69",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/compact-grooved-blue-shield-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/compact-grooved-blue-shield-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1013896,
+      "sha256": "39268dd9144ff0cb2de3358423522c263f59218eb7b8d45472572abfce60569d",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/compact-grooved-blue-shield-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/compact-grooved-blue-shield-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 996544,
+      "sha256": "f7d8264bbd70e25195a23dcfe7a57d7088177c073d334d6a2f14d3999853957c",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/ribbed-pilot-silver-standard-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/ribbed-pilot-silver-standard-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1130843,
+      "sha256": "79239b3213d00ae3f05f2cf92376dad3b3008ffb582bae590367fd253b5fe9e1",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/ribbed-pilot-silver-standard-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/ribbed-pilot-silver-standard-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1109724,
+      "sha256": "5433ee96d2ab437739bcbe0980128519dfba2584f1caa07a731f3a0f239626d8",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/ribbed-pilot-silver-shield-silver-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/ribbed-pilot-silver-shield-silver-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1131039,
+      "sha256": "ac70605d192e80f27e620e4ca7dc8875c1d856d18b8b2ba1ce01fd0013292333",
+      "local_equal": true
+    },
+    {
+      "path": "assets/cylinders/v3/ribbed-pilot-silver-shield-gold-v3.png",
+      "url": "https://eotir.github.io/eotir-ranks/assets/cylinders/v3/ribbed-pilot-silver-shield-gold-v3.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1173640,
+      "sha256": "bce75cd78a4a709558e64cb7f69507d230b2681322cbb260c7b32edc7c2f3550",
+      "local_equal": true
+    },
+    {
+      "path": "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png",
+      "url": "https://eotir.github.io/eotir-ranks/references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1420528,
+      "sha256": "9039c2515e0da29533da9f9521cdf72053dc3262f68db009be746c9aa1c54585",
+      "local_equal": true
+    },
+    {
+      "path": "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png",
+      "url": "https://eotir.github.io/eotir-ranks/references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1572504,
+      "sha256": "21c40fe43117eef682fe171ef7a145b955811f1b845b0c4be378d90ad463893a",
+      "local_equal": true
+    },
+    {
+      "path": "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png",
+      "url": "https://eotir.github.io/eotir-ranks/references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1580643,
+      "sha256": "2312eaac3435b5c095be2f7a22cd6c3ca1c176f9bb5aed58ba64f9836ddb0e43",
+      "local_equal": true
+    },
+    {
+      "path": "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png",
+      "url": "https://eotir.github.io/eotir-ranks/references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png?v=4cc5f65",
+      "http_status": 200,
+      "bytes": 1681314,
+      "sha256": "9ce09f4db9328945aefc46f7dd1d44d41b4df7e01bc8f948073ff72bed841ca1",
+      "local_equal": true
+    }
+  ],
+  "local_browser": {
+    "images": 15,
+    "broken": 0,
+    "native_open_links": 15,
+    "download_links": 15,
+    "filters": {
+      "base": 3,
+      "standard": 6,
+      "shield": 6,
+      "silver": 6,
+      "gold": 6,
+      "shield_gold": 3
+    },
+    "desktop_overflow": false,
+    "mobile_390_overflow": false
+  },
+  "creative_approval": null,
+  "canonical": false
+}
