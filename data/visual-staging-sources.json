@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "PROPOSED_INTEGRATION",
+  "canonical": false,
+  "purpose": "Shared Imperial Republic visual staging gallery and encyclopedia; preserve source ownership and independent approval states.",
+  "presentation": {
+    "source": "Claude Design EOTIR.zip",
+    "archive_sha256": "73344616b24abcefe2b37e3e2ff0a976ec7198d6fcc9bc468e1e789e58d8b6da",
+    "staging_path": "tmp/eotir-master-design",
+    "full_archive_published": false
+  },
+  "sources": [
+    {
+      "id": "ranks",
+      "repository": "eotir/eotir-ranks",
+      "visual_commit": "4cc5f653bfdb6bf432fcb5e325d5691c114ff6b7",
+      "categories": [
+        "ranks",
+        "rank-plaques",
+        "rank-tiles",
+        "code-cylinders"
+      ],
+      "manifests": [
+        "data/rank-catalog.json",
+        "data/code-cylinder-gallery-v2.json",
+        "data/code-cylinder-engravings-v3.json"
+      ],
+      "review_url": "https://eotir.github.io/eotir-ranks/assets/code-cylinder-review.html?v=4cc5f65",
+      "cylinder_masters": 15,
+      "publication_verified": true,
+      "approval_rule": "New engraving applications remain candidates; conditioning-anchor approval does not confer application approval."
+    },
+    {
+      "id": "lightsabers",
+      "repository": "eotir/eotir-art",
+      "repository_visibility": "private",
+      "inspected_head": "d2acc7311bf2a0f57af4ea82a04a82296d0bf780",
+      "categories": [
+        "armory",
+        "lightsabers"
+      ],
+      "source_catalog": "gallery/catalog.json",
+      "source_pins": {
+        "codex-monarch": "67e25928a4eb559ec460b0f51ff0996244985bc2",
+        "eotir-art": "ee1129ab42c93c561b996fd23f9e2984316d9270"
+      },
+      "selected_weapons": 25,
+      "original_views": 50,
+      "historical_public_url": "https://eotir-lightsabers.stratusweb-ops.workers.dev/",
+      "current_http_probe": {
+        "result": 403,
+        "cause": "unresolved",
+        "live_delivery_revalidated": false
+      },
+      "approval_rule": "Preserve visual/assignment/canon/publication states separately. Character association is not necessarily ownership. Filenames are not approval evidence.",
+      "raw_repository_publication_authorized": false
+    }
+  ],
+  "future_categories": [
+    "uniforms",
+    "other-weapons",
+    "ships",
+    "vehicles",
+    "heraldry"
+  ],
+  "next_step": "Connect selected ZIP lightsaber gallery and current rank/cylinder manifests through shared Claude Design catalog presentation; validate adapters before any migration.",
+  "canon_destination": "codex-monarch content/ranks and content/uniforms for adopted material; canonical documents remain authoritative."
+}

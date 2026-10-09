@@ -81,3 +81,7 @@ The verified music heraldry authority assigns the Shield to defense/military/sec
 Use neutral silver engraved metal, preserving the Shield's approved silhouette rather than reproducing its cyan-looking reference illumination as a new rank color. Locked Standard and clean Shield reference masters have opaque charcoal backgrounds; their backgrounds are not part of the engraved device. Shield transparent support parents have unresolved fringes and are unsuitable for direct compositing.
 
 Ryan requires the gallery to use the supplied Claude Design presentation, not the interim standalone gallery design. Integrate the full-size studies into that presentation while preserving native downloads, local master bytes and review history. No cylinder assignments, count conventions or existing plaque designs change as part of this engraving/gallery work.
+
+## Master gallery direction and division of work — 2026-10-09
+
+Ryan wants a shared staging visual wiki/encyclopedia/gallery bringing eotir-art's lightsabers, armory, ships and this rank library together. Latest presentation handoff: D:\eotir\projects\.handoffs\EOTIR.zip. Codex focuses on image generation, asset variants and provenance; Claude Code is intended to integrate the overall site. Research and a handoff are saved in VISUAL-GALLERY-INTEGRATION.md and research/eotir-master-design-2026-10-09.json, with source connections in data/visual-staging-sources.json. No repository merger, asset migration, new canon authority or broader source publication occurs here.

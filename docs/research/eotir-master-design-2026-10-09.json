@@ -1,0 +1,779 @@
+{
+  "date": "2026-10-09",
+  "scope": "Read-only archived master-site/gallery research; ignored local extraction only",
+  "archive": {
+    "archive": "D:\\eotir\\projects\\.handoffs\\EOTIR.zip",
+    "archive_bytes": 114981174,
+    "archive_sha256": "73344616b24abcefe2b37e3e2ff0a976ec7198d6fcc9bc468e1e789e58d8b6da",
+    "entry_count": 558,
+    "safe_paths": true
+  },
+  "selective_extraction": {
+    "text_files_under_2MB": 124,
+    "gallery_master_pngs": 50,
+    "destination": "tmp/eotir-master-design",
+    "ignored": true,
+    "source_unchanged": true
+  },
+  "sources": [
+    {
+      "path": "gallery/index.html",
+      "sha256": "44e88bd0698aa1018abfc2c5efe9cc7008807a0af6070817cc20425d638ca28a",
+      "bytes": 6027
+    },
+    {
+      "path": "gallery/gallery.js",
+      "sha256": "0905b324cda2f0ba37567cdee003fc75375b71332e0782e63db91fc069578afc",
+      "bytes": 16955
+    },
+    {
+      "path": "gallery/gallery.css",
+      "sha256": "006af60c5c67599f00cd154bbc83e8b3a7fc092a5fe32aed026b6845deb34ff0",
+      "bytes": 16964
+    },
+    {
+      "path": "gallery/catalog.json",
+      "sha256": "7ee76812791d08af2fe816ec72c9cb251bf971470a5edcc6686e6a6c75095282",
+      "bytes": 37633
+    },
+    {
+      "path": "gallery/manifest.json",
+      "sha256": "6058cb553d1e9f38a7b18d21985a57f7b1e22cef290729ff78b1d8cb6dfe09f3",
+      "bytes": 37581
+    },
+    {
+      "path": "Rank Plaque Catalog.html",
+      "sha256": "e18ffe5f27e827d5a4fffcac741fb10e35dc5d892ed7455453f803f0c1540661",
+      "bytes": 16937
+    },
+    {
+      "path": "ranks/ranks_data.js",
+      "sha256": "e28940acd9708a102ceff09b523879da69d3e2c8775eae9774d4cd886eb02fcf",
+      "bytes": 218932
+    },
+    {
+      "path": "ranks/ranks_ui.jsx",
+      "sha256": "7c5ff303d969a04665fa216b9899e1bf96788525d14a7b0b171e7063d6398840",
+      "bytes": 10085
+    },
+    {
+      "path": "ranks/ranks_views.jsx",
+      "sha256": "bee4bda1a3a029706b31bd1bda1ef142ec2a2c590675ee2b03bd878e49adbfdb",
+      "bytes": 8512
+    },
+    {
+      "path": "theme/tokens.css",
+      "sha256": "d250fd6e81870fe291f6fed61c1fa6f8d5214acb382b7224ea6b17e6866c4170",
+      "bytes": 5084
+    }
+  ],
+  "gallery": {
+    "records": 25,
+    "views": 50,
+    "statuses": {
+      "Design-approved visuals": 24,
+      "Training role confirmed; image approval unspecified": 1
+    },
+    "source_revisions": {
+      "codex-monarch": {
+        "commit": "67e25928a4eb559ec460b0f51ff0996244985bc2"
+      },
+      "eotir-art": {
+        "commit": "ee1129ab42c93c561b996fd23f9e2984316d9270"
+      }
+    },
+    "source_revision": "67e25928a4eb559ec460b0f51ff0996244985bc2",
+    "owner_nonnull": 22,
+    "featured": 6,
+    "masters": [
+      {
+        "weapon_id": "pearl-gold",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/pearl-gold-hilt-approved.png",
+        "sha256": "112c3877341e45f17bdb1e413573c3883afe21befa4d06ad19bfa6e9c1638945",
+        "bytes": 1825102,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/pearl-gold-hilt-approved.png"
+      },
+      {
+        "weapon_id": "pearl-gold",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/pearl-gold-ignited-dark-pink-approved.png",
+        "sha256": "7f775bb057585b39164826fc29129bc35ff1330ecf4ad8ba2a80d5c7471bff33",
+        "bytes": 1598961,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/pearl-gold-ignited-dark-pink-approved.png"
+      },
+      {
+        "weapon_id": "rose-burgundy",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/rose-burgundy-hilt-approved.png",
+        "sha256": "6c805722f7ca79634f2db0188d4f3b7b0cd2cd9e074ca4c2bf2cd7c4a2056a56",
+        "bytes": 1763810,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/rose-burgundy-hilt-approved.png"
+      },
+      {
+        "weapon_id": "rose-burgundy",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/rose-burgundy-ignited-bronze-approved.png",
+        "sha256": "4585137444d304df760e5d6ac0f37c943876b0038e81823b5b7374e3169f03c7",
+        "bytes": 1548227,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/rose-burgundy-ignited-bronze-approved.png"
+      },
+      {
+        "weapon_id": "dark-elegance",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/dark-elegance-hilt-approved.png",
+        "sha256": "3960eb9ced79f59ea314cc94b582e067d0b8d4b09c3011bbc0c51621c85ddb74",
+        "bytes": 1782742,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/dark-elegance-hilt-approved.png"
+      },
+      {
+        "weapon_id": "dark-elegance",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/dark-elegance-ignited-blood-crimson-approved.png",
+        "sha256": "a0e32b462d6a10389292576b278f7d5bf4c16f36a7bb8eae121cb78964e7ac18",
+        "bytes": 1576821,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/dark-elegance-ignited-blood-crimson-approved.png"
+      },
+      {
+        "weapon_id": "jetiikad",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/jetiikad-hilt-approved.png",
+        "sha256": "9dcfe2bbe90788111effebf527a99d8b94b5da3d4458ace7b3813ae63baafc09",
+        "bytes": 1544387,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/jetiikad-hilt-approved.png"
+      },
+      {
+        "weapon_id": "jetiikad",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/jetiikad-ignited-golden-yellow-approved.png",
+        "sha256": "21374a96f78fd263e8f9200d8958e2c0dc1f28a1f29320a57787a96c8412275e",
+        "bytes": 1584455,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/jetiikad-ignited-golden-yellow-approved.png"
+      },
+      {
+        "weapon_id": "01",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/01-silver-rail-approved.png",
+        "sha256": "175f517a021fa3be3e6ebb9e6a6c06dd05e1cb7e6c5d59ab9dcc5b2b67201f05",
+        "bytes": 1781761,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/01-silver-rail-approved.png"
+      },
+      {
+        "weapon_id": "01",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/01-silver-rail-ignited-light-blue-approved.png",
+        "sha256": "9507a0cecec580ebba75b6ac62b1085d62f53079c9000dfb4542d5c7d16e3132",
+        "bytes": 1471446,
+        "dimensions": [
+          2160,
+          728
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/01-silver-rail-ignited-light-blue-approved.png"
+      },
+      {
+        "weapon_id": "02",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/02-copper-helix.png",
+        "sha256": "980e2e191e212559be7a71158e6ea0e02891642479aeaf82908020abb4b5352b",
+        "bytes": 1790810,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/02-copper-helix.png"
+      },
+      {
+        "weapon_id": "02",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/02-copper-helix-ignited-black-approved.png",
+        "sha256": "8ee094e9670bb2f82505f864220d0e8137a927f05064a09f1b93520593bf4f88",
+        "bytes": 1453396,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/02-copper-helix-ignited-black-approved.png"
+      },
+      {
+        "weapon_id": "04",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/04-crescent.png",
+        "sha256": "e676e867148a7810b03c983f9ab153be6c60b5491d506e594b2ad11a1aefe959",
+        "bytes": 1584805,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/04-crescent.png"
+      },
+      {
+        "weapon_id": "04",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/04-crescent-ignited-dark-blue-approved.png",
+        "sha256": "dd34165b290d358b7fb09c5c3347673b05cadddcd6266465f12aedd5a543238e",
+        "bytes": 1436815,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/04-crescent-ignited-dark-blue-approved.png"
+      },
+      {
+        "weapon_id": "05",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/05-emerald-facet.png",
+        "sha256": "81bf4642498996064f59ee0fbdb98cabe327c78d41b69b9cdc7235954ca008a4",
+        "bytes": 1743463,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/05-emerald-facet.png"
+      },
+      {
+        "weapon_id": "05",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/05-emerald-facet-ignited-green-approved.png",
+        "sha256": "d6b21e00f59a7a9cc3fe3bda8ae74bc8c20cb77dd7df4a7672ae54dc01ee3618",
+        "bytes": 1519630,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/05-emerald-facet-ignited-green-approved.png"
+      },
+      {
+        "weapon_id": "06",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/06-ivory-bell.png",
+        "sha256": "65cc5204201f6ed2a477e68e1cd89855366a24481e2e3b30a8eacb52047aeab3",
+        "bytes": 1485875,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/06-ivory-bell.png"
+      },
+      {
+        "weapon_id": "06",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/06-ivory-bell-ignited-orange-approved.png",
+        "sha256": "292a0d327fb80788a50c73042d49e79f16f0972373196c489e6fd3c064d85405",
+        "bytes": 1526347,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/06-ivory-bell-ignited-orange-approved.png"
+      },
+      {
+        "weapon_id": "07",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/07-fieldwork-mk2-gunmetal-approved.png",
+        "sha256": "866f4fea567155e39b500509c4278d1450124eea090772d30eec4e023cfff371",
+        "bytes": 1787875,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/07-fieldwork-mk2-gunmetal-approved.png"
+      },
+      {
+        "weapon_id": "07",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/07-fieldwork-mk2-ignited-aqua-approved.png",
+        "sha256": "b28e65cb0c5064ba4837bb02b34fba82275d82a10c78a6f7662476dbbdeb72a2",
+        "bytes": 1505909,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/07-fieldwork-mk2-ignited-aqua-approved.png"
+      },
+      {
+        "weapon_id": "09",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/09-teal-weave.png",
+        "sha256": "dc543047f9327816031cb9d29f2fd608a4cf512ad0e9bb030d35e9465730e651",
+        "bytes": 1801570,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/09-teal-weave.png"
+      },
+      {
+        "weapon_id": "09",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/09-teal-weave-ignited-black-approved.png",
+        "sha256": "018f99975c14ff76737f11f5cadca1de503077d8db22be60bb23444c42f1d3fc",
+        "bytes": 1554311,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/09-teal-weave-ignited-black-approved.png"
+      },
+      {
+        "weapon_id": "10",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/10-titanium-rail-approved.png",
+        "sha256": "d64ab7d7f82028b93660acd716885e53297344c261e748a9efbbb82bcb3bb177",
+        "bytes": 1658140,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/10-titanium-rail-approved.png"
+      },
+      {
+        "weapon_id": "10",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/10-titanium-rail-ignited-silver-approved.png",
+        "sha256": "93db6009be04d96f317ccbc423a9fadb93000d51c58ae6bf60563dc65072c4a4",
+        "bytes": 1534186,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/10-titanium-rail-ignited-silver-approved.png"
+      },
+      {
+        "weapon_id": "11",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/11-rose-cowl.png",
+        "sha256": "f6648ebe8eb42b855a3562bb5749a16cf896911ded323bf5f142047a311e2417",
+        "bytes": 1718121,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/eotir-art/blob/ee1129ab42c93c561b996fd23f9e2984316d9270/projects/lightsabers/concepts/twelve-hilts/11-rose-cowl.png"
+      },
+      {
+        "weapon_id": "11",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/11-rose-cowl-ignited-purple-approved.png",
+        "sha256": "b8730a91c7ab9ba806eddcb85c36564972cc4b698bf7f782def60ca7744dd18b",
+        "bytes": 1545085,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/11-rose-cowl-ignited-purple-approved.png"
+      },
+      {
+        "weapon_id": "13-red",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/13-dark-metallic-red-lattice-approved.png",
+        "sha256": "0288c734f997235f0de48c7d71bd8fbefa4865e264371e59f93d8e87d4ae1753",
+        "bytes": 1466430,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/13-dark-metallic-red-lattice-approved.png"
+      },
+      {
+        "weapon_id": "13-red",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/13-red-body-black-lattice-ignited-red-approved.png",
+        "sha256": "10cbb96606fe8ddbdad6c5ebe17e0e0605c0bc2f60f143fe53acfd03ef09a862",
+        "bytes": 1421933,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/13-red-body-black-lattice-ignited-red-approved.png"
+      },
+      {
+        "weapon_id": "13-charcoal",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/13-charcoal-body-red-lattice-approved.png",
+        "sha256": "738523a33f642903caa46edda9deee997d181d2b4253e01126b9e6f032078669",
+        "bytes": 1664799,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/13-charcoal-body-red-lattice-approved.png"
+      },
+      {
+        "weapon_id": "13-charcoal",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/13-charcoal-body-red-lattice-ignited-red-approved.png",
+        "sha256": "7df69bfa650df865a603eda98174ede388c2f264aaaa19ae8dcc947113b937e2",
+        "bytes": 1461442,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/13-charcoal-body-red-lattice-ignited-red-approved.png"
+      },
+      {
+        "weapon_id": "14",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/14-smooth-dark-walnut-approved.png",
+        "sha256": "16fddcd5d34690af372efa9fa392ffda04344efed071118c1941db90e1613c58",
+        "bytes": 1680128,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/14-smooth-dark-walnut-approved.png"
+      },
+      {
+        "weapon_id": "14",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/14-smooth-dark-walnut-ignited-orange-approved.png",
+        "sha256": "1c93fca87fbedf070e6b7ce78f13e13a37e60540af035d761f9007bcc2931760",
+        "bytes": 1474804,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/14-smooth-dark-walnut-ignited-orange-approved.png"
+      },
+      {
+        "weapon_id": "15",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/15-silver-green-chevron-approved.png",
+        "sha256": "a1e32fd0edfaead576de3e6b62feef72f6b053a26fdab43e8c47f09dca360f1d",
+        "bytes": 1849894,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/15-silver-green-chevron-approved.png"
+      },
+      {
+        "weapon_id": "15",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/15-silver-green-chevron-shoto-silver-approved.png",
+        "sha256": "7a6318794cd45a24e56b541436a03ca0c73ba25b045ebc5beb324ef9ed3bac3b",
+        "bytes": 1441062,
+        "dimensions": [
+          1942,
+          809
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/15-silver-green-chevron-shoto-silver-approved.png"
+      },
+      {
+        "weapon_id": "pewter-cage",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/dene-secondary-pewter-cage-hilt.png",
+        "sha256": "da1c6fbe96a564b9d325267a739e9a261725783df8cb4e6a287e77af94ee90c9",
+        "bytes": 2104885,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/dene/dene-secondary-pewter-cage-hilt.png"
+      },
+      {
+        "weapon_id": "pewter-cage",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/dene-secondary-pewter-cage-ignited-green.png",
+        "sha256": "a804fa81cc7dc12f911b5ab9421c319dece1faa2020b4052edf85e2e84043137",
+        "bytes": 1555879,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/dene/dene-secondary-pewter-cage-ignited-green.png"
+      },
+      {
+        "weapon_id": "smoked-rose",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/smoked-rose-variant-hilt-approved.png",
+        "sha256": "1b643a0e8d23f1567722a397a393e8242d63e0baeb50ff7b64a1dc840022b264",
+        "bytes": 1705123,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/smoked-rose-variant-hilt-approved.png"
+      },
+      {
+        "weapon_id": "smoked-rose",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/smoked-rose-ignited-purple-approved.png",
+        "sha256": "8a110e574c26d97b8a1bb5591a193cc7ba2d851d8b39345a0b7a4278c0343482",
+        "bytes": 1556925,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/smoked-rose-ignited-purple-approved.png"
+      },
+      {
+        "weapon_id": "silvered-amethyst",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/smoked-rose-gunmetal-purple-notched-hilt-approved.png",
+        "sha256": "76fd1fce8734a6892a7983cdb54672ccd6db9df28d7f09213a5acf3244bb5c80",
+        "bytes": 1481937,
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/smoked-rose-gunmetal-purple-notched-hilt-approved.png"
+      },
+      {
+        "weapon_id": "silvered-amethyst",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/silvered-amethyst-ignited-ultraviolet-approved.png",
+        "sha256": "f134bcc2705fe971adadd46262e5017d6a8cc821c2ca90459577ff9c028a5d48",
+        "bytes": 1470638,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/silvered-amethyst-ignited-ultraviolet-approved.png"
+      },
+      {
+        "weapon_id": "kaidlen-training",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/kaidlen-purple-edged-hilt-approved.png",
+        "sha256": "5a2b8fe94ae447e563f25df1478815783625ad0346914ebe740f4099b34e2dc0",
+        "bytes": 1280899,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/kaidlen/kaidlen-purple-edged-hilt-approved.png"
+      },
+      {
+        "weapon_id": "kaidlen-training",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/kaidlen-lightsaber-ignited-ultraviolet-approved.png",
+        "sha256": "d83fa864f0897fe0894c71fd471f60376ab45301ef390abb82f74c87147c39b4",
+        "bytes": 1475418,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/kaidlen/kaidlen-lightsaber-ignited-ultraviolet-approved.png"
+      },
+      {
+        "weapon_id": "jim-training",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/jim-training-hilt-reference.png",
+        "sha256": "dac97b74ab7520a7816eb1aba90532cf0e8ff804465e8667a28b46358a8e77a0",
+        "bytes": 1626757,
+        "dimensions": [
+          1942,
+          809
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/jim/jim-training-hilt-reference.png"
+      },
+      {
+        "weapon_id": "jim-training",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/jim-training-saber-purple-reference.png",
+        "sha256": "2a62b792c7061a648094be9578657272948917028b8a88f64a9bb08250fba132",
+        "bytes": 1501509,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/jim/jim-training-saber-purple-reference.png"
+      },
+      {
+        "weapon_id": "kev-full",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/kev-lightsaber-hilt-seven-blue-bands.png",
+        "sha256": "7746e8c8145824739230dad9270e238b6dc51c2bf545391cf2b10fb8a384bd36",
+        "bytes": 1313544,
+        "dimensions": [
+          1678,
+          937
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/kev-mclairson/kev-lightsaber-hilt-seven-blue-bands.png"
+      },
+      {
+        "weapon_id": "kev-full",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/kev-lightsaber-ignited-aqua.png",
+        "sha256": "1b1c912b6a5e146b3ab80b866b892362738dccea6906bfbc6f03787e3f76a6af",
+        "bytes": 1125380,
+        "dimensions": [
+          2027,
+          776
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/kev-mclairson/kev-lightsaber-ignited-aqua.png"
+      },
+      {
+        "weapon_id": "dark-lady",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/dark-lady-hilt-approved.png",
+        "sha256": "5d14da8bd4848b6e8b8b69aa8b622dab6e7c6186b067664b356113d7f9e90688",
+        "bytes": 1879064,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/dark-lady-hilt-approved.png"
+      },
+      {
+        "weapon_id": "dark-lady",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/dark-lady-ignited-light-red-approved.png",
+        "sha256": "221b964a86a038f894111949beddbe3aa3c47123066b56bfecaf0be12cbdd2b4",
+        "bytes": 1555028,
+        "dimensions": [
+          2172,
+          724
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/dark-lady-ignited-light-red-approved.png"
+      },
+      {
+        "weapon_id": "sjs-dream",
+        "kind": "unlit",
+        "archive_path": "gallery/assets/sjs-dream-hilt-approved.png",
+        "sha256": "420a1e6f6a209a65d1349c0e81abdb32eeab25b2c709f0b0bd8e311e42e686a0",
+        "bytes": 1800272,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/sjs-dream-hilt-approved.png"
+      },
+      {
+        "weapon_id": "sjs-dream",
+        "kind": "ignited",
+        "archive_path": "gallery/assets/sjs-dream-ignited-purple-approved.png",
+        "sha256": "9dceaa58ab1920e4f0596df6cbae2a23958ea7f4b1ed1c4e5928055c1db3ee1f",
+        "bytes": 1548265,
+        "dimensions": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "source_url": "https://github.com/eotir/codex-monarch/blob/67e25928a4eb559ec460b0f51ff0996244985bc2/sources/visual-designs/lightsabers/hilt-concepts/sjs-dream-ignited-purple-approved.png"
+      }
+    ],
+    "approval_evidence": "Manifest status labels and pinned source URLs only; no approval Markdown or exact-byte approval receipts included. Validate local authoritative corpus before adopting approval."
+  },
+  "rank_snapshot": {
+    "records": 210,
+    "patterns": 178,
+    "shared": 7,
+    "blank_cells": 66,
+    "comparison": "Old Claude export; preserve current ranks authoritative data and original PNG/SVG masters instead."
+  },
+  "routing": {
+    "gallery_entry": "gallery/index.html",
+    "manifest_relative_fetch": "./manifest.json",
+    "detail": "native dialog with keyboard browsing; no URL item/category state",
+    "categories": "Lightsabers only; no implemented ships/general-armory category adapter",
+    "404": "gallery/404.html Return link is / and should be mount-relative for Pages subpaths"
+  },
+  "style": {
+    "gallery": "Independent dark carbon/crimson CSS with Chakra Petch/Inter/JetBrains Mono Google-font request; shares visual language with theme/tokens.css",
+    "current_ranks": "Locally vendored fonts/runtime; keep their exact current static generated UI",
+    "site_index": "Design showroom/pattern library, not a master category gallery"
+  },
+  "boundaries": [
+    "No asset generation",
+    "No actual gallery import or rank replacement",
+    "No eotir-art edits",
+    "No deployment",
+    "No approval/canon transitions"
+  ],
+  "visual_inspection": [
+    "gallery/assets/pearl-gold-hilt-approved.png",
+    "gallery/assets/jim-training-hilt-reference.png"
+  ],
+  "existing_art_projection": {
+    "repository": "eotir/eotir-art",
+    "visibility": "PRIVATE verified by root task",
+    "public_url": "https://eotir-lightsabers.stratusweb-ops.workers.dev/",
+    "state": "Prior publication historical; current root revalidation HTTP403 via native client and inaccessible via webtool; cause unknown",
+    "current_repository_head": "d2acc7311bf2a0f57af4ea82a04a82296d0bf780"
+  }
+}

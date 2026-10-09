@@ -2,6 +2,8 @@
 
 Date: 2026-10-09
 Owner and canon authority: Ryan (Stratus)
+
+Continuation, 2026-10-09: Ryan wants ranks/code cylinders connected with eotir-art in a master staging visual wiki/encyclopedia/gallery covering armory, lightsabers, ranks, ships and future categories. The latest Claude Design EOTIR.zip is presentation input, with an older rank snapshot and selected lightsabers; preserve the newer rank/cylinder manifests and full-size originals here. See docs/VISUAL-GALLERY-INTEGRATION.md and data/visual-staging-sources.json for the proposed connection and source boundaries.
 Status: complete candidate library technically verified; creative approval and canon adoption pending
 
 ## Desired outcome

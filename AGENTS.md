@@ -14,6 +14,8 @@ Workspace: D:\eotir\projects\ranks. Universe: Era of the Imperial Republic / Imp
 
 As of 2026-10-09 this is a candidate asset-development Git workspace on main. Ryan authorized public eotir/eotir-ranks and a static GitHub Pages review site; verify pushed HEAD before claiming publication. Static candidate review publication is authorized; no live project database or adopted plaque standard exists.
 
+Current engraving delivery: docs/CYLINDER-ENGRAVING-PUBLICATION.json. Shared visual-gallery direction: docs/VISUAL-GALLERY-INTEGRATION.md and data/visual-staging-sources.json; eotir-art remains a private source repository with separately selected publication artifacts. Claude Design EOTIR.zip is a presentation handoff, not authority to replace newer rank/cylinder records or publish raw art source collections.
+
 ## Current direction
 
 - The full goal has verified candidate coverage: data/rank-catalog.json, assets/catalog-review.html, 178 composed PNG/SVG pairs and fourteen chart pairs. Read docs/COMPLETION-REPORT.md and publication receipt. Original enlisted studies remain history; all new visuals/assignments have null approval.
