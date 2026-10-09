@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "CANDIDATE",
+  "approval": null,
+  "canonical": false,
+  "generator": "Built-in image_gen",
+  "scope": "12 fullsize heraldry engraving candidates; base directions accepted for development, exact new images unapproved.",
+  "review_notes": [
+    "Native-resolution generated outputs inspected; heraldry is reference-conditioned rather than proven pixel-identical to anchors.",
+    "Silver studies emphasize recessed grooves; gold may read as raised relief/inlay and needs creative review.",
+    "Some alpha halos/flecks remain: cleanup and fitted pocket cutouts are later work.",
+    "Original v2 masters preserved unchanged. No cylinder counts, rank assignments, canon membership or locked anchors changed."
+  ],
+  "anchor_provenance": [
+    {
+      "path": "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png",
+      "source": "D:\\eotir\\projects\\music\\videos\\refs\\anime\\sigil-imperial-republic-standard-silver_2026-10-04.png",
+      "sha256": "9039c2515e0da29533da9f9521cdf72053dc3262f68db009be746c9aa1c54585",
+      "anchor_record": "references/heraldry/anchor-imperial-republic-standard--silver.md",
+      "anchor_source": "D:\\eotir\\projects\\music\\videos\\refs\\anchors\\anchor-imperial-republic-standard--silver.md",
+      "anchor_sha256": "e8645f76272b88b7327989f8f8e998b05aedc62ecdcd2c5e1e34482df5b75e64",
+      "source_status": "LOCKED",
+      "approved_by": "ryan"
+    },
+    {
+      "path": "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png",
+      "source": "D:\\eotir\\projects\\music\\videos\\refs\\anime\\sigil-imperial-republic-standard-gold_2026-10-04.png",
+      "sha256": "21c40fe43117eef682fe171ef7a145b955811f1b845b0c4be378d90ad463893a",
+      "anchor_record": "references/heraldry/anchor-imperial-republic-standard--gold.md",
+      "anchor_source": "D:\\eotir\\projects\\music\\videos\\refs\\anchors\\anchor-imperial-republic-standard--gold.md",
+      "anchor_sha256": "9306577a85ad915038c6975f50821b7a30d81169826bed80c8758130817153d6",
+      "source_status": "LOCKED",
+      "approved_by": "ryan"
+    },
+    {
+      "path": "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png",
+      "source": "D:\\eotir\\projects\\music\\videos\\refs\\anime\\sigil-phoenix-shield-silver-clean_2026-10-02.png",
+      "sha256": "2312eaac3435b5c095be2f7a22cd6c3ca1c176f9bb5aed58ba64f9836ddb0e43",
+      "anchor_record": "references/heraldry/anchor-imperial-republic-shield--silver.md",
+      "anchor_source": "D:\\eotir\\projects\\music\\videos\\refs\\anchors\\anchor-imperial-republic-shield--silver.md",
+      "anchor_sha256": "e9a53fe9c59d9794b1908626645b7b2ffd4f9808fe462b5e286381356d65e0e3",
+      "source_status": "LOCKED",
+      "approved_by": "ryan"
+    },
+    {
+      "path": "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png",
+      "source": "D:\\eotir\\projects\\music\\videos\\refs\\anime\\sigil-phoenix-shield-gold-clean_2026-10-02.png",
+      "sha256": "9ce09f4db9328945aefc46f7dd1d44d41b4df7e01bc8f948073ff72bed841ca1",
+      "anchor_record": "references/heraldry/anchor-imperial-republic-shield--gold.md",
+      "anchor_source": "D:\\eotir\\projects\\music\\videos\\refs\\anchors\\anchor-imperial-republic-shield--gold.md",
+      "anchor_sha256": "3c72883154cc9c795e5cc5488bb53ce3d14600beca98c0229031effe71f2014d",
+      "source_status": "LOCKED",
+      "approved_by": "ryan"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "long-blue-dosimeter-standard-silver-v3",
+      "label": "Long Blue Dosimeter \u00b7 Standard \u00b7 Silver",
+      "base_id": "long-blue-dosimeter-v2",
+      "heraldry": "standard",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/long-blue-dosimeter-standard-silver-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "0244aaab6b17ba02a60540b9593148f38a76834a7fbbcbe1340bd28cd9f74887",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base long-blue-dosimeter-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-02cab590-cf7d-49a7-80ac-e3c1b012d4b2.png",
+      "references": [
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png": "9039c2515e0da29533da9f9521cdf72053dc3262f68db009be746c9aa1c54585"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        23,
+        28,
+        1000,
+        1512
+      ],
+      "description": "Imperial Republic Standard silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "long-blue-dosimeter-standard-gold-v3",
+      "label": "Long Blue Dosimeter \u00b7 Standard \u00b7 Gold",
+      "base_id": "long-blue-dosimeter-v2",
+      "heraldry": "standard",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/long-blue-dosimeter-standard-gold-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "98cab01a977b218860065450b83af4a421389e42466342d3b9b9cb6b192d0851",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base long-blue-dosimeter-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-371b325e-7370-4537-8124-c6b42cc01f91.png",
+      "references": [
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png": "21c40fe43117eef682fe171ef7a145b955811f1b845b0c4be378d90ad463893a"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        25,
+        21,
+        988,
+        1508
+      ],
+      "description": "Imperial Republic Standard gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    },
+    {
+      "id": "long-blue-dosimeter-shield-silver-v3",
+      "label": "Long Blue Dosimeter \u00b7 Shield \u00b7 Silver",
+      "base_id": "long-blue-dosimeter-v2",
+      "heraldry": "shield",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/long-blue-dosimeter-shield-silver-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "c6a0f1676885794e0096fec672dfe507bebef016f019dd189a537f26c3ba9274",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base long-blue-dosimeter-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-8f649740-e7e5-47af-af4f-4b9b317fe2f2.png",
+      "references": [
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png": "2312eaac3435b5c095be2f7a22cd6c3ca1c176f9bb5aed58ba64f9836ddb0e43"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        41,
+        28,
+        1000,
+        1507
+      ],
+      "description": "Imperial Republic Shield silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "long-blue-dosimeter-shield-gold-v3",
+      "label": "Long Blue Dosimeter \u00b7 Shield \u00b7 Gold",
+      "base_id": "long-blue-dosimeter-v2",
+      "heraldry": "shield",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/long-blue-dosimeter-shield-gold-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "a2979e1f05fb863ae0efa32a637f151bb69ffab4624fdcaef906f10d8f0c5e73",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base long-blue-dosimeter-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-db2b4e1f-836f-4b10-9003-5b124e0a5590.png",
+      "references": [
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/long-blue-dosimeter-v2.png": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png": "9ce09f4db9328945aefc46f7dd1d44d41b4df7e01bc8f948073ff72bed841ca1"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        65,
+        24,
+        922,
+        1508
+      ],
+      "description": "Imperial Republic Shield gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    },
+    {
+      "id": "compact-grooved-blue-standard-silver-v3",
+      "label": "Compact Grooved Blue \u00b7 Standard \u00b7 Silver",
+      "base_id": "compact-grooved-blue-v2",
+      "heraldry": "standard",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/compact-grooved-blue-standard-silver-v3.png",
+      "dimensions": [
+        814,
+        1932
+      ],
+      "png_sha256": "9dd08f40e98e51e3cbd46f1b299bac06f766060eab50e5e5254213193177a9a1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base compact-grooved-blue-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-145fe98c-86e3-4231-9fc3-789eda991cc0.png",
+      "references": [
+        "assets/cylinders/v2/compact-grooved-blue-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/compact-grooved-blue-v2.png": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png": "9039c2515e0da29533da9f9521cdf72053dc3262f68db009be746c9aa1c54585"
+      },
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        245,
+        54,
+        670,
+        1866
+      ],
+      "description": "Imperial Republic Standard silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "compact-grooved-blue-standard-gold-v3",
+      "label": "Compact Grooved Blue \u00b7 Standard \u00b7 Gold",
+      "base_id": "compact-grooved-blue-v2",
+      "heraldry": "standard",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/compact-grooved-blue-standard-gold-v3.png",
+      "dimensions": [
+        814,
+        1932
+      ],
+      "png_sha256": "c88beefd749ad9bbb105bfe2a9a62e8eb9d8c2ae95c92601bf30925bed96eb69",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base compact-grooved-blue-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-0c612a3f-8d92-4e25-9757-9cf8affa77ce.png",
+      "references": [
+        "assets/cylinders/v2/compact-grooved-blue-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/compact-grooved-blue-v2.png": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png": "21c40fe43117eef682fe171ef7a145b955811f1b845b0c4be378d90ad463893a"
+      },
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        204,
+        53,
+        633,
+        1869
+      ],
+      "description": "Imperial Republic Standard gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    },
+    {
+      "id": "compact-grooved-blue-shield-silver-v3",
+      "label": "Compact Grooved Blue \u00b7 Shield \u00b7 Silver",
+      "base_id": "compact-grooved-blue-v2",
+      "heraldry": "shield",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/compact-grooved-blue-shield-silver-v3.png",
+      "dimensions": [
+        814,
+        1931
+      ],
+      "png_sha256": "39268dd9144ff0cb2de3358423522c263f59218eb7b8d45472572abfce60569d",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base compact-grooved-blue-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-9768797a-c352-429c-94f8-b6871b52e402.png",
+      "references": [
+        "assets/cylinders/v2/compact-grooved-blue-v2.png",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/compact-grooved-blue-v2.png": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png": "2312eaac3435b5c095be2f7a22cd6c3ca1c176f9bb5aed58ba64f9836ddb0e43"
+      },
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        164,
+        36,
+        682,
+        1863
+      ],
+      "description": "Imperial Republic Shield silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "compact-grooved-blue-shield-gold-v3",
+      "label": "Compact Grooved Blue \u00b7 Shield \u00b7 Gold",
+      "base_id": "compact-grooved-blue-v2",
+      "heraldry": "shield",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/compact-grooved-blue-shield-gold-v3.png",
+      "dimensions": [
+        814,
+        1932
+      ],
+      "png_sha256": "f7d8264bbd70e25195a23dcfe7a57d7088177c073d334d6a2f14d3999853957c",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base compact-grooved-blue-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-b3f03e49-4898-4784-8465-4ba3f9feaafb.png",
+      "references": [
+        "assets/cylinders/v2/compact-grooved-blue-v2.png",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/compact-grooved-blue-v2.png": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png": "9ce09f4db9328945aefc46f7dd1d44d41b4df7e01bc8f948073ff72bed841ca1"
+      },
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        172,
+        33,
+        710,
+        1854
+      ],
+      "description": "Imperial Republic Shield gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    },
+    {
+      "id": "ribbed-pilot-silver-standard-silver-v3",
+      "label": "Ribbed Pilot Silver \u00b7 Standard \u00b7 Silver",
+      "base_id": "ribbed-pilot-silver-v2",
+      "heraldry": "standard",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/ribbed-pilot-silver-standard-silver-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "79239b3213d00ae3f05f2cf92376dad3b3008ffb582bae590367fd253b5fe9e1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base ribbed-pilot-silver-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-6f04cdf1-3185-4367-abd0-a8a851dfb268.png",
+      "references": [
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+        "references/heraldry/sigil-imperial-republic-standard-silver_2026-10-04.png": "9039c2515e0da29533da9f9521cdf72053dc3262f68db009be746c9aa1c54585"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        155,
+        19,
+        970,
+        1503
+      ],
+      "description": "Imperial Republic Standard silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "ribbed-pilot-silver-standard-gold-v3",
+      "label": "Ribbed Pilot Silver \u00b7 Standard \u00b7 Gold",
+      "base_id": "ribbed-pilot-silver-v2",
+      "heraldry": "standard",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/ribbed-pilot-silver-standard-gold-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "5433ee96d2ab437739bcbe0980128519dfba2584f1caa07a731f3a0f239626d8",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base ribbed-pilot-silver-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic standard anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, with NO enclosing shield. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-5f4222c6-65a6-4186-9076-0209160ad095.png",
+      "references": [
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+        "references/heraldry/sigil-imperial-republic-standard-gold_2026-10-04.png": "21c40fe43117eef682fe171ef7a145b955811f1b845b0c4be378d90ad463893a"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        25,
+        49,
+        988,
+        1496
+      ],
+      "description": "Imperial Republic Standard gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    },
+    {
+      "id": "ribbed-pilot-silver-shield-silver-v3",
+      "label": "Ribbed Pilot Silver \u00b7 Shield \u00b7 Silver",
+      "base_id": "ribbed-pilot-silver-v2",
+      "heraldry": "shield",
+      "metal": "silver",
+      "png_path": "assets/cylinders/v3/ribbed-pilot-silver-shield-silver-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "ac70605d192e80f27e620e4ca7dc8875c1d856d18b8b2ba1ce01fd0013292333",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base ribbed-pilot-silver-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable silver engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Silver-on-silver engraving with darker groove edges and restrained polished highlights so the mark is readable; neutral silver, no cyan tint. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-84f08e15-350b-44b6-b7a4-166b99ebc0c3.png",
+      "references": [
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+        "references/heraldry/sigil-phoenix-shield-silver-clean_2026-10-02.png": "2312eaac3435b5c095be2f7a22cd6c3ca1c176f9bb5aed58ba64f9836ddb0e43"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        0,
+        49,
+        1002,
+        1492
+      ],
+      "description": "Imperial Republic Shield silver engraving/inlay study. Neutral silver finish."
+    },
+    {
+      "id": "ribbed-pilot-silver-shield-gold-v3",
+      "label": "Ribbed Pilot Silver \u00b7 Shield \u00b7 Gold",
+      "base_id": "ribbed-pilot-silver-v2",
+      "heraldry": "shield",
+      "metal": "gold",
+      "png_path": "assets/cylinders/v3/ribbed-pilot-silver-shield-gold-v3.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "bce75cd78a4a709558e64cb7f69507d230b2681322cbb260c7b32edc7c2f3550",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Edit target image 1, the approved-as-design-base ribbed-pilot-silver-v2 code cylinder. Supporting image 2 is the EXACT LOCKED Imperial Republic shield anchor; use its exact bird silhouette, feather count, right-facing head, tail divisions, and enclosing pointed shield outline. Preserve the target cylinder's silhouette, proportions, cap, clip, rings, ports, silver brushed-metal body, viewpoint and lighting. Add ONE small but clearly readable gold engraving of this supplied mark on the exposed front barrel below the clip and above the base details (on pilot barrel below upper rings and above the lower port). Mark should occupy about 65 percent of visible barrel width and retain reference aspect ratio, subtly conform to barrel curvature. Precision engraved recessed outlines and shallow etched silhouette, crisp machining grooves with subtle bevel highlights. Warm gold metal inlaid flush into the engraving for High Command variant; ONLY the emblem gold, body remains silver. This must look engraved INTO the cylinder, not a glued badge, protruding pin, sticker, painted decal, floating object or a dark square from the reference background. Omit the reference's charcoal background completely. No words, text, numbers, added symbols or invented heraldry. Keep ONE entire cylinder large, upright, centered, no cropping, high resolution portrait at least 1024x1536. Preserve true transparent background and clean object-only alpha, no background lighting haze, no ground or cast shadow. Preserve all other physical features. Candidate engraving study, exact rendition remains subject to review.",
+      "generation_file": "exec-5554eab0-a3fa-412c-b8e3-fe0faeaa2fb8.png",
+      "references": [
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png"
+      ],
+      "reference_hashes": {
+        "assets/cylinders/v2/ribbed-pilot-silver-v2.png": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+        "references/heraldry/sigil-phoenix-shield-gold-clean_2026-10-02.png": "9ce09f4db9328945aefc46f7dd1d44d41b4df7e01bc8f948073ff72bed841ca1"
+      },
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        47,
+        17,
+        898,
+        1512
+      ],
+      "description": "Imperial Republic Shield gold engraving/inlay study. Gold High Command finish; no automatic grade assignment."
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 
 Usage: python tools/build_cylinder_gallery.py
 Prerequisites: data/code-cylinder-gallery-v2.json and its saved PNG files.
+Optional input: data/code-cylinder-engravings-v3.json adds engraving variants.
 This script never generates artwork or changes cylinder/rank assignments. It
 preserves the first component review as an unchanged historical HTML snapshot.
 """
@@ -15,6 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data/code-cylinder-gallery-v2.json"
+ENGRAVINGS = ROOT / "data/code-cylinder-engravings-v3.json"
 OUTPUT = ROOT / "assets/code-cylinder-review.html"
 HISTORY = ROOT / "assets/code-cylinder-review-v1.html"
 
@@ -27,15 +29,19 @@ def build() -> None:
     if not MANIFEST.is_file():
         raise FileNotFoundError(f"Required saved-image manifest is missing: {MANIFEST}")
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    candidates = manifest["candidates"]
+    candidates = list(manifest["candidates"])
+    if ENGRAVINGS.exists():
+        candidates.extend(json.loads(ENGRAVINGS.read_text(encoding="utf-8"))["candidates"])
     if not candidates:
         raise ValueError("The gallery requires at least one candidate.")
+    if len({candidate["id"] for candidate in candidates}) != len(candidates):
+        raise ValueError("Each base and engraving candidate must have a distinct ID.")
     cards = []
     for candidate in candidates:
         relative = Path(candidate["png_path"])
         image = (ROOT / relative).resolve()
-        if not image.is_relative_to((ROOT / "assets/cylinders/v2").resolve()):
-            raise ValueError(f"Candidate PNG must be inside assets/cylinders/v2: {relative}")
+        if not any(image.is_relative_to((ROOT / f"assets/cylinders/{version}").resolve()) for version in ("v2", "v3")):
+            raise ValueError(f"Candidate PNG must be inside assets/cylinders/v2 or v3: {relative}")
         blob = image.read_bytes()
         if blob[:8] != b"\x89PNG\r\n\x1a\n":
             raise ValueError(f"Not a PNG: {relative}")
@@ -55,11 +61,13 @@ def build() -> None:
             "compact-grooved-blue-v2": "Compact blue-head family with a grooved metal body and a broader silhouette.",
             "ribbed-pilot-silver-v2": "Silver pilot-style family with ribbed metal detailing and a separate clip profile.",
         }
-        description = candidate.get("description", descriptions.get(candidate["id"], "Independent cylinder design study."))
-        cards.append(f'''<article id="{esc(candidate['id'])}">
-<header><span class="status">CANDIDATE</span><h2>{esc(label)}</h2></header>
+        heraldry = str(candidate.get("heraldry", "base")).lower()
+        metal = str(candidate.get("metal", "original")).lower()
+        description = candidate.get("description", descriptions.get(candidate["id"], f"{heraldry.title()} engraving study with {metal} metal finish."))
+        cards.append(f'''<article class="cg-card" id="{esc(candidate['id'])}" data-heraldry="{esc(heraldry)}" data-metal="{esc(metal)}">
+<header><span class="rk-chip">CANDIDATE</span><h2>{esc(label)}</h2></header>
 <a class="preview" href="{esc(url)}" target="_blank" rel="noopener" aria-label="Open full-size {esc(label)}"><img src="{esc(url)}" alt="{esc(label)} — full cylinder design candidate" width="{width}" height="{height}"></a>
-<div class="caption"><p>{esc(description)}</p><p class="dimensions">{width:,} × {height:,} px · original PNG</p>
+<div class="caption"><p>{esc(description)}</p><p class="dimensions">{width:,} × {height:,} px · saved master PNG</p>
 <nav aria-label="Image actions"><a href="{esc(url)}" target="_blank" rel="noopener">Open native size ↗</a><a href="{esc(url)}" download>Download PNG ↓</a></nav></div></article>''')
     # Snapshot before replacing the entrypoint, so earlier component/layout
     # studies remain accessible and later builds cannot overwrite that history.
@@ -67,19 +75,27 @@ def build() -> None:
         HISTORY.write_bytes(OUTPUT.read_bytes())
     document = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Imperial Republic — full-size cylinder candidates</title><style>
-:root{color-scheme:dark;font-family:system-ui,sans-serif;font-size:13px;color:#e4eaf1;background:#0b1016}*{box-sizing:border-box}body{max-width:1500px;margin:0 auto;padding:24px}a{color:#9dccfa;text-underline-offset:3px}h1{font-size:24px;margin:10px 0}h2{font-size:15px;line-height:1.4;margin:7px 0 0}p{line-height:1.55;color:#b8c7d7;margin:8px 0}.intro{max-width:95ch}.eyebrow,.status{font:11px/1.4 ui-monospace,monospace;letter-spacing:.1em;color:#efba74}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:20px 0}button{font:inherit;padding:6px 10px;color:#e4eaf1;background:#172432;border:1px solid #47566b;border-radius:4px;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid #9dccfa;outline-offset:4px}main{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}article{min-width:0;border:1px solid #2e3a48;border-radius:7px;overflow:hidden;background:#131c26}article header{padding:15px;min-height:85px}.preview{height:520px;display:flex;align-items:center;justify-content:center;padding:10px;background:#0d141d}.preview img{display:block;max-height:500px;max-width:100%;width:auto;height:auto;object-fit:contain}.caption{padding:15px}.caption p{min-height:42px}.caption .dimensions{min-height:0;font:11px/1.5 ui-monospace,monospace;color:#92a5b9}nav{display:flex;gap:15px;flex-wrap:wrap;margin-top:14px}.checker .preview{background-color:#14202c;background-image:conic-gradient(#263747 25%,transparent 0 50%,#263747 0 75%,transparent 0);background-size:24px 24px}.note{margin-top:20px;border-top:1px solid #2e3a48;padding-top:15px}footer{margin-top:25px;font-size:12px;color:#92a5b9}@media(min-width:1250px){.preview{height:620px}.preview img{max-height:600px}}@media(max-width:850px){main{grid-template-columns:1fr}.preview{height:500px}.preview img{max-height:480px}body{padding:16px}article header{min-height:0}}
-</style></head><body>
-<div class="eyebrow">IMPERIAL REPUBLIC · VISUAL DEVELOPMENT</div>
-<h1>Code cylinder design candidates</h1>
-<p class="intro">Large, separately saved cylinder studies for comparing shape, clip construction and finish. Review each full-size image before choosing a design to fit beside rank plaques.</p>
-<p class="intro"><strong>These are unapproved design options.</strong> They have not been fitted to plaques and do not replace the cylinders currently used in rank previews. Rank counts and wearer-side assignments are separate decisions.</p>
-<div class="toolbar"><a href="catalog-review.html">Rank catalog</a><a href="code-cylinder-review-v1.html">Earlier component and layout studies</a><button id="checker" type="button" aria-pressed="false">Show transparency checker</button><a href="../data/code-cylinder-gallery-v2.json">Manifest and image hashes</a></div>
-<main>__CARDS__</main>
-<p class="note">PNG alpha is part of each saved image; the optional checker is only a CSS preview background. Open a native image to inspect the full resolution. These design studies still need alpha-edge cleanup before fitting beside plaques; inspect halos and isolated flecks on the checker. No small-preview artwork is enlarged to create these masters.</p>
-<footer>Candidate history is retained locally. Selection and canon approval require Ryan’s explicit ruling on the exact version.</footer>
-<script>document.getElementById('checker').addEventListener('click',function(){const enabled=document.body.classList.toggle('checker');this.setAttribute('aria-pressed',String(enabled));this.textContent=enabled?'Use plain dark background':'Show transparency checker';});</script>
-</body></html>'''.replace("__CARDS__", "\n".join(cards))
+<title>Imperial Republic — code cylinder catalog</title>
+<link rel="stylesheet" href="site/rank-catalog.css?v=__SHARED_CSS_HASH__"><link rel="stylesheet" href="site/cylinder-gallery.css?v=__GALLERY_CSS_HASH__">
+</head><body><div class="rk-app">
+<header class="rk-header"><div class="rk-header-l"><span class="rk-mark" aria-hidden="true"></span><div><div class="eo-micro">Imperial Republic · Visual Standards</div><div class="rk-wordmark">Code Cylinder Catalog</div></div></div><nav class="cg-nav" aria-label="Catalog navigation"><a href="catalog-review.html">Rank catalog</a><a href="code-cylinder-review-v1.html">Earlier studies</a></nav></header>
+<main class="rk-main">
+<section class="rk-brief"><div><div class="rk-strip"><span>Candidate</span><span>Design study</span><span>Approval pending</span></div><h1>Cylinder design library</h1><p>Full-size masters for comparing silhouette, clip construction, finish and heraldry. These options are not yet fitted beside plaques. Existing rank assignments and preview devices remain separate.</p></div><dl class="rk-stats"><div><dt>Base designs</dt><dd>__BASE_COUNT__</dd></div><div><dt>Engravings</dt><dd>__VARIANT_COUNT__</dd></div><div><dt>Approved</dt><dd>0</dd></div></dl></section>
+<section class="rk-filters" aria-label="Gallery filters"><div class="rk-fgroup"><span class="eo-micro">Heraldry</span><div class="rk-pills" data-filter="heraldry"><button type="button" data-value="all" aria-pressed="true">All</button><button type="button" data-value="base" aria-pressed="false">Original bases</button><button type="button" data-value="standard" aria-pressed="false">Standard</button><button type="button" data-value="shield" aria-pressed="false">Shield</button></div></div><div class="rk-fgroup"><span class="eo-micro">Metal finish</span><div class="rk-pills" data-filter="metal"><button type="button" data-value="all" aria-pressed="true">All</button><button type="button" data-value="silver" aria-pressed="false">Silver</button><button type="button" data-value="gold" aria-pressed="false">Gold</button></div></div><div class="rk-fgroup rk-fgroup--end"><span class="eo-micro">Preview</span><div class="rk-pills"><button id="checker" type="button" aria-pressed="false">Transparency checker</button></div></div></section>
+<div class="rk-secbar"><span class="rk-secbar-code">CC</span><span>Native master gallery</span><span id="visible-count" class="rk-secbar-n" role="status">__COUNT__ designs</span></div>
+<div class="cg-grid">__CARDS__</div><p id="empty" class="rk-note" hidden>No designs match these filters. Choose All to include original bases.</p>
+<div class="cg-notes"><p class="rk-note">Open any image for native resolution or download its original PNG. PNG alpha belongs to the saved image; the optional checker is a CSS preview background. Alpha-edge cleanup is still needed before fitting: inspect halos and isolated flecks against the checker.</p><p class="rk-note">Gold studies explore the High Command finish direction; no grade or membership is assigned here. Some gold marks read as raised relief or inlay rather than recessed engraving. Heraldry was conditioned on the saved anchors and still needs exact-design review.</p><p class="rk-dim">A base-design selection does not approve its engraving, placement, entitlement or rank mapping. Saved masters and earlier studies remain available for review.</p><nav class="cg-nav" aria-label="Provenance"><a href="../data/code-cylinder-gallery-v2.json">Base manifest and hashes</a>__ENGRAVING_LINK__</nav></div>
+</main></div><script>
+const filters={heraldry:'all',metal:'all'};
+function update(){let count=0;document.querySelectorAll('.cg-card').forEach(card=>{const show=Object.entries(filters).every(([key,value])=>value==='all'||card.dataset[key].includes(value));card.hidden=!show;if(show)count++;});document.getElementById('visible-count').textContent=count+' designs';document.getElementById('empty').hidden=count!==0;}
+document.querySelectorAll('[data-filter] button').forEach(button=>button.addEventListener('click',()=>{const group=button.closest('[data-filter]');filters[group.dataset.filter]=button.dataset.value;group.querySelectorAll('button').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));update();}));
+document.getElementById('checker').addEventListener('click',function(){const enabled=document.body.classList.toggle('cg-checker');this.setAttribute('aria-pressed',String(enabled));});
+</script></body></html>'''.replace("__CARDS__", "\n".join(cards)).replace("__BASE_COUNT__", str(len(manifest["candidates"]))).replace("__VARIANT_COUNT__", str(len(candidates)-len(manifest["candidates"]))).replace("__COUNT__", str(len(candidates))).replace("__ENGRAVING_LINK__", '<a href="../data/code-cylinder-engravings-v3.json">Engraving manifest and hashes</a>' if ENGRAVINGS.exists() else '')
+    # Byte-derived versions prevent a refreshed gallery from pairing with a
+    # cached layout stylesheet after publishing new masters or presentation.
+    for token, stylesheet in (("__SHARED_CSS_HASH__", "rank-catalog.css"), ("__GALLERY_CSS_HASH__", "cylinder-gallery.css")):
+        digest = hashlib.sha256((ROOT / "assets/site" / stylesheet).read_bytes()).hexdigest()[:12]
+        document = document.replace(token, digest)
     OUTPUT.write_text(document, encoding="utf-8", newline="\n")
     print(f"Built {OUTPUT.relative_to(ROOT)} with {len(cards)} verified full-size candidate PNGs.")
 

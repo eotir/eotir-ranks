@@ -69,3 +69,15 @@ Ryan authorized code-cylinder research primarily from supplied image/source refe
 ## Full-size cylinder options first
 
 Ryan rejected the first-pass pixelated cylinder design and supplied nine new photo/illustration references including WebP and AVIF. He then clarified: render several options at large size and good quality first, retain original full-size gallery images, and fit/downscale later. Three separately saved reference-conditioned candidates now stage that design review. No adoption, cylinder-count change or rank preview replacement is implied.
+
+## Cylinder base acceptance and engraved heraldry studies — 2026-10-09
+
+Ryan said all three v2 cylinder options are good. This accepts the three base design directions for continued development; preserve their exact local masters and provenance. It does not approve subsequently generated engraved versions, establish universal cylinder-count entitlement or promote a rank/uniform document to canon.
+
+Ryan requested the approved Imperial Republic Standard or Imperial Republic Shield engraved into the cylinders, with silver and gold versions and gold for High Command. Twelve v3 studies are saved: three accepted base directions × two distinct approved mark identities × two metal treatments. Keep every new engraving/version a candidate until Ryan reviews its exact image. Exact source conditioning, prompts, PNG hashes and dimensions are recorded in data/code-cylinder-engravings-v3.json. Their heraldry is reference-conditioned, not proven pixel-identical to locked anchors; gold may read as raised relief/inlay and needs review.
+
+The verified music heraldry authority assigns the Shield to defense/military/security/police/intelligence and the Standard to civilian/government/patriotic use. Ryan explicitly requested both as design studies; that request does not grant the Standard new military wearer entitlement. Gold indicates High Command within the appropriate mark group; no exhaustive rank/person membership map exists. Do not infer membership from an HC grade prefix. The Standard is the bird inside the Shield with the border removed, not the different Stratus Phoenix.
+
+Use neutral silver engraved metal, preserving the Shield's approved silhouette rather than reproducing its cyan-looking reference illumination as a new rank color. Locked Standard and clean Shield reference masters have opaque charcoal backgrounds; their backgrounds are not part of the engraved device. Shield transparent support parents have unresolved fringes and are unsuitable for direct compositing.
+
+Ryan requires the gallery to use the supplied Claude Design presentation, not the interim standalone gallery design. Integrate the full-size studies into that presentation while preserving native downloads, local master bytes and review history. No cylinder assignments, count conventions or existing plaque designs change as part of this engraving/gallery work.

@@ -1,0 +1,25 @@
+/* Full-size cylinder presentation inside the supplied Claude catalog shell.
+ * Shared header, fonts, status, filters, and carbon/crimson tokens stay in
+ * rank-catalog.css. These rules only adapt the master-image gallery surface.
+ */
+.cg-nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:12px}
+.cg-nav a{color:var(--eo-ink-2);text-decoration:none;border-bottom:1px solid var(--eo-crimson-3);padding:4px 0}
+.cg-nav a:hover{color:var(--eo-ink);border-color:var(--eo-crimson-2)}
+.cg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:14px}
+.cg-card{min-width:0;border:1px solid var(--eo-line);background:var(--eo-bg-1)}
+.cg-card[hidden]{display:none}
+.cg-card>header{padding:14px 16px;min-height:92px;border-bottom:1px solid var(--eo-line-soft)}
+.cg-card h2{font-family:var(--eo-display);font-size:18px;line-height:1.25;letter-spacing:.02em;margin:8px 0 0}
+.cg-card .preview{display:flex;height:560px;align-items:center;justify-content:center;padding:12px;background:#07080b;overflow:hidden}
+.cg-card .preview img{display:block;max-width:100%;max-height:536px;width:auto;height:auto;object-fit:contain}
+.cg-checker .preview{background-color:#111419;background-image:linear-gradient(45deg,#1d222b 25%,transparent 25%),linear-gradient(-45deg,#1d222b 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#1d222b 75%),linear-gradient(-45deg,transparent 75%,#1d222b 75%);background-size:16px 16px;background-position:0 0,0 8px,8px -8px,-8px 0}
+.cg-card .caption{padding:12px 16px 16px}
+.cg-card .caption p{font-size:12px;color:var(--eo-ink-2);margin:0 0 8px;line-height:1.5}
+.cg-card .caption .dimensions{font-family:var(--eo-mono);font-size:10px;color:var(--eo-ink-3)}
+.cg-card .caption nav{display:flex;gap:16px;flex-wrap:wrap;font-size:12px}
+.cg-card .caption nav a{color:var(--eo-ink-2);text-underline-offset:3px}
+.cg-notes{border-top:1px solid var(--eo-line);margin-top:24px;padding-top:16px}
+.cg-notes p{max-width:100ch;line-height:1.55}
+@media(min-width:1400px){.cg-card .preview{height:650px}.cg-card .preview img{max-height:626px}}
+@media(max-width:1100px){.cg-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.cg-grid{grid-template-columns:1fr}.cg-card .preview{height:520px}.cg-card .preview img{max-height:496px}.cg-card>header{min-height:0}.rk-header .cg-nav{gap:12px}.rk-main .rk-stats{grid-template-columns:repeat(3,auto)}}
