@@ -159,7 +159,7 @@ function Inspector({ id, onClose, bg }) {
         {pats.map((pid, i) => (
           <figure key={pid} className="rk-insp-fig">
             {r.alt.length > 0 && <figcaption className="eo-micro">{i === 0 ? 'A · Primary' : 'B · Alternative'}</figcaption>}
-            <div className={'rk-insp-stage' + (bg === 'checker' ? ' rk-checker' : '')}><Plaque pid={pid} scale={0.42} frame={false} /></div>
+            <div className={'rk-insp-stage' + (bg === 'checker' ? ' rk-checker' : '')}><CylinderInline r={r}><Plaque pid={pid} scale={0.42} frame={false} /></CylinderInline></div>
             <div className="rk-insp-meta">
               <code>{pid}</code>
               <span><a href={RK_BASE + pid + '.png'} target="_blank" rel="noopener">PNG</a> · <a href={RK_BASE + pid + '.svg'} target="_blank" rel="noopener">SVG</a></span>
@@ -204,19 +204,19 @@ function CylinderDetail({r}) {
   const a=RK.cylinders?.assignments?.find(x=>x.rank_id===r.id || x.rank_record_id===r.id || x.id===r.id);
   if(!a) return <section><h3 className="rk-h3">Code cylinders</h3><p className="rk-dim">Unresolved · no wearer-side count assigned.</p></section>;
   const layout=RK.cylinder_components?.layouts?.find(l=>l.id===a.layout_id);
-  return <section><h3 className="rk-h3">Code cylinders · candidate</h3><CylinderInline r={r}/><p className="rk-note">Left/right refer to the wearer's body, not the viewer. Cylinder assignments remain provisional.</p><p><code>{a.basis}</code></p>{a.notes?.map((n,i)=><p className="rk-note" key={i}>{n}</p>)}{layout&&<p><a href={layout.png_path.replace(/^assets\//,'')}>Layout PNG</a> · <a href={layout.svg_path.replace(/^assets\//,'')}>Layout SVG</a></p>}<details><summary>Exact observations and assignment</summary><pre style={{whiteSpace:'pre-wrap',fontSize:11}}>{JSON.stringify(a,null,2)}</pre></details><p><a href="code-cylinder-review.html">Cylinder components and all arrangements</a></p></section>;
+  return <section><h3 className="rk-h3">Code cylinders · candidate</h3><p className="rk-note">Left/right refer to the wearer's body, not the viewer. Cylinder assignments remain provisional.</p><p><code>{a.basis}</code></p>{a.notes?.map((n,i)=><p className="rk-note" key={i}>{n}</p>)}{layout&&<p><a href={layout.png_path.replace(/^assets\//,'')}>Layout PNG</a> · <a href={layout.svg_path.replace(/^assets\//,'')}>Layout SVG</a></p>}<details><summary>Exact observations and assignment</summary><pre style={{whiteSpace:'pre-wrap',fontSize:11}}>{JSON.stringify(a,null,2)}</pre></details><p><a href="code-cylinder-review.html">Cylinder components and all arrangements</a></p></section>;
 }
-function CylinderInline({r}) {
+function CylinderInline({r,children}) {
   const a=RK.cylinders?.assignments?.find(x=>x.rank_id===r.id);
-  if(!a || a.wearer_left_count===null || a.wearer_right_count===null) return <span className="rk-cylinder-label rk-cylinder-state">Cylinder assignment unresolved</span>;
+  if(!a || a.wearer_left_count===null || a.wearer_right_count===null) return <span className="rk-insignia rk-insignia-empty">{children}<span className="rk-cylinder-label rk-cylinder-state">Cylinder assignment unresolved</span></span>;
   // Zero is a proposed absence, not two empty device groups. Rendering blank
   // icon slots made this state look like failed images instead of a decision.
-  if(a.wearer_left_count===0 && a.wearer_right_count===0) return <span className="rk-cylinder-label rk-cylinder-state">No cylinders proposed</span>;
+  if(a.wearer_left_count===0 && a.wearer_right_count===0) return <span className="rk-insignia rk-insignia-empty">{children}<span className="rk-cylinder-label rk-cylinder-state">No cylinders proposed</span></span>;
   const part=RK.cylinder_components?.components?.find(x=>x.id==='code-cylinder-exposed-blue-silver-v1');
   // Display the wearer's right group on the viewer's left. Keep devices separate
   // from the opaque plaque; the center divider is UI, never a uniform rendering.
   const group=(n,label)=>n>0 && <span className="rk-cylinder-side" title={'Wearer '+label.toLowerCase()}><span className="rk-cylinder-icons">{part&&Array.from({length:n},(_,i)=><img key={i} src={part.png_path.replace(/^assets\//,'')} alt="Candidate exposed code cylinder" loading="lazy"/>)}</span><span>{label} × {n}</span></span>;
-  return <span className="rk-cylinder" aria-label={'Candidate cylinders: wearer left '+a.wearer_left_count+', wearer right '+a.wearer_right_count}>{group(a.wearer_right_count,'Right')}{group(a.wearer_left_count,'Left')}</span>;
+  return <span className="rk-cylinder rk-insignia" aria-label={'Candidate cylinders: wearer left '+a.wearer_left_count+', wearer right '+a.wearer_right_count}>{group(a.wearer_right_count,'Right')}{children}{group(a.wearer_left_count,'Left')}</span>;
 }
 function Downloads() {return <details className="rk-downloads"><summary className="eo-micro">Sources, native charts &amp; candidate library</summary><p><a href="review.html">Tile and plaque candidate library</a> · <a href="code-cylinder-review.html">Code cylinders</a> · <a href="../data/rank-catalog.json">Full evidence dataset</a> · <a href="https://nexus.eotir.com/rankchart.html/">Official Nexus chart</a></p><p className="rk-dim">Checker is a CSS inspection background; PNG alpha outside the opaque backing is real. All images and assignments are candidates, not adopted canon. Saved chart downloads remain plaque-only snapshots; cylinder arrangements appear separately in this review.</p><ul>{RK.charts.map(c=><li key={c.id}>{c.id}: <a href={'charts/'+c.id+'.png'} download>PNG</a> · <a href={'charts/'+c.id+'.svg'} download>SVG</a></li>)}</ul></details>;}
 
@@ -262,7 +262,7 @@ function LedgerView({ f, sel, onSel }) {
             <button key={r.id} type="button" className={'rk-lrow' + (sel === r.id ? ' is-sel' : '')} onClick={() => onSel(r.id)}>
               <span className="rk-grade">{r.g}</span>
               <span><b>{r.t}</b><small>{RK_BRANCH[r.b].label}</small></span>
-              <span className="rk-lrow-pl"><Plaque pid={r.p} scale={0.17} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.17} bg={f.bg} />)}<CylinderInline r={r} /></span>
+              <span className="rk-lrow-pl"><CylinderInline r={r}><Plaque pid={r.p} scale={0.17} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.17} bg={f.bg} />)}</CylinderInline></span>
               <span className="rk-lrow-pat"><TileChips pid={r.p} /><code>{r.p}</code></span>
               <span><StatusChip r={r} /></span>
             </button>
@@ -314,7 +314,7 @@ function MatrixView({ f, sel, onSel }) {
             const hit = rkMatches(r, { ...f, branches: [] });
             out.push(
               <button key={b.id + g.id} type="button" className={'rk-mx-cell' + (sel === r.id ? ' is-sel' : '') + (hit ? '' : ' is-dim')} onClick={() => onSel(r.id)}>
-                <Plaque pid={r.p} scale={scale} bg={f.bg} frame={false} /><CylinderInline r={r} />
+                <CylinderInline r={r}><Plaque pid={r.p} scale={scale} bg={f.bg} frame={false} /></CylinderInline>
                 <span className="rk-mx-title">{r.t}</span>
               </button>
             );
@@ -368,7 +368,7 @@ function LadderView({ f, sel, onSel, branch, setBranch }) {
                   <button type="button" onClick={() => onSel(r.id)}>
                     <span className="rk-rung-g">{g.id}</span>
                     <span className="rk-rung-t"><b>{r.t}</b><code>{r.p}</code><span className="rk-rung-meta"><StatusChip r={r} /><span className="eo-micro">{r.src.length} source{r.src.length === 1 ? '' : 's'}</span></span></span>
-                    <span className="rk-rung-pl"><Plaque pid={r.p} scale={0.3} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.3} bg={f.bg} />)}<CylinderInline r={r} /></span>
+                    <span className="rk-rung-pl"><CylinderInline r={r}><Plaque pid={r.p} scale={0.3} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.3} bg={f.bg} />)}</CylinderInline></span>
                   </button>
                 </li>
               )}
