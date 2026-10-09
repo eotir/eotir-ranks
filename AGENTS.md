@@ -12,7 +12,7 @@
 
 Workspace: D:\eotir\projects\ranks. Universe: Era of the Imperial Republic / Imperial Republic Era. Always write Imperial Republic in full in prose; retain abbreviations in quoted source labels and identifiers. Never invent lore to fill chart gaps.
 
-As of 2026-10-09 this is a candidate asset-development Git workspace on main. The private eotir/eotir-ranks repository exists; verify pushed HEAD before claiming publication. There is no deployed application, live project database or adopted plaque standard.
+As of 2026-10-09 this is a candidate asset-development Git workspace on main. Ryan authorized public eotir/eotir-ranks and a static GitHub Pages review site; verify pushed HEAD before claiming publication. Static candidate review publication is authorized; no live project database or adopted plaque standard exists.
 
 ## Current direction
 

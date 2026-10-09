@@ -71,7 +71,7 @@ Read docs/MILITARY-BASELINE.md and docs/DECISIONS.md, then open assets/review.ht
 
 ## Active complete-chart scope — 2026-10-09
 
-The saved goal was invoked. Finish 69 military and 141 other populated branch cells, preserve 66 blanks and seven separate shared upper records, and provide individually addressable deterministic plaques and readable graphics/HTML from one working catalog. The private eotir/eotir-ranks repository is the independent draft staging repository. Scoped commits/pushes are authorized. Earlier next-session recommendations describe the starter checkpoint; they do not limit this active draft scope. Canon-service transfer, production databases, uniforms and code cylinders remain later work.
+The saved goal was invoked. Finish 69 military and 141 other populated branch cells, preserve 66 blanks and seven separate shared upper records, and provide individually addressable deterministic plaques and readable graphics/HTML from one working catalog. The public eotir/eotir-ranks repository is the independent draft staging repository; its static review site is served through GitHub Pages. Scoped commits/pushes are authorized. Earlier next-session recommendations describe the starter checkpoint; they do not limit this active draft scope. Canon-service transfer, production databases, uniforms and code cylinders remain later work.
 
 ## Current next review
 

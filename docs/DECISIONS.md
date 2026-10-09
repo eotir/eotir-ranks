@@ -53,3 +53,7 @@ Date: 2026-10-09. This document records user direction separately from assistant
 ## Complete-chart goal invocation — 2026-10-09
 
 Ryan invoked docs/GOAL-PROMPT.md: complete all 69 military cells and other-branch candidate coverage, maintain HTML, deterministic component composition, local assets, private eotir/eotir-ranks creation and scoped commits/pushes. This supersedes the earlier pending-invocation checkpoint. The private repository exists; pushed delivery must be verified separately. Draft officer/command/specialty mappings are authorized proposals; no exact visual, rank assignment, canon or production approval is implied.
+
+## Public repository and static review publication — 2026-10-09
+
+Ryan explicitly requested making eotir/eotir-ranks public and serving its static HTML using GitHub Pages. This supersedes the private-visibility requirement for this repository. Public candidate review does not approve assets, rank assignments or canon; all existing candidate states remain unchanged. Serve main at the repository root with index.html forwarding to assets/catalog-review.html and .nojekyll preserving static files. Excluded private exports remain local.
