@@ -32,11 +32,66 @@
     "alpha255_pixels": 593456,
     "backplate_and_tiles": "opaque"
   },
-  "publication": {
+  "fictional_source_data": "Payroll/personnel content is fictional worldbuilding; prior privacy framing was incorrect.",
+  "initial_publication_checkpoint": {
     "initial_run": "https://github.com/eotir/eotir-ranks/actions/runs/37938341501",
     "first_attempt": "failure before build steps; no log or annotation explained the cause",
     "second_attempt": "confirmed queued with no jobs at last observation",
     "live_dark_verification": "pending"
   },
-  "fictional_source_data": "Payroll/personnel content is fictional worldbuilding; prior privacy framing was incorrect."
+  "publication": {
+    "status": "VERIFIED LIVE",
+    "verified_commit": "b097460d0ed4df39b319c7db8d9a4b31a63b8163",
+    "workflow_run": "https://github.com/eotir/eotir-ranks/actions/runs/37940067574",
+    "workflow_conclusion": "success",
+    "build_type": "workflow",
+    "http_checks": [
+      {
+        "path": "index.html",
+        "status": 200,
+        "sha256": "7e53aa20aaa32328ae1ce002852530684c9cf525fe31a825b811192ab99920c6",
+        "matches_local": true
+      },
+      {
+        "path": "assets/catalog-review.html",
+        "status": 200,
+        "sha256": "d4f1c048976f7ab2dd6757987fafbca247565adeae109d19cc7541e8ad212c5d",
+        "matches_local": true
+      },
+      {
+        "path": "assets/review.html",
+        "status": 200,
+        "sha256": "ecf1fb56addac43a0b948c6d2135f30faff301726505511ab139ed3e857da239",
+        "matches_local": true
+      },
+      {
+        "path": "assets/military-enlisted-review.html",
+        "status": 200,
+        "sha256": "6f5609c4248ea0378e9a490a8d87f32a247d14a40945f0d0309cc271bcda333d",
+        "matches_local": true
+      }
+    ],
+    "live_browser": {
+      "bodyBackground": "rgb(16, 22, 31)",
+      "broken": 0,
+      "candidateLabel": true,
+      "font": "13px",
+      "images": 224,
+      "maxPreviewHeight": 116,
+      "maxPreviewWidth": 242,
+      "openDetails": 0,
+      "options": [
+        "dark",
+        "checker"
+      ],
+      "preview": "dark",
+      "rows": 283,
+      "status": "PASS",
+      "url": "https://eotir.github.io/eotir-ranks/assets/catalog-review.html?v=b097460"
+    },
+    "browser_errors": [],
+    "screenshot": "docs/research/dark-public-review-2026-10-09.png",
+    "superseded_dynamic_retry": "GitHub cancellation reported completed while run view still showed queued; no further retry launched. Current explicit workflow deployment is successful and served bytes verified."
+  },
+  "verified_at_utc": "2026-10-09T13:58:58.667128+00:00"
 }
