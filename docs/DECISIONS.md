@@ -57,3 +57,7 @@ Ryan invoked docs/GOAL-PROMPT.md: complete all 69 military cells and other-branc
 ## Public repository and static review publication — 2026-10-09
 
 Ryan explicitly requested making eotir/eotir-ranks public and serving its static HTML using GitHub Pages. This supersedes the private-visibility requirement for this repository. Public candidate review does not approve assets, rank assignments or canon; all existing candidate states remain unchanged. Serve main at the repository root with index.html forwarding to assets/catalog-review.html and .nojekyll preserving static files. Excluded private exports remain local.
+
+## Fiction clarification and review redesign — 2026-10-09
+
+Ryan: payroll/personnel is all fiction in the sci-fi universe. Prior privacy framing was incorrect and does not establish a prohibition on publishing fictional material. Ryan requested dark mode only, smaller fonts/previews and a redesign. Use compact dark tables with expandable evidence and plain dark plaque backgrounds by default; optional dark checkerboard previews actual transparent edges. PNGs have real alpha outside the physical plaque; metal backing and tiles are opaque. No visual/assignment/canon approval is implied by the UI request.

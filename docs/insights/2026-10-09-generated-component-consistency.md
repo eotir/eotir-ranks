@@ -46,3 +46,9 @@ Deterministic assembly now preserves original texture inputs, fits alpha-safe ri
 ## Git and document byte fidelity
 
 Git autocrlf can change captured MHTML, JSON and SVG bytes during staging/checkout, invalidating manifest hashes even when content looks identical. This repository uses .gitattributes with * -text to preserve exact bytes across hosts. Verify index blob hashes against local files before claiming a reproducible delivered asset repository. Windows document scripts must explicitly read/write UTF-8 to avoid punctuation corruption.
+
+## Transparency explanation for review
+
+The browser checkerboard is CSS behind the image, while the composed PNG has actual alpha-zero pixels outside the physical plaque. The tiles and metal backplate are opaque. A large bright checkerboard can visually overwhelm the design and look like fake transparency. Ryan requested plain dark previews by default, optional dark checkerboard for edge inspection, compact typography and fixed .20-scale plaque previews with native links. UI scale does not change the underlying asset bytes or rank patterns.
+
+The HTML generator used an unbounded DATE replacement, which also matched the tail of CANDIDATE in the banner. Use a unique __REVIEW_DATE__ placeholder and check visible candidate labels as well as embedded JSON metadata. The compact redesign fixes this without changing source data or image bytes.

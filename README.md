@@ -30,7 +30,7 @@ python tools/verify_catalog.py
 
 Charts use an available documented font; raster chart bytes can differ across font installations. Source textures and composition geometry remain fixed. Open HTML directly from disk; no application server or database is required.
 
-The rank-only workbook snapshot is versioned. Historical official exports and the raw workbook capture stay local and ignored because they contain unrelated personal/payroll material. The legacy discovery verifier needs those local files and original generator outputs; the complete-catalog verifier above is the repository check.
+The rank-only workbook snapshot is versioned. Historical official exports and the raw workbook capture stay local and ignored as full historical fictional worldbuilding exports; the working catalog uses a focused rank-only extract. The legacy discovery verifier needs those local files and original generator outputs; the complete-catalog verifier above is the repository check.
 
 Public draft repository: https://github.com/eotir/eotir-ranks. This is staging for later approved transfer to codex-monarch/content/ranks and content/uniforms. Candidates remain outside watched canonical content. No live service, database or production publication is part of this build.
 
@@ -39,3 +39,5 @@ Dependency minimum: [Pillow 12.1 release notes](https://pillow.readthedocs.io/en
 ## Static review site
 
 GitHub Pages serves main from the repository root. index.html opens the complete candidate chart; .nojekyll disables theme/Jekyll processing so saved assets are served directly. Pushing main updates the site automatically. Public publication is a review convenience and does not promote candidates to canon. The Pages API and public HTTP/browser checks establish the current deployment state.
+
+Ryan clarified that all supplied payroll/personnel material belongs to the fictional Imperial Republic universe. Earlier privacy wording was an incorrect assumption; it is not a reason to withhold fictional source material. Secrets remain excluded.

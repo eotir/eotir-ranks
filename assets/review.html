@@ -5,43 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Imperial Republic — tile and plaque candidates</title>
   <style>
-    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10161f; color: #e9eef5; }
-    body { max-width: 1320px; margin: auto; padding: 28px; }
-    h1 { font-size: clamp(1.6rem, 3vw, 2.5rem); margin-bottom: 8px; }
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; font-size: 13px; background: #10161f; color: #e9eef5; }
+    body { max-width: 1320px; margin: auto; padding: 20px; }
+    h1 { font-size: 24px; margin-bottom: 8px; }
     p { line-height: 1.6; max-width: 85ch; color: #bdc9d8; }
     a { color: #91c8ff; }
     .status { color: #ffcf75; font-weight: 650; letter-spacing: .04em; }
     .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 24px 0; }
-    button { font: inherit; border: 1px solid #607084; color: inherit; background: #1c2634; padding: 9px 16px; border-radius: 6px; cursor: pointer; }
+    button { font: inherit; border: 1px solid #607084; color: inherit; background: #1c2634; padding: 6px 10px; border-radius: 6px; cursor: pointer; }
     button[aria-pressed="true"] { border-color: #91c8ff; background: #263d56; }
     .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
     figure { margin: 0; overflow: hidden; border: 1px solid #394656; border-radius: 8px; background: #19222e; }
-    .surface { display: flex; align-items: center; justify-content: center; background-color: #c4c9cf; background-image: conic-gradient(#e9edf0 25%, transparent 0 50%, #e9edf0 0 75%, transparent 0); background-size: 24px 24px; }
-    [data-background="light"] .surface { background: #f7f7f5; }
+    .surface { display: flex; align-items: center; justify-content: center; background-color: #151d28; background-image: conic-gradient(#202b3a 25%, transparent 0 50%, #202b3a 0 75%, transparent 0); background-size: 24px 24px; }
     [data-background="dark"] .surface { background: #18202c; }
-    .tiles .surface { height: 310px; }
+    .tiles .surface { height: 180px; }
     .tiles img { width: 100%; height: 100%; object-fit: contain; }
     .plaques { display: grid; gap: 18px; }
-    .plaques img { display: block; width: 100%; height: auto; max-height: 620px; object-fit: contain; }
-    figcaption { padding: 12px 15px; line-height: 1.5; }
+    .plaques img { display: block; width: 100%; height: auto; max-height: 240px; object-fit: contain; }
+    figcaption { padding: 8px 10px; line-height: 1.5; }
     figcaption a { display: inline-block; margin-right: 12px; }
     h2 { margin-top: 36px; }
     .history { padding-top: 14px; }
     footer { border-top: 1px solid #394656; margin-top: 32px; padding-top: 12px; }
-    @media (max-width: 600px) { body { padding: 16px; } .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tiles .surface { height: 250px; } }
+    @media (max-width: 600px) { body { padding: 16px; } .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tiles .surface { height: 180px; } }
   </style>
 </head>
-<body data-background="checker">
+<body data-background="dark">
   <main>
     <div class="status">CANDIDATES · 2026-10-09 · APPROVAL PENDING</div>
-    <h1>Imperial Republic tiles &amp; plaques</h1>
+    <h1>Imperial Republic tiles &amp; plaques</h1><p>PNG files have real alpha transparency outside the physical tile or plaque. The metal backing is opaque. Optional dark checkerboard is a CSS preview background.</p>
     <nav><a href="catalog-review.html"><strong>Complete military and all-branch candidate chart</strong></a> · <a href="charts/military-chart.png">Military graphic</a> · <a href="charts/all-branches-chart.png">All branches graphic</a> · <a href="military-enlisted-review.html">Military enlisted ranks · E-1 through E-7</a> · <a href="../docs/GOAL-PROMPT.md">Full-chart continuation goal prompt</a></nav>
     <p>Full rank coverage is linked above. This page preserves the sixteen source color/material options and early plaque studies. Compare the proportions, silver rims, bevel, texture and color. The palette includes possible future specialty branches, departments and divisions; no color has an adopted meaning yet. Code cylinders will be separate components.</p>
     <div class="controls" role="group" aria-label="Image preview background">
-      <span>Preview background:</span>
-      <button type="button" data-choice="checker" aria-pressed="true">Checkerboard</button>
-      <button type="button" data-choice="light" aria-pressed="false">Light</button>
-      <button type="button" data-choice="dark" aria-pressed="false">Dark</button>
+      <span>Transparent-edge preview:</span>
+      <button type="button" data-choice="checker" aria-pressed="false">Dark checkerboard</button>
+      <button type="button" data-choice="dark" aria-pressed="true">Dark</button>
     </div>
     <p>Open each PNG to inspect its full resolution. These previews use the actual local files. Keep an eye on subtle edge halos and the strong surface texture; saving a candidate does not approve it.</p>
     <h2>Individual tiles</h2>

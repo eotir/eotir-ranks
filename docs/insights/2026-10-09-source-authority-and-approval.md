@@ -41,3 +41,7 @@ Preserve source assertions and formatting, use the military intersection for ini
 ## Public review is a separate authorization
 
 Ryan explicitly authorized public GitHub repository visibility and static Pages hosting after the private draft delivery. This permits candidate exposure while leaving visual/assignment approvals and canon-service published/canonical flags unchanged. Preserve historical receipts with their original scope and add a new deployment receipt; do not rewrite a private-checkpoint receipt to imply it always represented a public site. Excluded historical exports must remain outside Git history.
+
+## Source classification correction
+
+Ryan clarified the payroll/personnel exports are fictional worldbuilding. The earlier real-person privacy assumption was wrong. Do not confuse in-universe payroll titles, financial figures or named characters with real personal records. Rank-only projections remain useful to scope the working build, but they must not be justified by an invented privacy restriction.

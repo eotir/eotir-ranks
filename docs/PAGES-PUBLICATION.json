@@ -80,9 +80,10 @@
     "url": "https://eotir.github.io/eotir-ranks/assets/catalog-review.html"
   },
   "browser_errors": [],
-  "private_exports_remain_excluded": true,
   "recognized_credentials_scan": "No known credential patterns in committed project text; two historical commits contain the same excluded-private-input boundary.",
   "creative_approval": false,
   "canonical_or_service_published_flags_changed": false,
-  "note": "Historical PUBLICATION-RECEIPT.json preserves the private delivery checkpoint. This receipt records the subsequent authorized public review site. A documentation-only follow-up commit adds this receipt; its push and Pages build are checked afterward."
+  "note": "Historical PUBLICATION-RECEIPT.json preserves the private delivery checkpoint. This receipt records the subsequent authorized public review site. A documentation-only follow-up commit adds this receipt; its push and Pages build are checked afterward.",
+  "source_data_classification": "Ryan clarified all payroll/personnel source material is fictional sci-fi worldbuilding, not real personal records. Prior privacy interpretation was incorrect.",
+  "full_fictional_exports_excluded_from_focused_rank_build": true
 }

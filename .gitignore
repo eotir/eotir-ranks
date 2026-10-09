@@ -1,5 +1,5 @@
-# Keep historical payroll/personal exports local; canonical source assertions
-# used by the candidate catalog are exported separately without those records.
+# Full historical fictional worldbuilding exports are kept locally; the current
+# build uses a focused rank-only projection. This is scope, not a privacy ruling.
 /official/
 /docs/research/google-sheets-live-2026-10-09.json
 

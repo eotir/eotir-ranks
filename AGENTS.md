@@ -75,3 +75,7 @@ For later implementation: validate the rank dataset independently of images, the
 ## Public static review — 2026-10-09
 
 Ryan authorized public repository visibility and GitHub Pages candidate review. Serve main/root with .nojekyll and index.html. Live URL: https://eotir.github.io/eotir-ranks/. This authorization permits exposing candidate pages/images while leaving every visual/assignment approval null and canon-service published/canonical flags false. The approved-input publication gates above still apply to canon promotion and production integration, not this explicitly authorized draft review site. Preserve historical private-delivery receipts; record current public deployment separately in docs/PAGES-PUBLICATION.json.
+
+## Fictional source data and compact dark review — 2026-10-09
+
+Ryan clarified all supplied payroll/personnel content is fictional worldbuilding. Earlier assumptions that those exports contain private real-world personnel data were incorrect. Do not impose real-person privacy restrictions on that material. Focused rank snapshots remain useful for build scope/provenance; full exports are retained locally. Preserve genuine credential exclusions. Ryan also requires a dark-only, compact review UI. Keep source/rationale expandable, maintain fixed physical preview scale and native image links, and distinguish CSS checkerboard preview from real PNG alpha.
