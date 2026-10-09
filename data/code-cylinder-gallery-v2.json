@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "CANDIDATE",
+  "approval": null,
+  "canonical": false,
+  "scope": "Full-size design options first; not fitted, downsampled, or substituted into rank assignments.",
+  "generator": "Built-in image_gen",
+  "candidates": [
+    {
+      "id": "long-blue-dosimeter-v2",
+      "label": "A · Long blue-cap dosimeter",
+      "png_path": "assets/cylinders/v2/long-blue-dosimeter-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Create ONE brand-new high-quality sci-fi officer code cylinder product cutout, using the supplied reference for the mechanical design language. Full instrument, perfectly upright vertical, centered, front-facing with a very slight three-quarter view so the cylindrical form and spring pocket clip are unmistakable. Long slim brushed silver dosimeter, rounded deep blue glass-like top cap, wider polished metal upper collar, substantial narrow spring clip descending from the collar along the front-right of the barrel, long smooth reflective metal shaft, neatly rounded base. Shape ratio approximately 1 wide to 6 tall, excluding clip. Entire object visible with generous transparent margins; render at large portrait resolution, ideally 1024x1536 or larger. Refined realistic studio-product lighting, smooth continuous reflections, crisp machined edges, subtle brushed-metal grain; no pixel art, no rough stepped stripe shading, no heavy scratches. Transparent background with clean alpha, no ground plane, no drop shadow outside the object, no hands, no fabric, no table, no text/logos/numbers/watermark. This is one coherent physical object, not a collage, not a comparison sheet. Emphasize readable clip silhouette and sculpted collar. New candidate asset for a high-resolution gallery, not rank canon.",
+      "references": [
+        "references/ImperialCodeCylinder-100Objects.webp"
+      ],
+      "generation_file": "exec-29a51890-a811-4053-a04a-0d46c5bce7a8.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "baf63d65ce04abceb2f1a1c1de846151b7d5ae732f6f0b1b656d4833cfa7a7fc",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        105,
+        28,
+        948,
+        1507
+      ],
+      "alpha_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_hashes": {
+        "references/ImperialCodeCylinder-100Objects.webp": "ee6f46a2ee86af65c57dcb419ee08fa44df1280d5516e3d5308a6d6ffd758e5a"
+      }
+    },
+    {
+      "id": "compact-grooved-blue-v2",
+      "label": "B · Grooved blue-cap cylinder",
+      "png_path": "assets/cylinders/v2/compact-grooved-blue-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Create ONE brand-new large high-quality sci-fi officer code cylinder product cutout based on the silver cylinder in the supplied reference. One instrument only, upright vertical, centered, fully visible, front-facing with a slight three-quarter view. Compact robust polished/brushed silver cylinder with a small deep blue rounded top cap, broad metal upper collar, long clearly defined spring clip with curved attachment and rounded foot down the front-right, smooth barrel, three or four fine circumferential machined grooves around the lower end, rounded silver terminal. Ratio about 1 wide to 4.3 tall. Realistic premium prop render: continuous smooth metal reflections, clear beveled edges, subtle metal texture, generous transparent margins. Large portrait resolution ideally 1024x1536 or larger, true transparent alpha background. No black grip section for this candidate; use silver throughout except blue cap. No text, logos, tiny engraved letters, numbers, watermark, hands, fabric, tabletop, ground plane or cast floor shadow. No pixelated shading or flat vector icon appearance. Do not reproduce the pair from the reference: render exactly ONE new object. Gallery master before later downsizing; preserve a very readable silhouette.",
+      "references": [
+        "references/ImperialCodeCylinder-FFp42.webp"
+      ],
+      "generation_file": "exec-72abb720-6b9a-4afc-9039-5a7e56335432.png",
+      "dimensions": [
+        814,
+        1933
+      ],
+      "png_sha256": "1b51e22e572b63f82b759b0d5b8ed7e4ad3adfe221edef71dabeb7a9cbfb23bc",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        52,
+        725,
+        1878
+      ],
+      "alpha_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_hashes": {
+        "references/ImperialCodeCylinder-FFp42.webp": "e8c016b3baa53ed187e1f66ef060dfbc426123ebffb0ea8d46a4ab2446dfea89"
+      }
+    },
+    {
+      "id": "ribbed-pilot-silver-v2",
+      "label": "C · Ribbed pilot-style cylinder",
+      "png_path": "assets/cylinders/v2/ribbed-pilot-silver-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "prompt": "Create ONE brand-new high-quality sci-fi pilot-style code cylinder product cutout inspired by the supplied photograph. Single upright vertical metal instrument, centered, entirely visible, front-facing with slight three-quarter angle. Bright brushed stainless silver, distinctive wider stepped/ribbed concentric head tapering in several rounded machined rings toward a small rounded terminal at top; long slender smooth cylindrical shaft extending downward, clean rounded bottom with a small circular side port near its base. Ratio about 1 head-width to 6 total-height. No blue cap and no pocket clip on this variant. Render the complex ribbed head clearly as continuous smooth machined metal, with realistic studio product reflections, fine bevels, crisp readable edges, minimal subtle grain. Large portrait resolution ideally 1024x1536 or larger. True transparent background, generous margins, no tabletop, wood, cloth, hands, base stand, ground plane or cast external shadow. No text, logo, watermark, pixel art, repeated objects or reference-photo collage. Exactly one polished new candidate instrument for the full-size gallery.",
+      "references": [
+        "references/pilot-code-cylinders.avif"
+      ],
+      "reference_decode": "Pillow decoded supplied AVIF to tmp/pilot-code-cylinders-reference.png for conditioning; original AVIF preserved.",
+      "generation_file": "exec-563f722c-79ad-4c8a-97d1-158b62f20189.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "png_sha256": "7a13c2042a636f9910649b61bc6d26ee9ea6523f2020b7c6078662835c2a9c42",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        49,
+        50,
+        994,
+        1512
+      ],
+      "alpha_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_hashes": {
+        "references/pilot-code-cylinders.avif": "7d78f4ea595411bbb0bd33315df399327085a014d4fb72a6d1af94e1b83d0a0e"
+      }
+    }
+  ],
+  "review_notes": [
+    "Original generator PNG bytes preserved; no cropping, recoloring, resizing, or cutout edits.",
+    "Full-size gallery design studies. Fine edge/halo cleanup and pocket-exposed crops are later work before compositing.",
+    "Saving/rendering/publishing does not approve a device design or change rank-cylinder assignments."
+  ]
+}

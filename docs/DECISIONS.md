@@ -65,3 +65,7 @@ Ryan: payroll/personnel is all fiction in the sci-fi universe. Prior privacy fra
 ## Cylinder research and Claude Design integration — 2026-10-09
 
 Ryan authorized code-cylinder research primarily from supplied image/source references, with rank/class/grade associations, followed by the Claude Design site redesign. Supplied handoffs: D:\eotir\projects\.handoffs\Rank Plaque Catalog - Standalone.html and EOTIR-Ranks-site3.zip. Extract the full archive only into ignored staging and promote ranks-relevant presentation files. This is a site design change, not replacement/approval of plaque designs. Initial cylinder design and 69 military associations are proposals with null approval; other branch/shared mappings remain unresolved. See CODE-CYLINDERS.md for wearer/viewer conflicts and alternatives.
+
+## Full-size cylinder options first
+
+Ryan rejected the first-pass pixelated cylinder design and supplied nine new photo/illustration references including WebP and AVIF. He then clarified: render several options at large size and good quality first, retain original full-size gallery images, and fit/downscale later. Three separately saved reference-conditioned candidates now stage that design review. No adoption, cylinder-count change or rank preview replacement is implied.
