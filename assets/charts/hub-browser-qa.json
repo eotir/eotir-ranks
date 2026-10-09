@@ -1,0 +1,32 @@
+{
+  "backgrounds": {
+    "Checkerboard": {
+      "color": "rgb(196, 201, 207)",
+      "pressed": "true",
+      "state": "checker"
+    },
+    "Dark": {
+      "color": "rgb(24, 32, 44)",
+      "pressed": "true",
+      "state": "dark"
+    },
+    "Light": {
+      "color": "rgb(247, 247, 245)",
+      "pressed": "true",
+      "state": "light"
+    }
+  },
+  "broken": 0,
+  "images": 18,
+  "links": [
+    {
+      "href": "file:///D:/eotir/projects/ranks/assets/catalog-review.html",
+      "text": "Complete military and all-branch candidate chart"
+    },
+    {
+      "href": "file:///D:/eotir/projects/ranks/assets/charts/military-chart.png",
+      "text": "Military graphic"
+    }
+  ],
+  "title": "Imperial Republic — tile and plaque candidates"
+}

@@ -1,0 +1,2 @@
+# Local deterministic asset/chart build; get_flattened_data requires Pillow 12.1+.
+Pillow>=12.1,<13

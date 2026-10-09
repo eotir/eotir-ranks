@@ -1,0 +1,1932 @@
+{
+  "observed_date": "2026-10-09",
+  "scope": "SANITIZED rank-only snapshot: only catalog-used rank titles and their original grades/coordinates/strikeout markers; excludes payroll, salary, personnel and unrelated cells. Blank placeholders preserve original column positions, not evidence of source blanks.",
+  "spreadsheet_id": "1wMpAAmMfuVGV913g6uh_nEzGjwKjUEPk_Wf6z6xZE9g",
+  "url": "https://docs.google.com/spreadsheets/d/1wMpAAmMfuVGV913g6uh_nEzGjwKjUEPk_Wf6z6xZE9g/edit",
+  "title": "Rank-only reference extract",
+  "original_capture_sha256": "42bc2d1dd915df68e82b309d3fc55a7842cdd00ad520a5828fc455c76cab071b",
+  "sheets": [
+    {
+      "id": 0,
+      "title": "General Pay Scale",
+      "rows": [
+        {
+          "row": 3,
+          "values": [
+            "",
+            "RT-3",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "",
+            "RT-2",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "",
+            "RT-2",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier"
+          ],
+          "struck_columns": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "",
+            "RT-1",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress",
+            "Empress"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "",
+            "RT-1",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "",
+            "HC-8",
+            "",
+            "",
+            "",
+            "",
+            "Royal 1st Family (RSC)"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            6
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "",
+            "HC-7",
+            "",
+            "",
+            "",
+            "Agent of the Supreme Ruler"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 11,
+          "values": [
+            "",
+            "HC-6",
+            "",
+            "",
+            "Praetor",
+            "Praetor",
+            "Praetor",
+            "Vice Chancellor",
+            "Praetor",
+            "Praetor",
+            "Praetor",
+            "Praetor / R1F"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 12,
+          "values": [
+            "",
+            "HC-5",
+            "High Councilor",
+            "Royal Family",
+            "High Councilor",
+            "",
+            "",
+            "High Councilor",
+            "High Councilor",
+            "High Councilor",
+            "High Councilor",
+            "High Councilor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "row": 13,
+          "values": [
+            "",
+            "HC-4",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Lord Moff",
+            "Grand Minister"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            8,
+            9
+          ]
+        },
+        {
+          "row": 14,
+          "values": [
+            "",
+            "HC-3",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Grand Moff"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            8
+          ]
+        },
+        {
+          "row": 15,
+          "values": [
+            "",
+            "HC-2",
+            "",
+            "",
+            "High Judicator",
+            "",
+            "",
+            "High Ambassador",
+            "High Moff",
+            "High Minister"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            4,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "row": 16,
+          "values": [
+            "",
+            "HC-1",
+            "Director",
+            "High Inquisitor",
+            "Judicator / Minister of Justice",
+            "",
+            "",
+            "Ambassador",
+            "Moff",
+            "Minister",
+            "Director-General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 17,
+          "values": [
+            "",
+            "C-6",
+            "Deputy Director",
+            "Royal Inquisitor",
+            "Territorial Administrator",
+            "",
+            "",
+            "Envoy",
+            "",
+            "Deputy Minister",
+            "Deputy Director"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 18,
+          "values": [
+            "",
+            "C-5",
+            "Assistant Director",
+            "Inspector General",
+            "Oversector Judicator",
+            "",
+            "",
+            "Consul / Representative",
+            "",
+            "Under Minister",
+            "Assistant Director"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 19,
+          "values": [
+            "",
+            "C-4",
+            "Bureau Chief",
+            "Oversector Inquisitor",
+            "Oversector Region Judicator",
+            "",
+            "",
+            "Chargé d'affaires",
+            "Sector Adjutant",
+            "Assistant Minister",
+            "Bureau Chief"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 20,
+          "values": [
+            "",
+            "C-3",
+            "Assistant Bureau Chief",
+            "Region Inquisitor",
+            "Sector Judicator",
+            "",
+            "",
+            "Resident Minister",
+            "System Governor",
+            "Deputy Assistant Minister",
+            "Assistant Bureau Chief"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 21,
+          "values": [
+            "",
+            "C-2",
+            "Station Chief",
+            "Sector Inquisitor",
+            "",
+            "",
+            "",
+            "Minister-Counsellor",
+            "Governor",
+            "Senior Director",
+            "Station Chief"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 22,
+          "values": [
+            "",
+            "C-1",
+            "Chief",
+            "System Inquisitor",
+            "System Court Justice",
+            "",
+            "",
+            "Counsellor",
+            "Senator",
+            "Director",
+            "Assistant Chief"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 23,
+          "values": [
+            "",
+            "O-6",
+            "Assistant Chief",
+            "Inquisitor of Planet",
+            "Planetary Court Justice",
+            "",
+            "",
+            "First Secretary",
+            "Lt. Governor/Prefect",
+            "Deputy Director",
+            "Deputy Chief"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 24,
+          "values": [
+            "",
+            "O-5",
+            "Master Agent",
+            "Inquisitor",
+            "Magistrate",
+            "",
+            "",
+            "Second Secretary",
+            "Sub-Prefect",
+            "Assistant Director",
+            "Commander"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 25,
+          "values": [
+            "",
+            "O-4",
+            "Staff Agent",
+            "Provincinal Inspector",
+            "Provincial Court Judge",
+            "",
+            "",
+            "Third Secretary",
+            "Provincial Mayor",
+            "Deputy Assistant Director",
+            "Major"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 26,
+          "values": [
+            "",
+            "O-3",
+            "Senior Agent",
+            "District Inspector",
+            "District Judge",
+            "",
+            "",
+            "Senior Attaché",
+            "Mayor",
+            "",
+            "Captain"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            10
+          ]
+        },
+        {
+          "row": 27,
+          "values": [
+            "",
+            "O-2",
+            "Agent",
+            "Municipal Inspector",
+            "Municipal Judge",
+            "",
+            "",
+            "Attaché",
+            "Vice Mayor",
+            "",
+            "Senior Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            10
+          ]
+        },
+        {
+          "row": 28,
+          "values": [
+            "",
+            "O-1",
+            "Junior Agent",
+            "",
+            "Justice of the Peace",
+            "",
+            "",
+            "Assistant Attaché",
+            "Deputy Mayor",
+            "",
+            "Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            7,
+            8,
+            10
+          ]
+        },
+        {
+          "row": 29,
+          "values": [
+            "",
+            "E-7",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Senior Manager",
+            "Detective Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            9,
+            10
+          ]
+        },
+        {
+          "row": 30,
+          "values": [
+            "",
+            "E-6",
+            "Senior Analyst",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Manager",
+            "Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 31,
+          "values": [
+            "",
+            "E-5",
+            "Analyst",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Assistant Manager",
+            "Detective"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 32,
+          "values": [
+            "",
+            "E-4",
+            "Junior Analyst",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Supervisor",
+            "Corporal"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 33,
+          "values": [
+            "",
+            "E-3",
+            "Senior Collaborator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Senior Analyst",
+            "Constable"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 34,
+          "values": [
+            "",
+            "E-2",
+            "Collaborator",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Analyst",
+            "Senior Officer"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        },
+        {
+          "row": 35,
+          "values": [
+            "",
+            "E-1",
+            "Informant",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Associate Analyst",
+            "Officer"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "IRAF Pay Scale",
+      "rows": [
+        {
+          "row": 3,
+          "values": [
+            "",
+            "RT-2",
+            "Executor",
+            "",
+            "Executor",
+            "",
+            "Executor",
+            "",
+            "Executor",
+            "",
+            "Executor",
+            "",
+            "",
+            "",
+            "Executor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "",
+            "RT-2",
+            "Grand Vizier",
+            "",
+            "Grand Vizier",
+            "",
+            "Grand Vizier",
+            "",
+            "Grand Vizier",
+            "",
+            "Grand Vizier",
+            "",
+            "",
+            "",
+            "Grand Vizier"
+          ],
+          "struck_columns": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            15
+          ],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "",
+            "RT-1",
+            "Empress",
+            "",
+            "Empress",
+            "",
+            "Empress",
+            "",
+            "Empress",
+            "",
+            "Empress",
+            "",
+            "",
+            "",
+            "Empress"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "",
+            "RT-1",
+            "Supreme Chancellor",
+            "",
+            "Supreme Chancellor",
+            "",
+            "Supreme Chancellor",
+            "",
+            "Supreme Chancellor",
+            "",
+            "Supreme Chancellor",
+            "",
+            "",
+            "",
+            "Supreme Chancellor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "HM Chief of Staff"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            14
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "",
+            "HC-6",
+            "Praetor",
+            "",
+            "Praetor",
+            "",
+            "Praetor",
+            "",
+            "Praetor",
+            "",
+            "Praetor",
+            "",
+            "",
+            "",
+            "Praetor/LFRLDT*"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 11,
+          "values": [
+            "",
+            "HC-5",
+            "High Councilor",
+            "",
+            "High Councilor",
+            "",
+            "High Councilor",
+            "",
+            "High Councilor",
+            "",
+            "High Councilor",
+            "",
+            "",
+            "",
+            "High Councilor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            14
+          ]
+        },
+        {
+          "row": 12,
+          "values": [
+            "",
+            "HC-4",
+            "Lord Admiral",
+            "",
+            "Lord Marshall",
+            "",
+            "Lord General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 13,
+          "values": [
+            "",
+            "HC-3",
+            "Grand Admiral",
+            "",
+            "Grand Marshall",
+            "",
+            "Grand General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 14,
+          "values": [
+            "",
+            "HC-2",
+            "High Admiral",
+            "",
+            "High Marshall",
+            "",
+            "High General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 15,
+          "values": [
+            "",
+            "HC-1",
+            "Fleet Admiral",
+            "",
+            "Marshall",
+            "",
+            "Surface Marshall"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 16,
+          "values": [
+            "",
+            "C-6",
+            "Command Admiral",
+            "",
+            "Command General",
+            "",
+            "Command General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 17,
+          "values": [
+            "",
+            "C-5",
+            "Admiral",
+            "",
+            "General",
+            "",
+            "General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 18,
+          "values": [
+            "",
+            "C-4",
+            "Vice Admiral",
+            "",
+            "Lieutenant General",
+            "",
+            "Lieutenant General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 19,
+          "values": [
+            "",
+            "C-3",
+            "Rear Admiral",
+            "",
+            "Major General",
+            "",
+            "Major General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 20,
+          "values": [
+            "",
+            "C-2",
+            "Commodore",
+            "",
+            "Brigadier General",
+            "",
+            "Brigadier General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 21,
+          "values": [
+            "",
+            "C-1",
+            "Line Captain",
+            "",
+            "Colonel",
+            "",
+            "Colonel"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 22,
+          "values": [
+            "",
+            "O-6",
+            "Captain",
+            "",
+            "Lieutenant Colonel",
+            "",
+            "Lieutenant Colonel"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 23,
+          "values": [
+            "",
+            "O-5",
+            "Commander",
+            "",
+            "Major",
+            "",
+            "Major"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 24,
+          "values": [
+            "",
+            "O-4",
+            "LT Commander",
+            "",
+            "Captain",
+            "",
+            "Captain"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 25,
+          "values": [
+            "",
+            "O-3",
+            "Lieutenant",
+            "",
+            "1st Lieutenant",
+            "",
+            "1st Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 26,
+          "values": [
+            "",
+            "O-2",
+            "Lieutenant JG",
+            "",
+            "2nd Lieutenant",
+            "",
+            "2nd Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 27,
+          "values": [
+            "",
+            "O-1",
+            "Ensign",
+            "",
+            "3rd Lieutenant",
+            "",
+            "3rd Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 28,
+          "values": [
+            "",
+            "E-7",
+            "Fight Sergeant Major",
+            "",
+            "Sergeant Major",
+            "",
+            "Sergeant Major"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 29,
+          "values": [
+            "",
+            "E-6",
+            "Flight Sergeant",
+            "",
+            "Staff Sergeant",
+            "",
+            "Staff Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 30,
+          "values": [
+            "",
+            "E-5",
+            "Sergeant",
+            "",
+            "Sergeant",
+            "",
+            "Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 31,
+          "values": [
+            "",
+            "E-4",
+            "Corporal",
+            "",
+            "Corporal",
+            "",
+            "Corporal"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 32,
+          "values": [
+            "",
+            "E-3",
+            "Lance Corporal",
+            "",
+            "Squad Corporal",
+            "",
+            "Squad Corporal"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 33,
+          "values": [
+            "",
+            "E-2",
+            "Crewman FC",
+            "",
+            "Private First Class",
+            "",
+            "Private First Class"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "row": 34,
+          "values": [
+            "",
+            "E-1",
+            "Crewman",
+            "",
+            "Private",
+            "",
+            "Private"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Special Pay Scale (Revamping)",
+      "rows": [
+        {
+          "row": 3,
+          "values": [
+            "",
+            "RT-3",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler",
+            "Supreme Ruler"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            "",
+            "RT-2",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor",
+            "Executor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            "",
+            "RT-2",
+            "Grand Vizier",
+            "Grand Vizier",
+            "",
+            "Grand Vizier",
+            "Grand Vizier",
+            "Grand Vizier"
+          ],
+          "struck_columns": [
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            "",
+            "RT-1",
+            "Empress",
+            "Empress",
+            "",
+            "Empress",
+            "Empress",
+            "Empress"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            "",
+            "RT-1",
+            "Supreme Chancellor",
+            "Supremer Chancellor",
+            "",
+            "Supreme Chancellor",
+            "Supreme Chancellor",
+            "Supreme Chancellor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 9,
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Praetor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            8
+          ]
+        },
+        {
+          "row": 10,
+          "values": [
+            "",
+            "",
+            "",
+            "Chief of Staff",
+            "Chief of Staff",
+            "Chief of Staff",
+            "Chief of Staff",
+            "Chief of Staff"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 11,
+          "values": [
+            "",
+            "HC-6",
+            "Praetor",
+            "Praetor",
+            "Praetor",
+            "Praetor-General",
+            "Praetor-General",
+            "Praetor"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "row": 15,
+          "values": [
+            "",
+            "HC-2",
+            "",
+            "Depurty Chief of Staff",
+            "",
+            "RG Commandant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 17,
+          "values": [
+            "",
+            "C-6",
+            "",
+            "State Security Advisor",
+            "",
+            "Command General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 18,
+          "values": [
+            "",
+            "C-5",
+            "",
+            "Inspector General",
+            "",
+            "General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 19,
+          "values": [
+            "",
+            "C-4",
+            "",
+            "",
+            "",
+            "Lieutenant General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 20,
+          "values": [
+            "",
+            "C-3",
+            "",
+            "Office Manager",
+            "",
+            "Major General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 21,
+          "values": [
+            "",
+            "C-2",
+            "",
+            "",
+            "",
+            "Brigadier General"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 22,
+          "values": [
+            "",
+            "C-1",
+            "",
+            "Health Supervisor",
+            "",
+            "Colonel"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 23,
+          "values": [
+            "",
+            "O-6",
+            "",
+            "",
+            "",
+            "Lieutenant Colonel"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 24,
+          "values": [
+            "",
+            "O-5",
+            "",
+            "Military Aide",
+            "",
+            "Commander"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 25,
+          "values": [
+            "",
+            "O-4",
+            "",
+            "Communications Director",
+            "",
+            "Major"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 26,
+          "values": [
+            "",
+            "O-3",
+            "",
+            "Policy Advisor/Office Secretary",
+            "",
+            "Captain"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 27,
+          "values": [
+            "",
+            "O-2",
+            "",
+            "Political Officer",
+            "",
+            "Lieutenant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 28,
+          "values": [
+            "",
+            "O-1",
+            "",
+            "",
+            "",
+            "Master Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 29,
+          "values": [
+            "",
+            "E-7",
+            "",
+            "",
+            "",
+            "Staff Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 30,
+          "values": [
+            "",
+            "E-6",
+            "",
+            "Jr. Office Secretary",
+            "",
+            "Sergeant 1C"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 31,
+          "values": [
+            "",
+            "E-5",
+            "",
+            "Assistant Secretary",
+            "",
+            "Sergeant"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            3,
+            5
+          ]
+        },
+        {
+          "row": 32,
+          "values": [
+            "",
+            "E-4",
+            "",
+            "",
+            "",
+            "Corporal"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 33,
+          "values": [
+            "",
+            "E-3",
+            "",
+            "",
+            "",
+            "Guardsman 1C"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 34,
+          "values": [
+            "",
+            "E-2",
+            "",
+            "",
+            "",
+            "Guardsman 2C"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 35,
+          "values": [
+            "",
+            "E-1",
+            "",
+            "",
+            "",
+            "Guardsman"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            5
+          ]
+        },
+        {
+          "row": 37,
+          "values": [
+            "",
+            "",
+            "Executor Sign-off:"
+          ],
+          "struck_columns": [],
+          "included_title_columns_zero_based": [
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

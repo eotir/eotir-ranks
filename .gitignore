@@ -1,0 +1,23 @@
+# Keep historical payroll/personal exports local; canonical source assertions
+# used by the candidate catalog are exported separately without those records.
+/official/
+/docs/research/google-sheets-live-2026-10-09.json
+
+# Reproducible local tooling artifacts, never project inputs or keeper assets.
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+/tmp/
+
+# GitHub/production credentials must remain outside versioned content.
+*.pem
+*.key
+credentials.json
+
+# Unrelated installer downloaded during concurrent host work; preserve locally.
+/references/OpenGSD.Path_0.1.1_x64_en-US.msi

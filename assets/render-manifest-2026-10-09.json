@@ -1,0 +1,1520 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "project": "Imperial Republic ranks",
+  "status": "CANDIDATE",
+  "code_cylinders_included": false,
+  "canonical_destination": "codex-monarch/content/ranks and content/uniforms after approval and integration",
+  "entries": [
+    {
+      "id": "tile-red-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-red-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: stylized-concept / reusable component asset. Create ONE isolated Imperial Republic rank-plaque TILE candidate, not a whole plaque. Reference image 1 is the supplied comprehensive Whatsahonda chart; reference image 2 is a screenshot of the Combine rank page. These are style/proportion references only. Extract the design language of their small taller-than-wide colored rectangles and render a fresh high-resolution component. Subject: a SINGLE saturated deep imperial red rectangular insert, face width:height approximately 2:3, upright, orthographic dead-straight front view, exactly level edges, no tilt. The complete single tile fills roughly 65% of canvas width and 80% height. Face is flat-faced but dimensional: restrained satin enamel/acrylic surface, subtle fine microtexture, clean small highlights, crisp shallow beveled perimeter with a thin brushed silver mechanical rim and subdued side-wall depth. Keep bevel modest and geometric; the tile is a utilitarian insignia component, not a gemstone or button. Upper-left soft studio light, restrained clean science-fiction product illustration, legible when tiny. True transparent background, no floor or cast shadow outside the object. NO larger mounting plate, NO whole badge, no cylinders, no emblem, no stars, no letters or numbers, no diagram, no swatches, no second tile. The output must be exactly one red tile with actual alpha transparency.",
+      "references": [
+        "references/imperial-rank-table-whatsahonda.png",
+        "docs/research/combine-live-2026-10-09.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-a1f9a602-3935-42ef-a9e5-126541796b81.png",
+      "purpose": "Initial material and proportion study; retained history.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "1a46af03c7165c889ab2b51fb0ec7dd7bddc993108e21332a01a3a2578c92e28",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "references/imperial-rank-table-whatsahonda.png": "5bd9b889a6ae46f2599e311f4f6aef2990e157df65ccde6fd3486dcf13fdb94d",
+        "docs/research/combine-live-2026-10-09.png": "7d99d3c75ba085a3d081767274d8477e87db681a647dc9f92f06961720fb0b23"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1942561,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        39,
+        63,
+        958,
+        1496
+      ],
+      "fully_transparent_pixel_fraction": 0.318796,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-red-v2",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-red-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit / background-extraction. Edit the supplied RED TILE image into a clean reusable transparent PNG component. Preserve its upright rectangular proportions, red satin enamel face, subtle surface microtexture, silver bevel trim, front-facing geometry and upper-left light. Remove ALL smoky gray background, glow/halo and cast shadows outside the tile silhouette. The entire area outside the silver tile perimeter must be truly empty alpha=0, not a rendered dark background. The physical red tile and metal perimeter must remain opaque; do not fade the object itself. Keep one tile only, centered, straight orthographic front view. No text, symbols, extra objects or backing plaque. This is a cutout asset, not a dramatic studio photograph. Preserve original canvas dimensions and tile position. No halo, no fog, no shadow outside the perimeter.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-0a231fa8-7b1a-4c44-9978-a020361a581f.png",
+      "purpose": "Transparency cleanup iteration; working reference, not user-selected.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v1.png": "1a46af03c7165c889ab2b51fb0ec7dd7bddc993108e21332a01a3a2578c92e28"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1969212,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        23,
+        913,
+        1441
+      ],
+      "fully_transparent_pixel_fraction": 0.318793,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-blue-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE deep cobalt blue tile for a matched component library. Change ONLY the colored enamel face hue from red to deep cobalt blue. Keep the silver mechanical perimeter neutral silver, not tinted. Preserve the upright taller-than-wide rectangular outline, exact camera/front view, same canvas size and object bounds, shallow bevel, fine texture, highlights, light direction and material. One tile only, centered and level. True transparent background; preserve the existing alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, badge/backing plate or code cylinders. This is a candidate color variant, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-7b25a344-13e9-4ac7-b186-2773dd899a00.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2068154,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        25,
+        914,
+        1444
+      ],
+      "fully_transparent_pixel_fraction": 0.317048,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-gold-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-gold-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE bright amber-yellow/gold enamel, a colored insert rather than a metallic gold face tile for a matched component library. Change ONLY the colored enamel face hue from red to bright amber-yellow/gold enamel, a colored insert rather than a metallic gold face. Keep the silver mechanical perimeter neutral silver, not tinted. Preserve the upright taller-than-wide rectangular outline, exact camera/front view, same canvas size and object bounds, shallow bevel, fine texture, highlights, light direction and material. One tile only, centered and level. True transparent background; preserve the existing alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, badge/backing plate or code cylinders. This is a candidate color variant, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-261e48c8-6ff9-4869-ad0b-8ddc40ef921d.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "cba73c4675310c6c83a4b4772a4e3cc4d3dc980430f23640c34a1db78e573bea",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1905457,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        0,
+        914,
+        1443
+      ],
+      "fully_transparent_pixel_fraction": 0.315887,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-green-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-green-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE rich emerald green tile for a matched component library. Change ONLY the colored enamel face hue from red to rich emerald green. Keep the silver mechanical perimeter neutral silver, not tinted. Preserve the upright taller-than-wide rectangular outline, exact camera/front view, same canvas size and object bounds, shallow bevel, fine texture, highlights, light direction and material. One tile only, centered and level. True transparent background; preserve the existing alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, badge/backing plate or code cylinders. This is a candidate color variant, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-11646a35-75f5-499a-9a69-565bb72cb517.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "607dd1eb84ac15033bbbab52ebb26cb40215494d1386fe168967d9a8ce83575e",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2135185,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        25,
+        992,
+        1519
+      ],
+      "fully_transparent_pixel_fraction": 0.316032,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-orange-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-orange-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE warm saturated orange tile for a matched component library. Change ONLY the colored enamel face hue to warm saturated orange. Keep the silver mechanical perimeter neutral silver. Preserve upright taller-than-wide rectangular outline, exact front-facing orthographic view, same canvas size/object bounds, shallow bevel, subtle fine texture, highlights and upper-left lighting. One tile only, centered and level. True transparent background; preserve alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, mounting plaque or cylinders. This is a candidate component, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-85f9f6f6-841a-4bf6-a597-0d237be24587.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "de64789a79deabddb1d1ea5a93733d05099dacc3f5bd57dc061dfb25d35d4912",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1881499,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        107,
+        49,
+        915,
+        1442
+      ],
+      "fully_transparent_pixel_fraction": 0.317702,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-white-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-white-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE pearl white / pale silver-gray enamel tile for a matched component library. Change ONLY the colored enamel face hue to pearl white / pale silver-gray enamel. Keep the silver mechanical perimeter neutral silver. Preserve upright taller-than-wide rectangular outline, exact front-facing orthographic view, same canvas size/object bounds, shallow bevel, subtle fine texture, highlights and upper-left lighting. One tile only, centered and level. True transparent background; preserve alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, mounting plaque or cylinders. This is a candidate component, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-65b8ca07-ba7e-4b57-8c49-326e98020ed9.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "60b584e2e39f21ac33c04bb26142e2919c7179bc1d6210e35b1364bac031536c",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1787751,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        33,
+        27,
+        1016,
+        1514
+      ],
+      "fully_transparent_pixel_fraction": 0.317207,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-charcoal-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-charcoal-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Edit the supplied single red tile into ONE neutral dark charcoal gray enamel tile for a matched component library. Change ONLY the colored enamel face hue to neutral dark charcoal gray enamel. Keep the silver mechanical perimeter neutral silver. Preserve upright taller-than-wide rectangular outline, exact front-facing orthographic view, same canvas size/object bounds, shallow bevel, subtle fine texture, highlights and upper-left lighting. One tile only, centered and level. True transparent background; preserve alpha cutout, no visible background, external shadow or halo. No text, symbols, second tile, mounting plaque or cylinders. This is a candidate component, not an assigned rank plaque.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-031f10d8-3298-4884-b374-387f76faa551.png",
+      "purpose": "Palette variation; color semantics and entitlement undecided.",
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "98ed32992130af670344a9af766a33bd072f3b4a0d59744f032e8b901dcaab93",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1847429,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        1,
+        1023,
+        1472
+      ],
+      "fully_transparent_pixel_fraction": 0.319209,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "plaque-single-row-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/plaque-single-row-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create a front-facing orthographic product render of ONE modular military rank plaque composition study for the Imperial Republic, with a transparent background. This is an unassigned candidate design, not an approved rank.\nUse the three attached individual tile candidates as visual material and proportion references. Match their upright tall rectangular colored enamel faces, shallow raised beveled relief, fine satin texture, and silver edges. Tile faces should be about 2:3 width to height. Keep the tiles consistent with each other, with narrow silver rims rather than chunky individual frames. Arrange them on ONE thin horizontal brushed silver-metal backing plate with a small continuous edge margin and narrow, even gaps between tiles. Exactly ONE row of SIX upright tiles, from viewer left to right: RED, RED, BLUE, BLUE, GOLD, GOLD. Six total. All equal size. The plaque is approximately four times wider than tall.\nKeep the geometry rectangular with barely clipped or softened corners, straight frontal viewpoint, no perspective rotation. Restrained highlights from upper left, tactile bevels, convincing manufactured metal/enamel. Backing plate must read as a thin rank badge, not a thick wall panel. Fully transparent pixels outside the silhouette; no smoky halo, no drop shadow beyond the plaque, no scene or backdrop. No text, labels, rank names, logo, ornament, code cylinders, side devices, screws or extra tiles. Output the complete plaque centered and uncropped, at high resolution, occupying most of the canvas. Exact tile count and order matter.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-gold-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-17217ce6-b457-4fbf-b204-2d69ef09804f.png",
+      "purpose": "Unassigned generative composition study; not byte-identical tile assembly.",
+      "expected_pattern": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "gold",
+          "gold"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "gold",
+          "gold"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "44343e5ee1ac53576c5b90138aef897621879709e5e43bb2ec9ea74f4356da52",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+        "assets/tiles/candidates/2026-10-09/tile-gold-v1.png": "cba73c4675310c6c83a4b4772a4e3cc4d3dc980430f23640c34a1db78e573bea"
+      },
+      "width": 2043,
+      "height": 770,
+      "mode": "RGBA",
+      "bytes": 2036147,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        42,
+        2,
+        2001,
+        770
+      ],
+      "fully_transparent_pixel_fraction": 0.29928,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "plaque-double-row-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/plaque-double-row-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create a front-facing orthographic product render of ONE modular military rank plaque composition study for the Imperial Republic, with a transparent background. This is an unassigned candidate design, not an approved rank.\nUse the three attached individual tile candidates as visual material and proportion references. Match their upright tall rectangular colored enamel faces, shallow raised beveled relief, fine satin texture, and silver edges. Tile faces should be about 2:3 width to height. Keep the tiles consistent with each other, with narrow silver rims rather than chunky individual frames. Arrange them on ONE thin horizontal brushed silver-metal backing plate with a small continuous edge margin and narrow, even gaps between tiles. Exactly TWO aligned rows of SIX upright tiles each, TWELVE total. Top row from viewer left to right: BLUE, BLUE, BLUE, GOLD, GOLD, GOLD. Bottom row from viewer left to right: BLUE, BLUE, BLUE, RED, RED, RED. All equal size. The plaque is approximately twice as wide as tall.\nKeep the geometry rectangular with barely clipped or softened corners, straight frontal viewpoint, no perspective rotation. Restrained highlights from upper left, tactile bevels, convincing manufactured metal/enamel. Backing plate must read as a thin rank badge, not a thick wall panel. Fully transparent pixels outside the silhouette; no smoky halo, no drop shadow beyond the plaque, no scene or backdrop. No text, labels, rank names, logo, ornament, code cylinders, side devices, screws or extra tiles. Output the complete plaque centered and uncropped, at high resolution, occupying most of the canvas. Exact tile count and order matter.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-gold-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-f9374001-bc96-4404-8fbb-8ad43c217aa0.png",
+      "purpose": "Unassigned generative composition study; not byte-identical tile assembly.",
+      "expected_pattern": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "gold",
+          "gold",
+          "gold"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "gold",
+          "gold",
+          "gold"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "qc": "Native-resolution visual inspection completed. User creative approval pending; material/proportion consistency and transparency edges remain review items.",
+      "sha256": "d4bff652291de203546390393a16d7a532cf8220421c756cd154736b55c81ba2",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+        "assets/tiles/candidates/2026-10-09/tile-gold-v1.png": "cba73c4675310c6c83a4b4772a4e3cc4d3dc980430f23640c34a1db78e573bea"
+      },
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "bytes": 2346000,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        80,
+        23,
+        1695,
+        869
+      ],
+      "fully_transparent_pixel_fraction": 0.194115,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-black-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-black-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with near-black neutral enamel, clearly darker than the existing charcoal sample; retain readable highlights and bevel edges.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-013d5e5f-084c-4274-834b-80be9a9c32e3.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "6c83317cfb0b3cb76726c471128e1b6bd012adb62563b42f9af4bc35bfa0e6aa",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1783935,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        27,
+        1004,
+        1472
+      ],
+      "fully_transparent_pixel_fraction": 0.316779,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-white-v2",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-white-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with clean bright neutral white enamel, without a pearl or grey tint; distinct from the earlier pearl-white sample.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-e1ba448d-818c-400e-b8ee-2f2e9d11903e.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "e6b057d93f4b293dd26a6f5bdc5bb34ab0c0ee0caae78032a8e0f03b21aece60",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1606781,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        33,
+        25,
+        994,
+        1536
+      ],
+      "fully_transparent_pixel_fraction": 0.333752,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-grey-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with medium neutral grey enamel, distinctly lighter than charcoal and darker than white; nonmetallic coloured face.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-fee63cf5-d473-4989-896c-6af9ae31ef2b.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1762250,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        39,
+        47,
+        914,
+        1512
+      ],
+      "fully_transparent_pixel_fraction": 0.316554,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-purple-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-purple-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: local red-v2 is the edit target and geometry reference.\nPrimary request: replace ONLY the red face with rich saturated royal purple enamel, midway between blue and magenta, visibly purple rather than blue.\nPreserve the single upright rectangular tile, its exact proportions and canvas framing, silver outer rim, black seam, shallow colored-face bevel, upper-left lighting and frontal orthographic view. For metallic variants, change only the face material as described; the outer rim remains silver, separate and unchanged. Maintain fine texture, manufactured appearance and matching physical relief.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-46e39793-475e-44ac-935a-da266c1affa8.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "09aeb60058fd1abf7e45f006badff0ce7a5620de737e93b16220ce378841d0bd",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1901202,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        109,
+        94,
+        914,
+        1442
+      ],
+      "fully_transparent_pixel_fraction": 0.318357,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-silver-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-silver-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: local red-v2 is the edit target and geometry reference.\nPrimary request: replace ONLY the red face with satin metallic silver face with restrained directional metal highlights and subtle fine brushing, distinctly metallic rather than grey or white enamel.\nPreserve the single upright rectangular tile, its exact proportions and canvas framing, silver outer rim, black seam, shallow colored-face bevel, upper-left lighting and frontal orthographic view. For metallic variants, change only the face material as described; the outer rim remains silver, separate and unchanged. Maintain fine texture, manufactured appearance and matching physical relief.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-4a6ac6e5-82a8-4336-9254-509545718f34.png",
+      "material_family": "satin-metal",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "be45bcaade0ebb768ad86f2969cea586efde89d6c345c91428490ef263b9d72d",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2203484,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        41,
+        69,
+        1020,
+        1536
+      ],
+      "fully_transparent_pixel_fraction": 0.316662,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-metallic-gold-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-metallic-gold-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: local red-v2 is the edit target and geometry reference.\nPrimary request: replace ONLY the red face with warm satin metallic gold face with restrained directional metal highlights and subtle fine brushing, distinctly metallic rather than bright yellow enamel.\nPreserve the single upright rectangular tile, its exact proportions and canvas framing, silver outer rim, black seam, shallow colored-face bevel, upper-left lighting and frontal orthographic view. For metallic variants, change only the face material as described; the outer rim remains silver, separate and unchanged. Maintain fine texture, manufactured appearance and matching physical relief.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-642d1348-1665-4e19-b8aa-defef50da187.png",
+      "material_family": "satin-metal",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "3e24dc4b9cc5c22fba64a3974a528a401226be7f9359e55bafd49212fddf96f7",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2468597,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        110,
+        94,
+        914,
+        1442
+      ],
+      "fully_transparent_pixel_fraction": 0.318359,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-cyan-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-cyan-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with bright saturated cyan enamel, distinctly lighter and more blue than teal.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-b803d448-9e27-4ba8-9c0c-e669613128bd.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "f83b61146cc427ec057fc78e230b00652b75a9ac35a8f5f9fdf5cdedbc2368b8",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1860005,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        43,
+        65,
+        950,
+        1443
+      ],
+      "fully_transparent_pixel_fraction": 0.318212,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-teal-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-teal-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with deep saturated blue-green teal enamel, distinctly darker and greener than cyan.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-ed106a0d-447c-47c0-a052-ec103132f6f5.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "da8a5bfb44c6f63e1cf4a601cb3cf65d9b0b2ad086ea5a6cc8b0e3c12d0eb4ea",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2010634,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        29,
+        968,
+        1498
+      ],
+      "fully_transparent_pixel_fraction": 0.318142,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "tile-amber-v1",
+      "local_path": "assets/tiles/candidates/2026-10-09/tile-amber-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Use case: precise-object-edit. Asset type: individual reusable Imperial Republic tile candidate.\nInput image: the local red-v2 tile is the edit target and geometry/material reference.\nPrimary request: replace ONLY the red face with warm amber enamel, midway between golden yellow and burnt orange, distinctly less bright-yellow than the existing yellow/gold and less saturated orange than the existing orange.\nPreserve the single upright rectangular tile, exact proportions, canvas framing, silver outer rim, black seam, shallow bevel, fine surface texture, upper-left lighting and front-facing orthographic view. The face colour includes its beveled coloured edges. Preserve the silver rim as silver. Keep the same restrained manufactured enamel appearance; no new ornament.\nBackground: genuinely transparent alpha outside the tile silhouette. No opaque backdrop, smoke, glow or shadow halo. No text, symbols, plaque, code cylinders or additional objects. One tile only. Output portrait 1024x1536 to match the reference if possible.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-99100e7c-4f62-40a4-ad42-8409c6492698.png",
+      "material_family": "enamel",
+      "color_assignment": null,
+      "purpose": "Expanded mix-and-match palette, including possible specialty branches/departments/divisions; no adopted meanings. White v1 and v2 are distinct pearl/bright-white candidates, neither user-approved.",
+      "qc": "Native-resolution output visually inspected; one complete upright tile, silver rim and expected face colour/material. User creative approval and edge acceptance pending.",
+      "sha256": "58ebd16a944e2bedcf24cb4134c22b244cc450ef825d57cc0a121992f00f1216",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-red-v2.png": "dad4df34a2751be8594dbaa74f8929b5d85997ba420979217ed4b4016e4c0bcb"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1850763,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        39,
+        982,
+        1516
+      ],
+      "fully_transparent_pixel_fraction": 0.318186,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e1-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e1-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-1 draft: Exactly ONE row of TWO upright GREY tiles side by side. TWO tiles total. No blue faces. This is the all-grey initial enlisted exception.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-d8c108cf-bc2e-488a-9c13-0eb9049a172e.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order; narrower tile geometry led to v2 iteration. History retained.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "25f2e316792ba9e49113a2d4d2294f86d0f1b046522b3d3bbb31d1f190173495",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1760805,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        18,
+        17,
+        1012,
+        1464
+      ],
+      "fully_transparent_pixel_fraction": 0.321222,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e1-v2",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e1-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nImage 3 is an additional successful backplate/tile-geometry reference, NOT the requested tile count. Match its individual tile aspect ratio, bevel, metal framing and narrow gaps. Each face's width is about 0.6 of its height; maintain that shape independently of the output canvas.\nRequested E-1 layout: ONE row of TWO grey tiles, TWO total. No blue. The full backplate should be wider than tall (about 1.3:1), with the same tile-face aspect ratio as image 3, not stretched into long bars. Use landscape framing, with ample transparent margin if needed.\nDo not copy image 3's five-column count. Exact requested count and shape take precedence over filling the canvas.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-d967f2bb-4455-4b11-8be3-cb252c41fd0c.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "d4a5d1c7d052baa0d0757917cd6ca60d52446c327e28a934eea0ea9da01b7316",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png": "6da421b4e850421f22f9d3e3e105f6e73429a70b2dfadfa3e43f2ce25618acf4"
+      },
+      "width": 1425,
+      "height": 1104,
+      "mode": "RGBA",
+      "bytes": 1719144,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        0,
+        1377,
+        1104
+      ],
+      "fully_transparent_pixel_fraction": 0.384849,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e2-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e2-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-2 draft: Exactly TWO rows of 1 aligned columns. TOP row: 1 GREY tiles. BOTTOM row: 1 BLUE tiles. 2 total tiles. No other colors or rows.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-337a47bc-f1fd-4da7-a9aa-f1a2240e41f5.png",
+      "expected_pattern": [
+        [
+          "grey"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "374586060701ce4d9954b3762c8b518383a936ef1f1c10cc6b5e0534530b9d6c",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 1708540,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        51,
+        902,
+        1488
+      ],
+      "fully_transparent_pixel_fraction": 0.52323,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e3-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e3-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-3 draft: Exactly TWO rows of 2 aligned columns. TOP row: 2 GREY tiles. BOTTOM row: 2 BLUE tiles. 4 total tiles. No other colors or rows.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-7923a527-d79b-4509-b74f-c7229041bb19.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "0206800c307f1c892152aa87d292fe385b4c93eb84b897377f2ea620574297b9",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2044290,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        92,
+        945,
+        1536
+      ],
+      "fully_transparent_pixel_fraction": 0.264494,
+      "corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e4-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e4-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-4 draft: Exactly TWO rows of 3 aligned columns. TOP row: 3 GREY tiles. BOTTOM row: 3 BLUE tiles. 6 total tiles. No other colors or rows. Each tile's coloured face should have width about 0.6 of its height, like the component references. Keep this aspect ratio rather than stretching tiles to fill the canvas. Narrow backplate border.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-75d4fb97-7d6c-4821-a226-c8fdc34d1390.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order; narrower tile geometry led to v2 iteration. History retained.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "1f54818de78602d45b4b88112adfae7ac9b6dce8c72e5459fc59a1614a0b9cd1",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 2171887,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        35,
+        2,
+        992,
+        1536
+      ],
+      "fully_transparent_pixel_fraction": 0.189569,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e4-v2",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e4-v2.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nImage 3 is an additional successful backplate/tile-geometry reference, NOT the requested tile count. Match its individual tile aspect ratio, bevel, metal framing and narrow gaps. Each face's width is about 0.6 of its height; maintain that shape independently of the output canvas.\nRequested E-4 layout: TWO rows of THREE aligned columns, SIX total. Top THREE grey, bottom THREE blue. Full backplate about square. Use a square canvas or a landscape canvas with extra transparent side margins; do not elongate the tiles to fill a portrait frame.\nDo not copy image 3's five-column count. Exact requested count and shape take precedence over filling the canvas.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-831cbdc6-e62b-482b-82b2-44589c1e16bd.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "79e2173db68b27d9f6d46714cc15f883806fc637fcfcb752d9892f80c26aba5f",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png": "6da421b4e850421f22f9d3e3e105f6e73429a70b2dfadfa3e43f2ce25618acf4"
+      },
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 2139153,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        9,
+        1174,
+        1210
+      ],
+      "fully_transparent_pixel_fraction": 0.214521,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e5-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e5-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-5 draft: Exactly TWO rows of 4 aligned columns. TOP row: 4 GREY tiles. BOTTOM row: 4 BLUE tiles. 8 total tiles. No other colors or rows. Each tile's coloured face should have width about 0.6 of its height, like the component references. Keep this aspect ratio rather than stretching tiles to fill the canvas. Narrow backplate border.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-18656d45-1aec-4c28-813f-f6bc12b9c9ca.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "53b9fe04a720b76ed621ded920155d0eb1603f570ac9f4ae3e730213b8893e0b",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1230,
+      "height": 1278,
+      "mode": "RGBA",
+      "bytes": 2140619,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        78,
+        1202,
+        1211
+      ],
+      "fully_transparent_pixel_fraction": 0.173711,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e6-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nLayout for E-6 draft: Exactly TWO rows of 5 aligned columns. TOP row: 5 GREY tiles. BOTTOM row: 5 BLUE tiles. 10 total tiles. No other colors or rows. Each tile's coloured face should have width about 0.6 of its height, like the component references. Keep this aspect ratio rather than stretching tiles to fill the canvas. Narrow backplate border.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-5161389d-46e6-40c0-b833-4a4634ad18db.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Combine-inspired enlisted grade draft, shared across Navy/Marine/Army; external titles not imported.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "6da421b4e850421f22f9d3e3e105f6e73429a70b2dfadfa3e43f2ce25618acf4",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710"
+      },
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 2095528,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        17,
+        1506,
+        953
+      ],
+      "fully_transparent_pixel_fraction": 0.204032,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    },
+    {
+      "id": "military-enlisted-e7-v1",
+      "local_path": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e7-v1.png",
+      "status": "CANDIDATE",
+      "approval": null,
+      "tool": "image_gen.imagegen",
+      "transparent_background_requested": true,
+      "prompt": "Create ONE transparent-background Imperial Republic military enlisted plaque CANDIDATE, a front-facing orthographic product render.\nThe attached grey and blue individual tiles are component appearance/proportion references. Match their upright rectangular enamel face, shallow bevel and fine texture, black seam and silver rim. Keep all tiles identical in size, upright (taller than wide), with narrow even gaps. Mount them on ONE thin brushed silver backplate with a small continuous outside margin. Preserve the tile material style, restrained upper-left lighting and narrow metal frames. The entire plaque must be visible and centered; no perspective, no crop, no scene.\nNo text, labels, grade numbers, emblems, code cylinders, screws, side devices or extra objects. Fully transparent pixels outside the plaque, no smoke or glow halo. Exact rows, columns and face colors specified below are mandatory; grey colored faces must be medium neutral grey enamel, not white or silver-metal faces. Blue must match the royal-blue enamel reference.\nImage 3 is an additional successful backplate/tile-geometry reference, NOT the requested tile count. Match its individual tile aspect ratio, bevel, metal framing and narrow gaps. Each face's width is about 0.6 of its height; maintain that shape independently of the output canvas.\nRequested E-7 layout: TWO rows of SIX aligned columns, TWELVE total. Top SIX grey, bottom SIX blue. Full backplate wider than tall, approximately 1.8:1. Use a landscape canvas, ideally 1536x1024.\nDo not copy image 3's five-column count. Exact requested count and shape take precedence over filling the canvas.",
+      "references": [
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png"
+      ],
+      "generator_original_path": "C:\\Users\\ryanm\\.codex\\generated_images\\01a11fe5-f4f1-7423-8456-291f8f1a3cb6\\exec-b0d3d66c-843f-4c46-bda9-304031a58bdb.png",
+      "expected_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "tile_count_and_order_visually_verified": true,
+      "purpose": "Proposed E-7 extension; saved Combine enlisted reference ends at E-6.",
+      "qc": "Correct count/order, native inspection completed. Generative geometry/material variation remains; exact repeatable assembly recommended before adoption.",
+      "rank_assignment_status": "CANDIDATE",
+      "sha256": "33d65866dec1b204e1c1402f7c161c27b108f07beebc94f129fa18db098419ae",
+      "local_copy_matches_generator_bytes": true,
+      "reference_sha256": {
+        "assets/tiles/candidates/2026-10-09/tile-grey-v1.png": "4dc9c747a74f50117c107c79debf3c9f294aa1b3a8c7d082bf22537329867c43",
+        "assets/tiles/candidates/2026-10-09/tile-blue-v1.png": "a42c2ba674e012dbb71439f5873ab9698f3fd52f8d4a469dac297c793a87e710",
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png": "6da421b4e850421f22f9d3e3e105f6e73429a70b2dfadfa3e43f2ce25618acf4"
+      },
+      "width": 1683,
+      "height": 935,
+      "mode": "RGBA",
+      "bytes": 2152214,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_nonzero_bbox": [
+        49,
+        46,
+        1635,
+        882
+      ],
+      "fully_transparent_pixel_fraction": 0.171066,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparency_visual_approval": null
+    }
+  ],
+  "approved_rank_assignments": [],
+  "draft_rank_assignment_dataset": "data/military-enlisted-working.json"
+}

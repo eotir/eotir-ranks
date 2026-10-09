@@ -1,0 +1,173 @@
+{
+  "captured_at_utc": "2026-10-09T09:16:18.100728+00:00",
+  "authority": "Evidence fingerprints only; file presence is not approval.",
+  "files": [
+    {
+      "path": "official/Additions.html",
+      "bytes": 7836,
+      "sha256": "7a5b8d980d59bf038d1eb1b31cd17e963ec986d55bde0e537a2a656df54ab760"
+    },
+    {
+      "path": "official/CIRAF Pay Scale.html",
+      "bytes": 21309,
+      "sha256": "baf8e8c74f09cef66aa9fb5dfe1ebce8655bea37cf7c579f3878b3d6416d7738"
+    },
+    {
+      "path": "official/Full Pay Scale WIP.html",
+      "bytes": 152107,
+      "sha256": "1f0a77c773ca8fa31694f189232a493b1c59c3d00cfdf7d35860a29e5be4da57"
+    },
+    {
+      "path": "official/Full Pay Scale.html",
+      "bytes": 146572,
+      "sha256": "06508b8a38ccb73b4b847373f92f1d80db5f24c11034ca26d9c15d4fdd37de2e"
+    },
+    {
+      "path": "official/General Pay Scale.html",
+      "bytes": 51585,
+      "sha256": "33820d31e78d1674c1d1ef5304994fc6b26deeb3b423290feb41125966af2de2"
+    },
+    {
+      "path": "official/Ground Elements.html",
+      "bytes": 5565,
+      "sha256": "43e6725a213c63325d23542def2672fc454863a69b8a9475492cc6a32d7c5fca"
+    },
+    {
+      "path": "official/High Council Adjs.html",
+      "bytes": 8711,
+      "sha256": "6845e6885da030dfe8110e58528b83f1f74c052d00687dfeebf695b50683ed9d"
+    },
+    {
+      "path": "official/IRAF Pay Scale.html",
+      "bytes": 43535,
+      "sha256": "0589472cf43f67111b91c1407575e53bc5ce08c516dbde890a2e207e9dc7db45"
+    },
+    {
+      "path": "official/Personnel.html",
+      "bytes": 196050,
+      "sha256": "17cea6d55cd5262847de22c8e1b71e116fbacd6cf9f329881b1cd7ff371a6ca4"
+    },
+    {
+      "path": "official/Ranks & Salaries (WIP).zip",
+      "bytes": 555339,
+      "sha256": "67d124bb73ad6cc1e005b891063bea40dc523b86713eceea6a2f320cae4b2e4f",
+      "members": [
+        "CIRAF Pay Scale.html",
+        "General Pay Scale.html",
+        "IRAF Pay Scale.html",
+        "Special Pay Scale (Revamping).html",
+        "Full Pay Scale.html",
+        "Full Pay Scale WIP.html",
+        "Salaries per level.html",
+        "Ground Elements.html",
+        "High Council Adjs.html",
+        "Personnel.html",
+        "Additions.html",
+        "Sign-Off.html",
+        "resources/sheet.css"
+      ]
+    },
+    {
+      "path": "official/resources/sheet.css",
+      "bytes": 4295328,
+      "sha256": "f7dec13927f664407ca58ec978fb049423eae7d5b5ce973f6c77fbfceb6c40c9"
+    },
+    {
+      "path": "official/Salaries per level.html",
+      "bytes": 11825,
+      "sha256": "806fbf0c3d8958985acfe3a22640ecedd6dd7e64dbfa8cc17564d291c1ce75af"
+    },
+    {
+      "path": "official/Sign-Off.html",
+      "bytes": 10142,
+      "sha256": "51a36940b0ce56e51e3646b4f6d51f1bd7ef961bf62e2ee095c8017b81989203"
+    },
+    {
+      "path": "official/Special Pay Scale (Revamping).html",
+      "bytes": 33263,
+      "sha256": "ff9ce3b90424019b9e824f910ac5fe7018f0e1eeef9aa86f95320a249b8ae6e0"
+    },
+    {
+      "path": "references/army_company_toe_by_taivaansusi_dfqpbts.png",
+      "bytes": 1729015,
+      "sha256": "f48f903562c9c20f746dc3d1cd8d1a4b6c4e2f8661f70280e939c9b8df8a59eb",
+      "dimensions": [
+        4600,
+        4600
+      ]
+    },
+    {
+      "path": "references/defense_industries_and_shipyards.jpg",
+      "bytes": 1153996,
+      "sha256": "6be1cba30746dc2f2bf2708d9a97bbd7210963c9c521bd828be7c56d469c8342",
+      "dimensions": [
+        2000,
+        1865
+      ]
+    },
+    {
+      "path": "references/galaxy-map-by-taivaansusi.jpg",
+      "bytes": 8410931,
+      "sha256": "e8414f76b056424c433d155ae07f1945e1500146e6a7ad5f72455c2c787fecc7",
+      "dimensions": [
+        6000,
+        6043
+      ]
+    },
+    {
+      "path": "references/imperial_rank_table-by-whatsahonda.png",
+      "bytes": 84889,
+      "sha256": "5bd9b889a6ae46f2599e311f4f6aef2990e157df65ccde6fd3486dcf13fdb94d",
+      "dimensions": [
+        1958,
+        1084
+      ]
+    },
+    {
+      "path": "references/imperial_rank_table_by_whatsahonda_dge4tzj-pre.jpg",
+      "bytes": 186448,
+      "sha256": "bb3db29f6f24daee336f73e7579af85a972df897a1a3373cf3476d7a99e5a830",
+      "dimensions": [
+        1202,
+        665
+      ]
+    },
+    {
+      "path": "references/imperial_rules_of_escalation_by_taivaansusi_dfqpc6i-fullview.jpg",
+      "bytes": 211369,
+      "sha256": "5776ac91e6de54ed3d79b2377162641dcb474ea9aaec67ef8261990d6457b869",
+      "dimensions": [
+        1280,
+        1246
+      ]
+    },
+    {
+      "path": "references/imperial_uniform_recognition_chart_2_by_taivaansusi_dfzysvt.png",
+      "bytes": 2731528,
+      "sha256": "2c962fadf61ef9addebfa34a5076dc463e5477e1addd9a8148978721c52883f3",
+      "dimensions": [
+        7016,
+        9934
+      ]
+    },
+    {
+      "path": "references/Ranks of the Galactic Empire - Holocron - Star Wars Combine.mhtml",
+      "bytes": 395892,
+      "sha256": "70d692f020b6f4df4499e8285c942f5e5cd346142b2a68df900431c04ed90b4a"
+    },
+    {
+      "path": "references/table_of_ranks_in_imperial_service_by_taivaansusi_dghzkn3.png",
+      "bytes": 652182,
+      "sha256": "3a0449e865a2914e8eefe1f06dbd365189427f11b835597a185c256ca6b31e86",
+      "dimensions": [
+        2445,
+        2606
+      ]
+    },
+    {
+      "path": "sources.md",
+      "bytes": 1384,
+      "sha256": "e8c23bd65dd867db7e1ccb3c2d56f46f8bac24f95e7465e47ff5766a0c13e922"
+    }
+  ]
+}

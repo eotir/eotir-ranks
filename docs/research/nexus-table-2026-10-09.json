@@ -1,0 +1,2470 @@
+{
+  "source_url": "https://nexus.eotir.com/rankchart.html/",
+  "source_sha256": "cf4f0ad41ad1d1a925b4dd44e2ec1f983952685ada8501653863e9d9cda5ec46",
+  "authority": "Published source snapshot, not a newly approved rank dictionary.",
+  "tables": [
+    [
+      [
+        {
+          "tag": "th",
+          "text": "Paygrade",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "ROYAL THRONE RANKS",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "RT-4",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Supreme Ruler",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "RT-3",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Executor",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "RT-2",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Empress",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "RT-1",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Supreme Chancellor",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "HIGH COMMAND RANKS",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-7",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Praetor / Royal First Family",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-6",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Councilor / Chief of Staff / Grand Minister",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-5",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Vice Chancellor / Royal Family",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-4",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lord Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lord Marshall",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lord General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lord Moff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-3",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Grand Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Grand Marshall",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Grand General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Grand Moff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-2",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Marshall",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Judicator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Chief of Staff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Commandant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Ambassador",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Moff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "HC-1",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Fleet Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Marshall",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Surface Marshall",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "High Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Judicator / Minister of Justice",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Director-General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Ambassador",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Moff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "COMMAND RANKS",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-6",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Command Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Command General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Command General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Royal Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Territorial Administrator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "State Security Advisor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Command General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Envoy",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-5",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Inspector General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Oversector Judicator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Under Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Inspector General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Representative",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-4",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Vice Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Oversector Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Oversector Region Judicator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Bureau Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Charg\u00e9 d'affaires",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sector Adjutant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Bureau Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-3",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Rear Admiral",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Region Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sector Judicator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Assistant Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Bureau Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Office Manager",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Resident Minister",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "System Governor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Bureau Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-2",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Commodore",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Brigadier General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Brigadier General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sector Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Station Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Brigadier General",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Minister-Counsellor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Governor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Station Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "C-1",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Line Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "System Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "System Court Justice",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Health Supervisor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Counsellor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "OFFICER RANKS",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-6",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Planetary Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Planatary Court Justice",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant Colonel",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "First Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutentant Governor / Prefect",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Chief",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-5",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Commander",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Inquisitor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Magistrate",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Commander",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Military Aide",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Commander",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Second Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sub-Prefect",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Master Agent",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-4",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant Commander",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Provincinal Inspector",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Provincinal Judge",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Assistant Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Communications Director",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Third Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Provincinal Mayor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Staff Agent",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-3",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "First Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "First Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "District Inspector",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "District Judge",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Policy Advisor / Office Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Captain",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Attach\u00e9",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Mayor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Agent",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-2",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant Junior Grade",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Second Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Second Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Municipal Inspector",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Municipal Judge",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Political Officer",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Attach\u00e9",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Vice Mayor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Agent",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "O-1",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Ensign",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Third Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Third Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Justice of the Peace (?)",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lieutenant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Master Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Attach\u00e9",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Deputy Mayor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Junior Agent",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "ENLISTED RANKS",
+          "rowspan": "1",
+          "colspan": "12",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-7",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Flight Sergeant Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant Major",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Manager",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Detective Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Staff Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-6",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Flight Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Staff Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Staff Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Manager",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Junior Office Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant First Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-5",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Manager",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Detective",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Assistant Secretary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Sergeant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-4",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Supervisor",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Junior Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-3",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Lance Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Squad Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Squad Corporal",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Constable",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Guardsman First Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Collaborator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-2",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Crewman First Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Private First Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Private First Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Senior Officer",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Guardsman Second Class",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Collaborator",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "E-1",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Crewman",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Private",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Private",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Associate Analyst",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Officer",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Guardsman",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "td",
+          "text": "Informant",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Navy",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Marine",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Army",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Inquisition",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Judiciary",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Ministries",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Security Bureau",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "His Majesty's Personal Staff",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "His Majesty's Royal Guard",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "State",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Regional Governance",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Intelligence Service",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        }
+      ],
+      [
+        {
+          "tag": "td",
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Armed Forces",
+          "rowspan": "1",
+          "colspan": "3",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "COMPNOR",
+          "rowspan": "1",
+          "colspan": "4",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Throne",
+          "rowspan": "1",
+          "colspan": "2",
+          "class": ""
+        },
+        {
+          "tag": "th",
+          "text": "Ministry of State",
+          "rowspan": "1",
+          "colspan": "3",
+          "class": ""
+        }
+      ]
+    ]
+  ]
+}

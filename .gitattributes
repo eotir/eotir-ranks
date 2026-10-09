@@ -1,0 +1,3 @@
+# Preserve exact source and render bytes: manifests hash text and binary files.
+# Disable checkout/staging newline conversion across Windows and Linux.
+* -text

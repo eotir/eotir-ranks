@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposed Imperial Republic rank candidate interchange",
+  "description": "Staging example only; does not replace canon-service schemas or enforce its serving gate.",
+  "type": "object",
+  "required": ["id", "branch_id", "grade", "title_raw", "pattern_id", "status", "approval", "source_assertions"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "branch_id": {"type": ["string", "null"]},
+    "grade": {"type": "string", "pattern": "^(E|O|C|HC|RT)-[1-9][0-9]*$"},
+    "title_raw": {"type": "string", "minLength": 1},
+    "title_display": {"type": "string", "minLength": 1},
+    "pattern_id": {"type": ["string", "null"]},
+    "status": {"enum": ["CANDIDATE", "SELECTED", "APPROVED", "RETIRED"]},
+    "approval": {"type": ["object", "null"]},
+    "source_assertions": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["source", "title", "grade"]}}
+  },
+  "allOf": [{"if": {"properties": {"status": {"const": "APPROVED"}}}, "then": {"properties": {"approval": {"type": "object", "required": ["approved_by", "approved_at", "scope", "asset_sha256"]}}}}]
+}

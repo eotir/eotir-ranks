@@ -1,0 +1,24 @@
+{
+  "observed_date": "2026-10-09",
+  "command": "python tools/verify_catalog.py",
+  "status": "PASS",
+  "branch_records": 210,
+  "military_records": 69,
+  "source_blanks": 66,
+  "shared_records": 7,
+  "patterns": 178,
+  "tile_placements": 1247,
+  "workbook_assertions": 355,
+  "charts": 14,
+  "html_rows": 283,
+  "largest_chart_bytes": 48785384,
+  "independent_pixel_reconstruction": true,
+  "browser_errors": [],
+  "native_inspection": "Corrected military chart top 1250x650 crop inspected at original pixels: header spacing, titles and plaque bevel readable. Representative inspection does not establish all-assets creative approval.",
+  "limitations": [
+    "All-branches raster is 110145979 pixels, above Pillow default warning threshold; trusted local generated file was read successfully. Prefer HTML or individual branch charts for routine review.",
+    "Font selection is host-dependent; font paths and hashes are recorded in the chart manifest.",
+    "Creative approval, hierarchy precedence and specialty color meanings remain unresolved."
+  ],
+  "creative_approval": false
+}

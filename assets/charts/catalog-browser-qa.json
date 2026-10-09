@@ -1,0 +1,35 @@
+{
+  "backgrounds": {
+    "checker": {
+      "color": "rgb(238, 238, 238)",
+      "image": "linear-gradient(45deg, rgb(204, 204, 204) 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(-45deg, rgb(204, 204, 204) 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(45deg, rgba(0, 0, 0, 0) 75%, rgb(204, 204, 204) 75%), linear-gradient(-45deg, rgba(0, 0, 0, 0) 75%, rgb(204, 204, 204) 75%)"
+    },
+    "dark": {
+      "color": "rgb(24, 33, 45)",
+      "image": "none"
+    },
+    "light": {
+      "color": "rgb(255, 255, 255)",
+      "image": "none"
+    }
+  },
+  "brokenImages": 0,
+  "chartDownloadLinks": 28,
+  "consoleErrors": [],
+  "filters": {
+    "crewman": 2,
+    "e1": 12,
+    "inquisition": {
+      "blanks": 11,
+      "rows": 23
+    },
+    "navy": 23
+  },
+  "images": 224,
+  "initialVisible": 283,
+  "nativeLink": "file:///D:/eotir/projects/ranks/assets/composed/military-enlisted-e1-grey-blue-v1.png",
+  "observedDate": "2026-10-09",
+  "resetVisible": 283,
+  "rows": 283,
+  "title": "Imperial Republic candidate rank library"
+}

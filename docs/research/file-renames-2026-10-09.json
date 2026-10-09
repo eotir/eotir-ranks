@@ -1,0 +1,156 @@
+[
+  {
+    "old_path": "official/Additions.html",
+    "new_path": "official/additions.html",
+    "sha256_before": "7a5b8d980d59bf038d1eb1b31cd17e963ec986d55bde0e537a2a656df54ab760",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "7a5b8d980d59bf038d1eb1b31cd17e963ec986d55bde0e537a2a656df54ab760"
+  },
+  {
+    "old_path": "official/CIRAF Pay Scale.html",
+    "new_path": "official/ciraf-pay-scale.html",
+    "sha256_before": "baf8e8c74f09cef66aa9fb5dfe1ebce8655bea37cf7c579f3878b3d6416d7738",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "baf8e8c74f09cef66aa9fb5dfe1ebce8655bea37cf7c579f3878b3d6416d7738"
+  },
+  {
+    "old_path": "official/Full Pay Scale WIP.html",
+    "new_path": "official/full-pay-scale-wip.html",
+    "sha256_before": "1f0a77c773ca8fa31694f189232a493b1c59c3d00cfdf7d35860a29e5be4da57",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "1f0a77c773ca8fa31694f189232a493b1c59c3d00cfdf7d35860a29e5be4da57"
+  },
+  {
+    "old_path": "official/Full Pay Scale.html",
+    "new_path": "official/full-pay-scale.html",
+    "sha256_before": "06508b8a38ccb73b4b847373f92f1d80db5f24c11034ca26d9c15d4fdd37de2e",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "06508b8a38ccb73b4b847373f92f1d80db5f24c11034ca26d9c15d4fdd37de2e"
+  },
+  {
+    "old_path": "official/General Pay Scale.html",
+    "new_path": "official/general-pay-scale.html",
+    "sha256_before": "33820d31e78d1674c1d1ef5304994fc6b26deeb3b423290feb41125966af2de2",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "33820d31e78d1674c1d1ef5304994fc6b26deeb3b423290feb41125966af2de2"
+  },
+  {
+    "old_path": "official/Ground Elements.html",
+    "new_path": "official/ground-elements.html",
+    "sha256_before": "43e6725a213c63325d23542def2672fc454863a69b8a9475492cc6a32d7c5fca",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "43e6725a213c63325d23542def2672fc454863a69b8a9475492cc6a32d7c5fca"
+  },
+  {
+    "old_path": "official/High Council Adjs.html",
+    "new_path": "official/high-council-adjs.html",
+    "sha256_before": "6845e6885da030dfe8110e58528b83f1f74c052d00687dfeebf695b50683ed9d",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "6845e6885da030dfe8110e58528b83f1f74c052d00687dfeebf695b50683ed9d"
+  },
+  {
+    "old_path": "official/IRAF Pay Scale.html",
+    "new_path": "official/iraf-pay-scale.html",
+    "sha256_before": "0589472cf43f67111b91c1407575e53bc5ce08c516dbde890a2e207e9dc7db45",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "0589472cf43f67111b91c1407575e53bc5ce08c516dbde890a2e207e9dc7db45"
+  },
+  {
+    "old_path": "official/Personnel.html",
+    "new_path": "official/personnel.html",
+    "sha256_before": "17cea6d55cd5262847de22c8e1b71e116fbacd6cf9f329881b1cd7ff371a6ca4",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "17cea6d55cd5262847de22c8e1b71e116fbacd6cf9f329881b1cd7ff371a6ca4"
+  },
+  {
+    "old_path": "official/Ranks & Salaries (WIP).zip",
+    "new_path": "official/ranks-and-salaries-wip.zip",
+    "sha256_before": "67d124bb73ad6cc1e005b891063bea40dc523b86713eceea6a2f320cae4b2e4f",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "67d124bb73ad6cc1e005b891063bea40dc523b86713eceea6a2f320cae4b2e4f"
+  },
+  {
+    "old_path": "official/Salaries per level.html",
+    "new_path": "official/salaries-per-level.html",
+    "sha256_before": "806fbf0c3d8958985acfe3a22640ecedd6dd7e64dbfa8cc17564d291c1ce75af",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "806fbf0c3d8958985acfe3a22640ecedd6dd7e64dbfa8cc17564d291c1ce75af"
+  },
+  {
+    "old_path": "official/Sign-Off.html",
+    "new_path": "official/sign-off.html",
+    "sha256_before": "51a36940b0ce56e51e3646b4f6d51f1bd7ef961bf62e2ee095c8017b81989203",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "51a36940b0ce56e51e3646b4f6d51f1bd7ef961bf62e2ee095c8017b81989203"
+  },
+  {
+    "old_path": "official/Special Pay Scale (Revamping).html",
+    "new_path": "official/special-pay-scale-revamping.html",
+    "sha256_before": "ff9ce3b90424019b9e824f910ac5fe7018f0e1eeef9aa86f95320a249b8ae6e0",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "ff9ce3b90424019b9e824f910ac5fe7018f0e1eeef9aa86f95320a249b8ae6e0"
+  },
+  {
+    "old_path": "references/army_company_toe_by_taivaansusi_dfqpbts.png",
+    "new_path": "references/army-company-toe-taivaansusi.png",
+    "sha256_before": "f48f903562c9c20f746dc3d1cd8d1a4b6c4e2f8661f70280e939c9b8df8a59eb",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "f48f903562c9c20f746dc3d1cd8d1a4b6c4e2f8661f70280e939c9b8df8a59eb"
+  },
+  {
+    "old_path": "references/defense_industries_and_shipyards.jpg",
+    "new_path": "references/defense-industries-and-shipyards.jpg",
+    "sha256_before": "6be1cba30746dc2f2bf2708d9a97bbd7210963c9c521bd828be7c56d469c8342",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "6be1cba30746dc2f2bf2708d9a97bbd7210963c9c521bd828be7c56d469c8342"
+  },
+  {
+    "old_path": "references/galaxy-map-by-taivaansusi.jpg",
+    "new_path": "references/galaxy-map-taivaansusi.jpg",
+    "sha256_before": "e8414f76b056424c433d155ae07f1945e1500146e6a7ad5f72455c2c787fecc7",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "e8414f76b056424c433d155ae07f1945e1500146e6a7ad5f72455c2c787fecc7"
+  },
+  {
+    "old_path": "references/imperial_rank_table-by-whatsahonda.png",
+    "new_path": "references/imperial-rank-table-whatsahonda.png",
+    "sha256_before": "5bd9b889a6ae46f2599e311f4f6aef2990e157df65ccde6fd3486dcf13fdb94d",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "5bd9b889a6ae46f2599e311f4f6aef2990e157df65ccde6fd3486dcf13fdb94d"
+  },
+  {
+    "old_path": "references/imperial_rank_table_by_whatsahonda_dge4tzj-pre.jpg",
+    "new_path": "references/imperial-rank-table-whatsahonda-preview.jpg",
+    "sha256_before": "bb3db29f6f24daee336f73e7579af85a972df897a1a3373cf3476d7a99e5a830",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "bb3db29f6f24daee336f73e7579af85a972df897a1a3373cf3476d7a99e5a830"
+  },
+  {
+    "old_path": "references/imperial_rules_of_escalation_by_taivaansusi_dfqpc6i-fullview.jpg",
+    "new_path": "references/imperial-rules-of-escalation-taivaansusi.jpg",
+    "sha256_before": "5776ac91e6de54ed3d79b2377162641dcb474ea9aaec67ef8261990d6457b869",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "5776ac91e6de54ed3d79b2377162641dcb474ea9aaec67ef8261990d6457b869"
+  },
+  {
+    "old_path": "references/imperial_uniform_recognition_chart_2_by_taivaansusi_dfzysvt.png",
+    "new_path": "references/imperial-uniform-recognition-chart-2-taivaansusi.png",
+    "sha256_before": "2c962fadf61ef9addebfa34a5076dc463e5477e1addd9a8148978721c52883f3",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "2c962fadf61ef9addebfa34a5076dc463e5477e1addd9a8148978721c52883f3"
+  },
+  {
+    "old_path": "references/Ranks of the Galactic Empire - Holocron - Star Wars Combine.mhtml",
+    "new_path": "references/combine-galactic-empire-ranks.mhtml",
+    "sha256_before": "70d692f020b6f4df4499e8285c942f5e5cd346142b2a68df900431c04ed90b4a",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "70d692f020b6f4df4499e8285c942f5e5cd346142b2a68df900431c04ed90b4a"
+  },
+  {
+    "old_path": "references/table_of_ranks_in_imperial_service_by_taivaansusi_dghzkn3.png",
+    "new_path": "references/table-of-ranks-in-imperial-service-taivaansusi.png",
+    "sha256_before": "3a0449e865a2914e8eefe1f06dbd365189427f11b835597a185c256ca6b31e86",
+    "status": "renamed-and-byte-verified",
+    "sha256_after": "3a0449e865a2914e8eefe1f06dbd365189427f11b835597a185c256ca6b31e86"
+  }
+]

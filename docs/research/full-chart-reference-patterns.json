@@ -1,0 +1,8261 @@
+{
+  "date": "2026-10-09",
+  "status": "REFERENCE_EVIDENCE",
+  "source_url": "https://holocron.swcombine.com/wiki/Ranks_of_the_Galactic_Empire",
+  "source_capture": "references/combine-galactic-empire-ranks.mhtml",
+  "source_sha256": "70d692f020b6f4df4499e8285c942f5e5cd346142b2a68df900431c04ed90b4a",
+  "note": "88 source graphics decoded; color tokens adapt appearance to local candidate tiles, not source entitlement or adopted Imperial Republic patterns.",
+  "references": [
+    {
+      "id": "ME-1",
+      "url": "https://holocron.swcombine.com/images/2/29/ME-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "9bc33611ff1fb54a50daca17d2ff0310047b5d2beea87d610f61039e82bd541f",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              90,
+              91,
+              93,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIE-2",
+      "url": "https://holocron.swcombine.com/images/3/3e/MIE-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c14c13b0a1c6e461f7f37d95c5211ef91b4eee6acd5c70368446285acda52fe4",
+      "dimensions": [
+        15,
+        24
+      ],
+      "rows": [
+        [
+          "grey"
+        ],
+        [
+          "green"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              90,
+              92,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              141,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGE-2",
+      "url": "https://holocron.swcombine.com/images/5/5b/RGE-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "3a57d5eab082b3d7335d4b9a9724ad3ede563c15b0e683f04a215dfa8cf8c754",
+      "dimensions": [
+        15,
+        24
+      ],
+      "rows": [
+        [
+          "grey"
+        ],
+        [
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ME-2",
+      "url": "https://holocron.swcombine.com/images/e/e6/ME-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "06a0217bd6aab5277765fb8815cc17e8b7b25787a82bae9ebaba86db1c913576",
+      "dimensions": [
+        15,
+        24
+      ],
+      "rows": [
+        [
+          "grey"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              90,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              1,
+              192,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIE-3",
+      "url": "https://holocron.swcombine.com/images/0/00/MIE-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "05850df683c28ec3c4a75f944071d765495ae478da561c6ea5a0ff19db506f63",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "green",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              90,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              90,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              139,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              90,
+              91,
+              93,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGE-3",
+      "url": "https://holocron.swcombine.com/images/6/60/RGE-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "30854fb27757b03e3835810d3ee3f800dd30a06a6f1dfd4221e182733011ac7e",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "red",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ME-3",
+      "url": "https://holocron.swcombine.com/images/c/c9/ME-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "9ece7addf07c59176a3609c45923e83807ef5a30ac07ad44f14e866dcda5d392",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              94,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              94,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIE-4",
+      "url": "https://holocron.swcombine.com/images/5/5d/MIE-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "935bbc4b74de6399789d6bcc2b5cf1ac7b2b837e5beadc1207a3b558b9df0d79",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "green",
+          "green"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              92,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              90,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              141,
+              5,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              140,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGE-4",
+      "url": "https://holocron.swcombine.com/images/f/f0/RGE-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "548e2ceef7d2c0c7ddde6b114f30190418e464b07327181e77bd9e9616a08c2f",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "red",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ME-4",
+      "url": "https://holocron.swcombine.com/images/0/0d/ME-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "472a1a4d8ab35c8118e44440bd08523adb24a254647258091a6752473897f574",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              96,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIE-5",
+      "url": "https://holocron.swcombine.com/images/b/ba/MIE-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "42e6d324353f1ae2ee49a535ec0f9817d424d6cf2d422f56d864475fba976d5d",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "green",
+          "green",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              92,
+              92,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              93,
+              91,
+              94,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              90,
+              94,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              139,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              139,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              91,
+              92,
+              92,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGE-5",
+      "url": "https://holocron.swcombine.com/images/2/2f/PGE-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "74e20422696e0e365056f2ddaf74684af46888e281904fd277d799d89ef90be0",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "orange",
+          "orange",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGE-5",
+      "url": "https://holocron.swcombine.com/images/7/76/RGE-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "336becc77a0b4d9ed9990ac7b944aa1eea1fb46b0f37c6c954b05c701420c514",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "red",
+          "red",
+          "grey"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ME-5",
+      "url": "https://holocron.swcombine.com/images/f/f5/ME-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c1dc099866e3ff4ab335ab730c9f962b454c772f13ca0cfa48df9e5a3243c9b2",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              96,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIE-6",
+      "url": "https://holocron.swcombine.com/images/3/37/IIE-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "15f0969ae85d86c302eef697962e08bc4ed382066eee44b1742ffc4817ff6488",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "red"
+        ],
+        [
+          "grey",
+          "grey",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIE-6",
+      "url": "https://holocron.swcombine.com/images/e/ea/MIE-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "b52a5db6cf113827f805f76873e605c277c4e6f092be5392c7a1f6e25dcef6f2",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "green",
+          "green",
+          "green"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              95,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              91,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              141,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGE-6",
+      "url": "https://holocron.swcombine.com/images/2/29/PGE-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c3fa138d8123d04286a12b08fda1d15dca4e3aceba11978487cb7acbdebf6dd7",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGE-6",
+      "url": "https://holocron.swcombine.com/images/f/fd/RGE-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "17a62735a628efb0bd2849e1a95791e8a860412e38e34ce503096cd3c0655947",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              91,
+              91,
+              93,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ME-6",
+      "url": "https://holocron.swcombine.com/images/b/b5/ME-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "5e27c7743a721e8b1f54b540fd674b2d2255b7afd7d481d55d7a473cf47aa8b6",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              92,
+              92,
+              96,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              90,
+              90,
+              91,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-1",
+      "url": "https://holocron.swcombine.com/images/3/38/IIO-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "cf24d431b5d924e2df20d7e7cbbd5b82bee536727891f2aaa3dc1a76cbc847ae",
+      "dimensions": [
+        15,
+        13
+      ],
+      "rows": [
+        [
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-1",
+      "url": "https://holocron.swcombine.com/images/5/58/MIO-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "2b4965b55fdf131f9dcb892511ee5cf0b3a8873a0b47aee57a8f7057f98f2c64",
+      "dimensions": [
+        15,
+        13
+      ],
+      "rows": [
+        [
+          "green"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-1",
+      "url": "https://holocron.swcombine.com/images/1/1c/ISBO-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "73a134df302f17798b86c429631fa543278f905d1f3d55d402636093c18ea13a",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-1",
+      "url": "https://holocron.swcombine.com/images/8/8f/PGO-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "fe42384c19098ae55ba4137c7f438b8edb3f6f1ecc690016f5c9626a603708f0",
+      "dimensions": [
+        15,
+        24
+      ],
+      "rows": [
+        [
+          "blue"
+        ],
+        [
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              191,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-1",
+      "url": "https://holocron.swcombine.com/images/0/03/MO-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "a48c7b544a9acb5690a852056d32af28f5273bae3f7fbfacd071c794cf0b1d43",
+      "dimensions": [
+        15,
+        24
+      ],
+      "rows": [
+        [
+          "red"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-2",
+      "url": "https://holocron.swcombine.com/images/a/ab/IIO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c862ea44f8138f0b44de4b4b933920534c3162d1ac3dd1381a22574a68affa93",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-2",
+      "url": "https://holocron.swcombine.com/images/b/b7/MIO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "cf51121bb079ccd8fa04667340e3bdcf43aa7915bc35cf500511c210a13b42e6",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-2",
+      "url": "https://holocron.swcombine.com/images/8/88/ISBO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "282a0409b274fc4b0c6599ce32df841063fc5ad3190edbee660a3c9c68a97bca",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-2",
+      "url": "https://holocron.swcombine.com/images/0/0e/PGO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "e2ebc0bbd2c8b4aee3a873aab1968663670153008f12d87c04d17fae6f0a7efb",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              201,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              218,
+              98,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              191,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGO-2",
+      "url": "https://holocron.swcombine.com/images/2/26/RGO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "d273318d23c20f5cccdc6b9c3fa878a9e5779797b620a6c0628e7ef745c1e5ca",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              195,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-2",
+      "url": "https://holocron.swcombine.com/images/5/51/MO-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "ecd4c8cd2593c8f703ef7058eb86d3ceee2150e6e64871fafb0fa91992c9b17d",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              197,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-3",
+      "url": "https://holocron.swcombine.com/images/1/14/IIO-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "053eecf16bd3af42f4614e215a1597a281e20dc3b1d681df40be4f8ac7b049b3",
+      "dimensions": [
+        37,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-3",
+      "url": "https://holocron.swcombine.com/images/8/8c/MIO-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c964eb511b7d7b09a0989cad640dc19dc6bd8893d4d96b0d704f4f631b0a658b",
+      "dimensions": [
+        37,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-3",
+      "url": "https://holocron.swcombine.com/images/4/43/ISBO-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "04d7a30298bce40093091714ed595ca6e000feaf3efdd3d15681aad612930d26",
+      "dimensions": [
+        37,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-3",
+      "url": "https://holocron.swcombine.com/images/b/ba/PGO-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "ab968014c884276060c617d3101d39df46b0a3bc75ce0aefade40787e7cdd167",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-3",
+      "url": "https://holocron.swcombine.com/images/a/aa/MO-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "56b04734fc00c43d98928ac01e85373cc7625b2d074b93ad0e7ee5ee8ddcfcc3",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              190,
+              1,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-4",
+      "url": "https://holocron.swcombine.com/images/e/ec/IIO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "79585343ca4b8b04ab1f4f72c0a895eabbf5c316a75ab2c39e4e300f4f29e83c",
+      "dimensions": [
+        48,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-4",
+      "url": "https://holocron.swcombine.com/images/a/a7/MIO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "b2f0413b0d7a39307d6d907551d5b939abb618bca0899b7ee3359919d86b839b",
+      "dimensions": [
+        48,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              195,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-4",
+      "url": "https://holocron.swcombine.com/images/c/c8/ISBO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "74cefd6ec8e803d47591e8d17a7d70d4d3fe2cfc6262885cd07b7b2cd5fa29f0",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              250,
+              120,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              250,
+              120,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              123,
+              137,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              123,
+              137,
+              249,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-4",
+      "url": "https://holocron.swcombine.com/images/8/81/PGO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "ee22e711604a9f96e3031ccd1a230048db079aa3afa4aff04a56d0a2f77914ed",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGO-4",
+      "url": "https://holocron.swcombine.com/images/5/54/RGO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "78f03b882325c38ee1133a45dc732f140e15b1e7487be253de01602eb6e4c801",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-4",
+      "url": "https://holocron.swcombine.com/images/5/50/MO-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "fa86a6ad6eda593fbfd4a464833214f6bb7f1d9277096f90137b7c6c48080b8a",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "blue",
+          "red",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              193,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              0,
+              0,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              3,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              0,
+              3,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-5",
+      "url": "https://holocron.swcombine.com/images/6/66/IIO-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "645755a92202cc07123a4255b0db5573840874fe0e66105b27429eba3802b0ad",
+      "dimensions": [
+        59,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              193,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-5",
+      "url": "https://holocron.swcombine.com/images/7/7d/MIO-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c9ff14fd76cbb4a81b2d2ea0a829fd185e2a94a190e0f15708a9779a09fc4248",
+      "dimensions": [
+        59,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              2,
+              143,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-5",
+      "url": "https://holocron.swcombine.com/images/8/89/ISBO-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "1ea717b1b53d7ae29813b1c2ea440849a61992ce624cce69fb6d4dd6bfff3735",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              250,
+              119,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              250,
+              119,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              250,
+              119,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              123,
+              138,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              123,
+              138,
+              249,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-5",
+      "url": "https://holocron.swcombine.com/images/7/7d/PGO-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "431c56f373545a719abf458de6cfd26c17037ca9c2f1ddbb76c4616557a591bb",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-5",
+      "url": "https://holocron.swcombine.com/images/4/43/MO-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "3d3354dbe3246840f6798aaf54465ea3926fdcd9d39dfce07aff6505f8f6f411",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              195,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              195,
+              0,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIO-6",
+      "url": "https://holocron.swcombine.com/images/a/a0/IIO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "4a9e1faa0bf046c3bc6cc4aabc4bd32718648c2e96bfcd74f44aaf82e7ef37fc",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIO-6",
+      "url": "https://holocron.swcombine.com/images/f/f6/MIO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "4a13d624b5093d814ec94f9165e766b63aee56aadba31bbfa05e0c21f943c95a",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              2,
+              143,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              2,
+              143,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBO-6",
+      "url": "https://holocron.swcombine.com/images/3/3f/ISBO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "1cb9496b1a5b3c50166835cf82e1b52a5e3668b96ce8299ab3fb53d51f3537ff",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              252,
+              122,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              250,
+              118,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              252,
+              122,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              252,
+              122,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              122,
+              137,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              122,
+              137,
+              248,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGO-6",
+      "url": "https://holocron.swcombine.com/images/4/41/PGO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "7c8befb7f5131199921577c1bd6aab4bc078e0881fa4754bb9d331cb524b8ee6",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              193,
+              91,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGO-6",
+      "url": "https://holocron.swcombine.com/images/5/5d/RGO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "fb59b531c518cc3dd190f9d8c34010ffa85e54d7b90c8343f78d29d1ace24322",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              196,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              193,
+              192,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              192,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MO-6",
+      "url": "https://holocron.swcombine.com/images/6/66/MO-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "43bcc2da5951a44bd9faffcf484da7a0b512b910a97c3a0468e0ddf69a3d9fc2",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              193,
+              0,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIC-1",
+      "url": "https://holocron.swcombine.com/images/b/bb/IIC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "f1bea45d16a2fd060aa168d63dffee49b22663740be46b732d9238e42dcd8c98",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIC-1",
+      "url": "https://holocron.swcombine.com/images/2/24/MIC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "001486c866a514588a945ea21fbc5239b44c267a72da7fa30345b38e33184797",
+      "dimensions": [
+        26,
+        13
+      ],
+      "rows": [
+        [
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBC-1",
+      "url": "https://holocron.swcombine.com/images/7/75/ISBC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "9f9fab0f71b3fd9af06b182e7044e86522cd332c006929b73e777c19839d4c95",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              251,
+              121,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              251,
+              121,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              251,
+              121,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              122,
+              137,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              122,
+              137,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              122,
+              137,
+              248,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGC-1",
+      "url": "https://holocron.swcombine.com/images/8/8e/PGC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "49f9b0a2e6264a8e8831cd83f249417678376421b072ebb1844495a373fc2682",
+      "dimensions": [
+        26,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue"
+        ],
+        [
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              170,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGC-1",
+      "url": "https://holocron.swcombine.com/images/4/43/RGC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "384756498e3493ab845f25e00965d8f4e9d55fc38ecb9c0f06191b8ee28a78a5",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MC-1",
+      "url": "https://holocron.swcombine.com/images/3/3a/MC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "749ff300e614d0f523c98537b4c2794d24c2ff377020ae0e54890f2e5f2e0352",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              196,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              188,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              196,
+              1,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIC-2",
+      "url": "https://holocron.swcombine.com/images/e/e6/IIC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "43bf437bd59c9fd300c65cba60eacbfe2a192744c52582b9b75722d6bb7aa072",
+      "dimensions": [
+        37,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBC-2",
+      "url": "https://holocron.swcombine.com/images/a/a7/ISBC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "5bf8821d37c7e92246e383a9a613a7343131f429ad210e4e3fe64ec0e480c7c3",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              251,
+              120,
+              123,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              251,
+              120,
+              123,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              122,
+              136,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              122,
+              147,
+              252,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              122,
+              136,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              122,
+              136,
+              248,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGC-2",
+      "url": "https://holocron.swcombine.com/images/5/51/PGC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c9c3432ca3c6db27b18d67b40e4daf921dcfb1256304bbafbe81537246014013",
+      "dimensions": [
+        37,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              0,
+              194,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGC-2",
+      "url": "https://holocron.swcombine.com/images/7/79/RGC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "2fee3aa99fec3a6c78a2ba39ba83046646a84edd858af18456e0b800d732bdc2",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              191,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              193,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MC-2",
+      "url": "https://holocron.swcombine.com/images/8/8e/MC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c14acb598fca4fc436ec3c5a90a382930a35df4de506bdecbdc14451251d247c",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              1,
+              3,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              1,
+              3,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              194,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              0,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIC-3",
+      "url": "https://holocron.swcombine.com/images/b/b2/IIC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "0e06e075da2751262a077a17df56e7a15842b21b839763963da25eec1adc06ac",
+      "dimensions": [
+        48,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              192,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              191,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIC-3",
+      "url": "https://holocron.swcombine.com/images/4/4c/MIC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "a598ee9ba0f8a20e3c2ff9d0fb674db6c3def59cb02eabd3a579a8486a9b9390",
+      "dimensions": [
+        48,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              141,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBC-3",
+      "url": "https://holocron.swcombine.com/images/9/91/ISBC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "554d5e115afd96f91ae7aa740bacc87fe61ce09c883bae7235e368f52d53c57d",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              244,
+              120,
+              122,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              122,
+              135,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              122,
+              135,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              122,
+              135,
+              248,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              121,
+              149,
+              252,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              122,
+              135,
+              248,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGC-3",
+      "url": "https://holocron.swcombine.com/images/1/10/PGC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "0d2514171db51944aba97ce96a158aa22e60ca1507511e143070282b9b651368",
+      "dimensions": [
+        48,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              192,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              193,
+              192,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MC-3",
+      "url": "https://holocron.swcombine.com/images/c/cf/MC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "c3b4426c79e2241578f31492749678c1792db3862364175c37327530c8ded91f",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              187,
+              2,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              195,
+              1,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              195,
+              1,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              195,
+              1,
+              2,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              188,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              188,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBC-4",
+      "url": "https://holocron.swcombine.com/images/0/0c/ISBC-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "f7c07576014520425e718abe1b41d44332b005364f297e3eebdfce5a8b573fd8",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              119,
+              138,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              119,
+              138,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              119,
+              138,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              122,
+              141,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              122,
+              141,
+              249,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              122,
+              141,
+              249,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              255,
+              255,
+              255,
+              0
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGC-4",
+      "url": "https://holocron.swcombine.com/images/2/2b/PGC-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "452859b5504bb436e5c02d6ac55addf7b3eb6d55900087201e2f970d501a4e39",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              193,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              91,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGC-4",
+      "url": "https://holocron.swcombine.com/images/9/99/RGC-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "a0a823443801abcd0f258360664b38de5fd2ca4cff54c0e7c80e80a29b3d0c65",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              194,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              194,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MC-4",
+      "url": "https://holocron.swcombine.com/images/a/a2/MC-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "72abf27fb0893d7f22c9ecacf9619527dd1fbb16d079369b070c34a9a5aa0e97",
+      "dimensions": [
+        59,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              191,
+              0,
+              3,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              191,
+              0,
+              3,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              190,
+              2,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              197,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              190,
+              2,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              187,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIC-5",
+      "url": "https://holocron.swcombine.com/images/d/d6/IIC-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "bec414b251f326ba1b59790c8d124faff5c6b52a320ac6035597bd8d0e4c3705",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              196,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              196,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              196,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              196,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIC-5",
+      "url": "https://holocron.swcombine.com/images/4/44/MIC-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "80d7de122f9ad74bd32697e9a17d6c6972b378e893a6517b35e2c80b5f9e7050",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              142,
+              5,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              140,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              196,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              196,
+              193,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MC-5",
+      "url": "https://holocron.swcombine.com/images/7/77/MC-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "1bc722073f9a89618f0cfaa7b8723c6ff3f02030b0be95ef8a952ab87c47159c",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              195,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIHC-1",
+      "url": "https://holocron.swcombine.com/images/e/ef/MIHC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "e2da03c23160442584f2fe698d69526944e5fe40b2f5736861ca1bb2f2fa5714",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              2,
+              143,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "ISBHC-1",
+      "url": "https://holocron.swcombine.com/images/f/f1/ISBHC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "4cf271c001a3bbbe9703c74f9fc613167314a7633472d123070d67c06a4bb92d",
+      "dimensions": [
+        70,
+        13
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              0,
+              2,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              0,
+              2,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              0,
+              2,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "PGHC-1",
+      "url": "https://holocron.swcombine.com/images/a/aa/PGHC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "228ed916a03530adfdacfce1c4dfc145b3b97faf2c36cb050193df815d70cfd6",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "orange",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              217,
+              98,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              217,
+              98,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              217,
+              98,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              217,
+              98,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              195,
+              191,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              193,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGHC-1",
+      "url": "https://holocron.swcombine.com/images/6/67/RGHC-1.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "be916551edfae8a6a38f4e0987ded908ca7e7388d0e992a4182e1af71e409fba",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              193,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              194,
+              193,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGHC-2",
+      "url": "https://holocron.swcombine.com/images/2/2a/RGHC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "1939f5f9ed23d9f7ea1b1e67b308e7cb87f60df5e376d15a52ef67e07d462fa3",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              195,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              195,
+              0,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              194,
+              192,
+              0,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MHC-2",
+      "url": "https://holocron.swcombine.com/images/e/e1/MHC-2.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "39f3922c3ed0abf66ceaa16bb2d0aa2b9527a5bbac06d5f0742fef32ab568674",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "gold",
+          "gold",
+          "gold"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              197,
+              194,
+              0,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              1,
+              0,
+              196,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              197,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              186,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              197,
+              0,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "IIHC-3",
+      "url": "https://holocron.swcombine.com/images/9/90/IIHC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "0fd02d857cd17a3147454b4fc18fdbfa7fd91843770cb6a5e5da3bd682f26c76",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        [
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MIHC-3",
+      "url": "https://holocron.swcombine.com/images/5/5e/MIHC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "80cdbde606eedd095dfe3d08a3eab60fc89629f92b5c19c31673665cc1272afc",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        [
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              2,
+              141,
+              0,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "RGHC-3",
+      "url": "https://holocron.swcombine.com/images/b/b8/RGHC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "d938fec0fa4400c199fab615c370c1b1fa29b817cb3800a658992fab67cfa792",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "red",
+          "red",
+          "red",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              195,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              195,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              193,
+              1,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "MHC-3",
+      "url": "https://holocron.swcombine.com/images/6/6e/MHC-3.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "ba0fe966c3f133018c1a2d2394994ec0738b220438d5356e96d1135fe4964c5b",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "gold",
+          "gold",
+          "gold"
+        ],
+        [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              0,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              194,
+              194,
+              1,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              196,
+              0,
+              1,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "CHC-4",
+      "url": "https://holocron.swcombine.com/images/5/54/CHC-4.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "671eb9b8e575d1b98f93127f786d775ddcdd5663ebc8e6d7aa9bc5c5eea14741",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold",
+          "gold"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              1,
+              1,
+              197,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              191,
+              2,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "GEHC-5",
+      "url": "https://holocron.swcombine.com/images/c/c9/GEHC-5.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "b2668f8e38b3e3e9a247613846f98b9259ab967498a3b3b5d914c7071624c5f3",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              2,
+              0,
+              192,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              192,
+              192,
+              194,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    },
+    {
+      "id": "GEHC-6",
+      "url": "https://holocron.swcombine.com/images/f/ff/GEHC-6.gif",
+      "capture": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256_gif": "28c7547e807d27ca60b7a485a8600a33f60d77005beef0cdba44d8a7fb856176",
+      "dimensions": [
+        70,
+        24
+      ],
+      "rows": [
+        [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ]
+      ],
+      "samples": [
+        [
+          {
+            "x": 7,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 7,
+            "rgba": [
+              194,
+              192,
+              192,
+              255
+            ]
+          }
+        ],
+        [
+          {
+            "x": 7,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 18,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 29,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 40,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 51,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          },
+          {
+            "x": 62,
+            "y": 18,
+            "rgba": [
+              194,
+              194,
+              192,
+              255
+            ]
+          }
+        ]
+      ],
+      "method": "Face centers x=7+11n,y=7+11n; transparent padding excluded; colors visually cross-checked against saved contact sheet."
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "CANDIDATE",
+  "direction": "Ryan selected Combine grey/blue family, shared across military grades, for first drafts.",
+  "direction_is_visual_approval": false,
+  "canonical": false,
+  "published": false,
+  "scope": "First bottom-up enlisted review batch; not the complete military chart.",
+  "grade_patterns": [
+    {
+      "grade": "E-1",
+      "order_bottom_up": 1,
+      "pattern_id": "military-enlisted-e1-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "expected_tile_count": 2,
+      "source_design_url": "https://holocron.swcombine.com/images/2/29/ME-1.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e1-v2.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 2,
+      "iteration_history": [
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e1-v1.png"
+      ]
+    },
+    {
+      "grade": "E-2",
+      "order_bottom_up": 2,
+      "pattern_id": "military-enlisted-e2-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 2,
+      "source_design_url": "https://holocron.swcombine.com/images/e/e6/ME-2.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e2-v1.png",
+      "observed_pattern": [
+        [
+          "grey"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 1,
+      "iteration_history": []
+    },
+    {
+      "grade": "E-3",
+      "order_bottom_up": 3,
+      "pattern_id": "military-enlisted-e3-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 4,
+      "source_design_url": "https://holocron.swcombine.com/images/c/c9/ME-3.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e3-v1.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 1,
+      "iteration_history": []
+    },
+    {
+      "grade": "E-4",
+      "order_bottom_up": 4,
+      "pattern_id": "military-enlisted-e4-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 6,
+      "source_design_url": "https://holocron.swcombine.com/images/0/0d/ME-4.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e4-v2.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 2,
+      "iteration_history": [
+        "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e4-v1.png"
+      ]
+    },
+    {
+      "grade": "E-5",
+      "order_bottom_up": 5,
+      "pattern_id": "military-enlisted-e5-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 8,
+      "source_design_url": "https://holocron.swcombine.com/images/f/f5/ME-5.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e5-v1.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 1,
+      "iteration_history": []
+    },
+    {
+      "grade": "E-6",
+      "order_bottom_up": 6,
+      "pattern_id": "military-enlisted-e6-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 10,
+      "source_design_url": "https://holocron.swcombine.com/images/b/b5/ME-6.gif",
+      "design_basis": "Combine-inspired adaptation to Imperial Republic grade positions; external titles are not imported.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e6-v1.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 1,
+      "iteration_history": []
+    },
+    {
+      "grade": "E-7",
+      "order_bottom_up": 7,
+      "pattern_id": "military-enlisted-e7-grey-blue-v1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "shared_branches": [
+        "navy",
+        "marine",
+        "army"
+      ],
+      "tiles": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "expected_tile_count": 12,
+      "source_design_url": null,
+      "design_basis": "Proposed extension of the saved Combine family; no E-7 source design.",
+      "local_image": "assets/plaques/candidates/2026-10-09/enlisted/military-enlisted-e7-v1.png",
+      "observed_pattern": [
+        [
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey",
+          "grey"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ]
+      ],
+      "visual_count_and_order_verified": true,
+      "image_version": 1,
+      "iteration_history": []
+    }
+  ],
+  "rank_records": [
+    {
+      "working_id": "imperial-republic-navy-e1",
+      "branch": "navy",
+      "grade": "E-1",
+      "display_title": "Crewman",
+      "draft_pattern_id": "military-enlisted-e1-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Crewman",
+          "grade": "E-1",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 34,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Crewman",
+          "grade": "E-1",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C34",
+          "grade_cell": "B34",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-marine-e1",
+      "branch": "marine",
+      "grade": "E-1",
+      "display_title": "Private",
+      "draft_pattern_id": "military-enlisted-e1-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Private",
+          "grade": "E-1",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 34,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Private",
+          "grade": "E-1",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E34",
+          "grade_cell": "B34",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e1",
+      "branch": "army",
+      "grade": "E-1",
+      "display_title": "Private",
+      "draft_pattern_id": "military-enlisted-e1-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Private",
+          "grade": "E-1",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 34,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Private",
+          "grade": "E-1",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G34",
+          "grade_cell": "B34",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e2",
+      "branch": "navy",
+      "grade": "E-2",
+      "display_title": "Crewman First Class",
+      "draft_pattern_id": "military-enlisted-e2-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Crewman First Class",
+          "grade": "E-2",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 33,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Crewman FC",
+          "grade": "E-2",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C33",
+          "grade_cell": "B33",
+          "struck": false
+        }
+      ],
+      "title_note": "Abbreviated source spelling retained."
+    },
+    {
+      "working_id": "imperial-republic-marine-e2",
+      "branch": "marine",
+      "grade": "E-2",
+      "display_title": "Private First Class",
+      "draft_pattern_id": "military-enlisted-e2-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Private First Class",
+          "grade": "E-2",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 33,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Private First Class",
+          "grade": "E-2",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E33",
+          "grade_cell": "B33",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e2",
+      "branch": "army",
+      "grade": "E-2",
+      "display_title": "Private First Class",
+      "draft_pattern_id": "military-enlisted-e2-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Private First Class",
+          "grade": "E-2",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 33,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Private First Class",
+          "grade": "E-2",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G33",
+          "grade_cell": "B33",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e3",
+      "branch": "navy",
+      "grade": "E-3",
+      "display_title": "Lance Corporal",
+      "draft_pattern_id": "military-enlisted-e3-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Lance Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 32,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Lance Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C32",
+          "grade_cell": "B32",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-marine-e3",
+      "branch": "marine",
+      "grade": "E-3",
+      "display_title": "Squad Corporal",
+      "draft_pattern_id": "military-enlisted-e3-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Squad Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 32,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Squad Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E32",
+          "grade_cell": "B32",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e3",
+      "branch": "army",
+      "grade": "E-3",
+      "display_title": "Squad Corporal",
+      "draft_pattern_id": "military-enlisted-e3-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Squad Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 32,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Squad Corporal",
+          "grade": "E-3",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G32",
+          "grade_cell": "B32",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e4",
+      "branch": "navy",
+      "grade": "E-4",
+      "display_title": "Corporal",
+      "draft_pattern_id": "military-enlisted-e4-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 31,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C31",
+          "grade_cell": "B31",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-marine-e4",
+      "branch": "marine",
+      "grade": "E-4",
+      "display_title": "Corporal",
+      "draft_pattern_id": "military-enlisted-e4-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 31,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E31",
+          "grade_cell": "B31",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e4",
+      "branch": "army",
+      "grade": "E-4",
+      "display_title": "Corporal",
+      "draft_pattern_id": "military-enlisted-e4-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 31,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Corporal",
+          "grade": "E-4",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G31",
+          "grade_cell": "B31",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e5",
+      "branch": "navy",
+      "grade": "E-5",
+      "display_title": "Sergeant",
+      "draft_pattern_id": "military-enlisted-e5-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 30,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C30",
+          "grade_cell": "B30",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-marine-e5",
+      "branch": "marine",
+      "grade": "E-5",
+      "display_title": "Sergeant",
+      "draft_pattern_id": "military-enlisted-e5-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 30,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E30",
+          "grade_cell": "B30",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e5",
+      "branch": "army",
+      "grade": "E-5",
+      "display_title": "Sergeant",
+      "draft_pattern_id": "military-enlisted-e5-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 30,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Sergeant",
+          "grade": "E-5",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G30",
+          "grade_cell": "B30",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e6",
+      "branch": "navy",
+      "grade": "E-6",
+      "display_title": "Flight Sergeant",
+      "draft_pattern_id": "military-enlisted-e6-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Flight Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 29,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Flight Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C29",
+          "grade_cell": "B29",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-marine-e6",
+      "branch": "marine",
+      "grade": "E-6",
+      "display_title": "Staff Sergeant",
+      "draft_pattern_id": "military-enlisted-e6-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Staff Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 29,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Staff Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E29",
+          "grade_cell": "B29",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e6",
+      "branch": "army",
+      "grade": "E-6",
+      "display_title": "Staff Sergeant",
+      "draft_pattern_id": "military-enlisted-e6-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Staff Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 29,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Staff Sergeant",
+          "grade": "E-6",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G29",
+          "grade_cell": "B29",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-navy-e7",
+      "branch": "navy",
+      "grade": "E-7",
+      "display_title": "Flight Sergeant Major",
+      "draft_pattern_id": "military-enlisted-e7-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Flight Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 28,
+          "cell_index_zero_based": 1
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Fight Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "C28",
+          "grade_cell": "B28",
+          "struck": false
+        }
+      ],
+      "title_note": "Nexus Flight / sheet Fight discrepancy retained; no source correction performed."
+    },
+    {
+      "working_id": "imperial-republic-marine-e7",
+      "branch": "marine",
+      "grade": "E-7",
+      "display_title": "Sergeant Major",
+      "draft_pattern_id": "military-enlisted-e7-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 28,
+          "cell_index_zero_based": 2
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "E28",
+          "grade_cell": "B28",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    },
+    {
+      "working_id": "imperial-republic-army-e7",
+      "branch": "army",
+      "grade": "E-7",
+      "display_title": "Sergeant Major",
+      "draft_pattern_id": "military-enlisted-e7-grey-blue-v1",
+      "assignment_status": "CANDIDATE",
+      "assignment_approval": null,
+      "source_assertions": [
+        {
+          "source": "Nexus",
+          "title": "Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/nexus-table-2026-10-09.json",
+          "table_index": 0,
+          "row_index_zero_based": 28,
+          "cell_index_zero_based": 3
+        },
+        {
+          "source": "IRAF Pay Scale",
+          "title": "Sergeant Major",
+          "grade": "E-7",
+          "capture": "docs/research/google-sheets-live-2026-10-09.json",
+          "gid": 11,
+          "cell": "G28",
+          "grade_cell": "B28",
+          "struck": false
+        }
+      ],
+      "title_note": null
+    }
+  ]
+}

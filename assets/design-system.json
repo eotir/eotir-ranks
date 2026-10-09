@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "version": "v1",
+  "status": "CANDIDATE",
+  "approval": null,
+  "geometry": {
+    "tile_width": 160,
+    "tile_height": 270,
+    "gap": 10,
+    "margin": 12,
+    "transparent_padding": 4,
+    "plate_rim": 3,
+    "plate_chamfer": 5,
+    "alignment": "center each row; ordered left-to-right, top-to-bottom"
+  },
+  "units": "raster pixels; physical dimensions and entitlement remain undecided",
+  "component_rules": "Preserved generated texture and metal rims. No redraw, new heraldry, cylinders, or semantic palette approval.",
+  "normalization": "Per-input physical rim crop, opaque fitted 34px chamfer silhouette, same 160x270 tile ratio (16:27).",
+  "token_mapping": {
+    "red": "assets/tiles/candidates/2026-10-09/tile-red-v2.png",
+    "blue": "assets/tiles/candidates/2026-10-09/tile-blue-v1.png",
+    "gold": "assets/tiles/candidates/2026-10-09/tile-gold-v1.png",
+    "green": "assets/tiles/candidates/2026-10-09/tile-green-v1.png",
+    "orange": "assets/tiles/candidates/2026-10-09/tile-orange-v1.png",
+    "white": "assets/tiles/candidates/2026-10-09/tile-white-v1.png",
+    "charcoal": "assets/tiles/candidates/2026-10-09/tile-charcoal-v1.png",
+    "black": "assets/tiles/candidates/2026-10-09/tile-black-v1.png",
+    "bright-white": "assets/tiles/candidates/2026-10-09/tile-white-v2.png",
+    "grey": "assets/tiles/candidates/2026-10-09/tile-grey-v1.png",
+    "purple": "assets/tiles/candidates/2026-10-09/tile-purple-v1.png",
+    "silver": "assets/tiles/candidates/2026-10-09/tile-silver-v1.png",
+    "metallic-gold": "assets/tiles/candidates/2026-10-09/tile-metallic-gold-v1.png",
+    "cyan": "assets/tiles/candidates/2026-10-09/tile-cyan-v1.png",
+    "teal": "assets/tiles/candidates/2026-10-09/tile-teal-v1.png",
+    "amber": "assets/tiles/candidates/2026-10-09/tile-amber-v1.png"
+  },
+  "backplate_recipe": "Nested chamfered polygons at padding4/insets0,1,3; 1px procedural brushed stripes. Source tiles alpha-composited last.",
+  "transparency": "Only silhouette edges antialiased; all exterior pixels alpha0; core tile face alpha255.",
+  "candidate_limitations": [
+    "Texture and bevel are selected draft material only; no creative approval.",
+    "Original per-color face microgeometry is retained; outer footprint normalized.",
+    "SVG and PNG use identical component bytes and placements; edge rasterization can differ by SVG renderer."
+  ]
+}
