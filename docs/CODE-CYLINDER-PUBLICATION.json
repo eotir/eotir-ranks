@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-09",
+  "status": "VERIFIED_LIVE",
+  "commit": "d3480866e264e1ca490d39845f1fbad85a9a6674",
+  "workflow_run": 37946616461,
+  "workflow_url": "https://github.com/eotir/eotir-ranks/actions/runs/37946616461",
+  "deployment_conclusion": "success",
+  "site_url": "https://eotir.github.io/eotir-ranks/assets/catalog-review.html?v=d348086-live",
+  "http_checks": [
+    {
+      "path": "assets/catalog-review.html",
+      "status": 200,
+      "sha256": "d0aa3284f5cdb25c9c5e5e3b343e9dd5f4b8c99086df918e51559729b1bd860c",
+      "matches_local": true
+    },
+    {
+      "path": "assets/code-cylinder-review.html",
+      "status": 200,
+      "sha256": "40fa2961d61ea80e3f8b1a93df41d36a0491524a401c37ca46b89760fcef9801",
+      "matches_local": true
+    },
+    {
+      "path": "assets/site/rank-data.js",
+      "status": 200,
+      "sha256": "1a36fb62d8e881b97e3290bcb2c06e5aad1d753b50014ad32b2efdd2e6258050",
+      "matches_local": true
+    },
+    {
+      "path": "assets/site/rank-ui.js",
+      "status": 200,
+      "sha256": "7f2c7f94f3ce0f4806e9fbadcf8ccfd8865e5460ffcf4098f556f3c77c14f9f7",
+      "matches_local": true
+    },
+    {
+      "path": "assets/site/rank-catalog.css",
+      "status": 200,
+      "sha256": "87adf0c20b5c715348f3e554f5d81995a61a4c7b3d2939e1fc5b70344f76f012",
+      "matches_local": true
+    },
+    {
+      "path": "assets/cylinders/v1/code-cylinder-full-blue-silver-v1.png",
+      "status": 200,
+      "sha256": "054b79fe27249949a932521045e9811b4a2f6304d8bd79929d8c0cb66b30cfa8",
+      "matches_local": true
+    },
+    {
+      "path": "data/code-cylinder-assignments.json",
+      "status": 200,
+      "sha256": "64674d2b38e8b9861b2be5fde47dfdec661005386cc2bde242e8c22c8cc98fa9",
+      "matches_local": true
+    }
+  ],
+  "browser": {
+    "background": "rgb(11, 12, 16)",
+    "font": "13px",
+    "rank_records": 210,
+    "shared_records": 7,
+    "source_blanks": 66,
+    "cylinder_assignment_records": 217,
+    "default_military_rows": 69,
+    "cylinder_previews": 69,
+    "broken_images": 0,
+    "console_errors": 0,
+    "inspector": {
+      "rank": "imperial-republic-navy-o5",
+      "visually_inspected": true,
+      "wearer_left": 1,
+      "wearer_right": 2,
+      "source_basis_visible": true,
+      "orientation_note_visible": true,
+      "loaded_images": 73,
+      "broken_images": 0
+    },
+    "screenshots": [
+      "docs/research/code-cylinder-public-review-2026-10-09.png",
+      "docs/research/code-cylinder-public-inspector-2026-10-09.png"
+    ]
+  },
+  "limits": [
+    "All cylinder designs and associations are candidates with null approval.",
+    "69 military proposals;148 other/shared associations unresolved.",
+    "Existing plaque PNG/SVG and chart bytes unchanged; chart downloads remain plaque-only.",
+    "First browser open timed out at CLI response; subsequent navigation, DOM probes and screenshot succeeded.",
+    "An inspector-presence probe used the wrong CSS class; visible role=dialog rank inspector was independently inspected in the saved screenshot."
+  ]
+}

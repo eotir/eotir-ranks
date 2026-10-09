@@ -87,11 +87,10 @@
   "source_data_classification": "Ryan clarified all payroll/personnel source material is fictional sci-fi worldbuilding, not real personal records. Prior privacy interpretation was incorrect.",
   "full_fictional_exports_excluded_from_focused_rank_build": true,
   "current_publication": {
-    "build_type": "workflow",
-    "publisher": ".github/workflows/pages.yml",
-    "verified_commit": "b097460d0ed4df39b319c7db8d9a4b31a63b8163",
-    "run": "https://github.com/eotir/eotir-ranks/actions/runs/37940067574",
-    "status": "success; compact dark site verified live",
-    "review_qa": "docs/DARK-REVIEW-QA.json"
+    "publisher": "GitHub Actions pages.yml",
+    "commit": "d3480866e264e1ca490d39845f1fbad85a9a6674",
+    "workflow_run": 37946616461,
+    "conclusion": "success",
+    "verification": "docs/CODE-CYLINDER-PUBLICATION.json"
   }
 }
