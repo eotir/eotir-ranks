@@ -16,6 +16,8 @@ As of 2026-10-09 this is a candidate asset-development Git workspace on main. Ry
 
 Current engraving delivery: docs/CYLINDER-ENGRAVING-PUBLICATION.json. Shared visual-gallery direction: docs/VISUAL-GALLERY-INTEGRATION.md and data/visual-staging-sources.json; eotir-art remains a private source repository with separately selected publication artifacts. Claude Design EOTIR.zip is a presentation handoff, not authority to replace newer rank/cylinder records or publish raw art source collections.
 
+Ryan's latest direction: strongly favor one master art site, with Claude Code integrating the overall site and Codex focused on image generation/refinement. Read docs/CLAUDE-CODE-HANDOFF.md for the clean continuation brief. Separate source repositories may feed one site; a permanent link directory is not the intended end state. Ryan explicitly requested subagents to speed this handoff and related work.
+
 ## Current direction
 
 - The full goal has verified candidate coverage: data/rank-catalog.json, assets/catalog-review.html, 178 composed PNG/SVG pairs and fourteen chart pairs. Read docs/COMPLETION-REPORT.md and publication receipt. Original enlisted studies remain history; all new visuals/assignments have null approval.

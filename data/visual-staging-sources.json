@@ -3,7 +3,7 @@
   "date": "2026-10-09",
   "status": "PROPOSED_INTEGRATION",
   "canonical": false,
-  "purpose": "Shared Imperial Republic visual staging gallery and encyclopedia; preserve source ownership and independent approval states.",
+  "purpose": "One master Imperial Republic art site combining visual encyclopedia, gallery and creative staging; preserve source ownership and independent approval states.",
   "presentation": {
     "source": "Claude Design EOTIR.zip",
     "archive_sha256": "73344616b24abcefe2b37e3e2ff0a976ec7198d6fcc9bc468e1e789e58d8b6da",
@@ -64,6 +64,12 @@
     "vehicles",
     "heraldry"
   ],
-  "next_step": "Connect selected ZIP lightsaber gallery and current rank/cylinder manifests through shared Claude Design catalog presentation; validate adapters before any migration.",
-  "canon_destination": "codex-monarch content/ranks and content/uniforms for adopted material; canonical documents remain authoritative."
+  "next_step": "Claude Code integrates one shared Claude Design frontend/deployment from selected lightsaber artifacts and current rank/cylinder manifests. Codex focuses on image generation/refinement. Separate source repositories may remain; links are transitional only.",
+  "canon_destination": "codex-monarch content/ranks and content/uniforms for adopted material; canonical documents remain authoritative.",
+  "handoff": "docs/CLAUDE-CODE-HANDOFF.md",
+  "work_ownership": {
+    "site_integration": "Claude Code",
+    "image_generation_and_provenance": "Codex",
+    "creative_and_canon_approval": "Ryan"
+  }
 }

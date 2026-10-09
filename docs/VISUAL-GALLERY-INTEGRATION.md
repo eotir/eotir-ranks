@@ -1,7 +1,7 @@
 # Imperial Republic visual gallery integration
 
 Date: 2026-10-09  
-Status: researched integration proposal; no content merge, approval change or deployment  
+Status: one master art site is Ryan's chosen direction; implementation handed to Claude Code
 Owner: Ryan (Stratus)
 
 Ryan's subsequent role clarification: Codex focuses on image generation, asset masters, variants and provenance. Claude Code is intended to bring the site/gallery collections together, having handled the overall design. This document is Claude's integration handoff; it does not start a Codex site-merger implementation.
@@ -73,7 +73,21 @@ engraving, every fitted derivative or its grade entitlement.
 
 ## Concrete staging architecture
 
-Use a common Claude Design carbon/crimson shell with shared navigation and local
+Ryan's clarified objective is **one master art site**: an Imperial Republic
+visual wiki/encyclopedia, browsable gallery and creative staging/review workspace.
+Build one coherent frontend and deployment with shared navigation, search, item
+pages and review experience. A directory of separate sites or iframe wrappers
+does not satisfy the intended final result. Lightsabers, other armory/equipment,
+ranks, code cylinders, uniforms, heraldry and ships belong in that site as real
+source-backed collections become available.
+
+Claude Code owns the overall site integration, routing, category adapters and
+shared presentation. Codex focuses on image generation/refinement, versioned
+full-size masters, native inspection and asset provenance. Ryan remains the
+creative and canon authority. The self-contained implementation packet is
+[CLAUDE-CODE-HANDOFF.md](CLAUDE-CODE-HANDOFF.md).
+
+Use the supplied Claude Design carbon/crimson shell with shared navigation and local
 Chakra Petch, Inter and JetBrains Mono typography. Build one **visual index** over
 category adapters, preserving native specialized views rather than replacing
 the rank matrix with weapon cards. The visual index is a generated review
@@ -107,21 +121,29 @@ approval assertions. Ships must not infer owners, dimensions or faction from
 appearance. Canonical Markdown remains authoritative; database caches and the
 gallery derive from approved records under the established service model.
 
-## Link first, then merge presentation
+## One unified frontend and deployment
 
-Recommended first implementation: a master staging landing/index page with the
-Claude shell and links to the already published rank/cylinder and selected-art
-gallery projections. This delivers a joined entry point with minimal risk and
-does not copy private art or replace working category tools. A generated central
-search index can follow after source/adoption checks.
+Implement the master site's shared shell, category routes, generated collection
+index and item pages from the Claude export and current verified source inputs.
+Bring the selected lightsaber collection and current rank/cylinder tools into
+that frontend, retaining specialized views inside the shared navigation. External
+gallery links may help during development or expose historical versions; they
+are transitional and must not become the permanent collection experience.
 
-Alternative: copy verified allowlisted artifacts into a single static build,
-with unified category routes and shared fonts/styles. It permits one-domain
-search, offline exports and consistent image inspection, but requires explicit
-source revision/hash checks, allowlist parity and maintenance of adapters.
-Neither approach requires moving source repositories or inventing a new database
-now. Prefer immutable commit-pinned artifact inputs over scraping live DOM or
-an iframe-only solution; if an upstream changes, rebuild from a recorded revision.
+The natural proposed owner is `eotir-art`, with the rank repository continuing to
+own its source data and visual masters. Claude Code should choose actual project
+topology and hosting/domain after inspecting the existing build/deployment
+environment. One master site does **not** require merging all source repositories.
+
+Two compatible build approaches are available: copy verified allowlisted
+artifacts into a single static build, or use separate source repositories as
+commit-pinned artifact inputs to the same frontend deployment. The former makes
+an offline build straightforward; the latter preserves source ownership and
+limits duplication. Both require source revision/hash checks, allowlist parity
+and maintained adapters. Neither needs a new editable canon database. Prefer
+immutable inputs over scraping live DOM; rebuild from a recorded revision when
+an upstream changes. Existing private art remains an owning source repository;
+only verified selected artifacts belong in the public review build.
 
 The supplied gallery currently fetches `./manifest.json`, validates local image
 paths, builds text through DOM `textContent`, filters by association/blade/search
@@ -138,13 +160,18 @@ fonts locally, which can support the merged shell without a new runtime CDN.
 1. Verify selected lightsaber manifest/assets and approval evidence against the
    exact upstream revisions; keep an import/read-back receipt and publication
    allowlist. Preserve current full-size rank/cylinder masters byte-for-byte.
-2. Build the master staging shell and links. Label ships/unavailable categories
-   as pending source inputs; omit decorative fake records.
-3. Add category adapters and a generated index, with deterministic IDs, source
-   links, native-size master access, statuses and uncertainty. Keep specialty
-   rank views and full cylinder gallery available.
-4. Add deep links, back navigation, responsive/native image inspection, keyboard
-   controls and the common compact dark styles; check subpath/404 behavior.
+2. Establish one master frontend and deployment under the Claude Design shell.
+   Choose repository/build topology and hosting/domain from the actual existing
+   environment; keep source repository ownership independent of site routing.
+3. Integrate category adapters, a generated index and real collection views with
+   deterministic IDs, source links, native-size masters, statuses and uncertainty.
+   Keep Ledger/Matrix/Ladder and the large cylinder/engraving review as native
+   views within the site. Ships/unavailable categories await real source inputs;
+   do not add decorative fake records.
+4. Add unified search, stable item/deep links, back navigation, responsive/native
+   image inspection, keyboard controls and common compact dark styles. Verify
+   subpath/404 behavior. Any external collection links used during development
+   are transitional, not an accepted replacement for integrated collections.
 5. Verify record counts, source approval/allowlist parity, all original asset
    hashes, derivative parent links, no broken resources and filter behavior.
    Inspect original artwork and desktop/mobile UI separately. Only then publish
