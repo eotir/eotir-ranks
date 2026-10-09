@@ -1,0 +1,405 @@
+const RK = window.RANKS_DATA;
+const RK_BASE = 'composed/';
+const RK_FAMILIES = [
+  { id: 'E', label: 'Enlisted' }, { id: 'O', label: 'Officer' }, { id: 'C', label: 'Command' },
+  { id: 'HC', label: 'High Command' }, { id: 'RT', label: 'Throne' }
+];
+const RK_TILE = { grey:'#8a9099', blue:'#2f5fa8', red:'#a11a2a', gold:'#c9a43a', white:'#e9e6dc', charcoal:'#3a3d44', silver:'#c3c8cf', purple:'#6c3fa0', teal:'#2a8f8a', green:'#3d8a4f', cyan:'#2fa4b8', orange:'#c8672a', black:'#16171a', amber:'#d89b2c', 'bright-white':'#fbfbf8', 'metallic-gold':'#d8b45a' };
+const RK_GRADE = Object.fromEntries(RK.grades.map(g => [g.id, g]));
+const RK_BRANCH = Object.fromEntries(RK.branches.map(b => [b.id, b]));
+RK_BRANCH.shared = { id: 'shared', label: 'Shared upper / Throne', military: false };
+const RK_ALL = [...RK.records, ...RK.shared];
+const RK_BY_ID = Object.fromEntries(RK_ALL.map(r => [r.id, r]));
+const RK_CELL = Object.fromEntries(RK.records.map(r => [r.b + '|' + r.g, r]));
+const RK_BLANK = Object.fromEntries(RK.blanks.map(b => [b.b + '|' + b.g, b]));
+const rkFamily = g => RK_GRADE[g] ? RK_GRADE[g].family : g.replace(/-\d+$/, '');
+const rkGradesUsed = (() => {
+  const used = new Set([...RK.records, ...RK.shared, ...RK.blanks].map(r => r.g));
+  return RK.grades.filter(g => used.has(g.id)).sort((a, b) => a.order_bottom_up - b.order_bottom_up);
+})();
+
+function rkDims(pid) {
+  return RK.assets[pid] || { w: 200, h: 300 };
+}
+function rkMatches(r, f) {
+  if (f.branches.length && !f.branches.includes(r.b)) return false;
+  if (f.families.length && !f.families.includes(rkFamily(r.g))) return false;
+  if (f.q) {
+    const q = f.q.toLowerCase();
+    const hay = [r.t, r.g, r.p, RK_BRANCH[r.b]?.label, ...(r.src || []).map(s => s.s + ' ' + s.t)].join(' ').toLowerCase();
+    if (!hay.includes(q)) return false;
+  }
+  return true;
+}
+
+function Plaque({ pid, scale = 0.2, bg = 'dark', frame = true, style }) {
+  const d = rkDims(pid);
+  return (
+    <span className={'rk-plaque' + (frame ? ' rk-plaque--frame' : '') + (bg === 'checker' ? ' rk-checker' : '')} style={style}>
+      <img src={RK_BASE + pid + '.png'} width={Math.round(d.w * scale)} height={Math.round(d.h * scale)} alt={'Candidate plaque ' + pid} loading="lazy" />
+    </span>
+  );
+}
+
+function TileChips({ pid, size = 10 }) {
+  const p = RK.patterns[pid]; if (!p) return null;
+  return (
+    <span className="rk-chips" title={p.rows.map(r => r.join(', ')).join(' / ')}>
+      {p.rows.map((row, i) => (
+        <span key={i} className="rk-chips-row">
+          {row.map((c, j) => <i key={j} style={{ width: size * 0.6, height: size, background: RK_TILE[c] || '#555' }}></i>)}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+function StatusChip({ r }) {
+  const unresolved = r.b === 'shared';
+  return <span className={'rk-chip' + (unresolved ? ' rk-chip--warn' : '')}>{unresolved ? 'Unresolved' : 'Proposed'}</span>;
+}
+
+function RkHeader({ view, setView }) {
+  const views = [['ledger', 'A', 'Ledger'], ['matrix', 'B', 'Matrix'], ['ladder', 'C', 'Ladder']];
+  return (
+    <header className="rk-header">
+      <div className="rk-header-l">
+        <span className="rk-mark"></span>
+        <div>
+          <div className="eo-micro">Imperial Republic · Visual Standards</div>
+          <div className="rk-wordmark">Rank Plaque Catalog</div>
+        </div>
+      </div>
+      <nav className="rk-switch" aria-label="Layout direction">
+        {views.map(([id, k, l]) => (
+          <button key={id} type="button" aria-pressed={view === id} onClick={() => setView(id)}><b>{k}</b>{l}</button>
+        ))}
+      </nav>
+    </header>
+  );
+}
+
+function RkBriefing() {
+  const c = RK.coverage;
+  const stats = [[c.military_records, 'Military'], [c.branch_records, 'Branch records'], [c.blank_cells, 'Source blanks'], [c.shared_records, 'Shared upper'], [c.patterns, 'Patterns']];
+  return (
+    <section className="rk-brief">
+      <div className="rk-brief-text">
+        <div className="rk-strip"><span>Candidate</span><span>{RK.date}</span><span>Approval pending</span></div>
+        <h1>Imperial Republic rank plaques</h1>
+        <p>Shared upper / Throne titles, source precedence and color meanings remain unresolved.</p>
+      </div>
+      <dl className="rk-stats">
+        {stats.map(([n, l]) => <div key={l}><dt>{l}</dt><dd>{n}</dd></div>)}
+      </dl>
+    </section>
+  );
+}
+
+function RkFilters({ f, set, view }) {
+  const toggle = (key, v) => set({ ...f, [key]: f[key].includes(v) ? f[key].filter(x => x !== v) : [...f[key], v] });
+  return (
+    <div className="rk-filters">
+      <label className="rk-search"><span className="eo-micro">Search</span><input className="eo-input" type="search" placeholder="Title, pattern or source" value={f.q} onChange={e => set({ ...f, q: e.target.value })} /></label>
+      {view !== 'ladder' && (
+        <div className="rk-fgroup">
+          <span className="eo-micro">Branch</span>
+          <div className="rk-pills">
+            <button type="button" aria-pressed={!f.branches.length} onClick={() => set({ ...f, branches: [] })}>All</button>
+            <button type="button" aria-pressed={f.branches.join() === 'navy,marine,army'} onClick={() => set({ ...f, branches: ['navy', 'marine', 'army'] })}>Military</button>
+            {[...RK.branches, RK_BRANCH.shared].map(b => (
+              <button key={b.id} type="button" aria-pressed={f.branches.includes(b.id)} onClick={() => toggle('branches', b.id)}>{b.id === 'shared' ? 'Shared' : b.label}</button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="rk-fgroup">
+        <span className="eo-micro">Grade family</span>
+        <div className="rk-pills">
+          {RK_FAMILIES.map(fm => <button key={fm.id} type="button" aria-pressed={f.families.includes(fm.id)} onClick={() => toggle('families', fm.id)}>{fm.id} · {fm.label}</button>)}
+        </div>
+      </div>
+      <div className="rk-fgroup rk-fgroup--end">
+        <span className="eo-micro">Order</span>
+        <div className="rk-pills">
+          <button type="button" aria-pressed={f.order === 'up'} onClick={() => set({ ...f, order: 'up' })}>Bottom-up</button>
+          <button type="button" aria-pressed={f.order === 'down'} onClick={() => set({ ...f, order: 'down' })}>Top-down</button>
+        </div>
+        <span className="eo-micro">Preview</span>
+        <div className="rk-pills">
+          <button type="button" aria-pressed={f.bg === 'dark'} onClick={() => set({ ...f, bg: 'dark' })}>Dark</button>
+          <button type="button" aria-pressed={f.bg === 'checker'} onClick={() => set({ ...f, bg: 'checker' })}>Checker</button>
+        </div>
+        <label className="rk-check"><input type="checkbox" checked={f.blanks} onChange={e => set({ ...f, blanks: e.target.checked })} /> Blanks</label>
+      </div>
+    </div>
+  );
+}
+
+function Inspector({ id, onClose, bg }) {
+  const r = RK_BY_ID[id];
+  React.useEffect(() => {
+    const old = document.activeElement; document.querySelector('.rk-x')?.focus();
+    const k = e => e.key === 'Escape' && onClose();
+    window.addEventListener('keydown', k); return () => { window.removeEventListener('keydown', k); old?.focus(); };
+  }, [onClose]);
+  if (!r) return null;
+  const p = RK.patterns[r.p] || { rows: [], notes: [], refs: [] };
+  const pats = [r.p, ...r.alt];
+  return (
+    <aside className="rk-insp" aria-label="Rank detail" role="dialog" aria-modal="false">
+      <div className="rk-insp-head">
+        <div>
+          <div className="eo-micro">{RK_BRANCH[r.b]?.label} · {r.g}</div>
+          <h2>{r.t}</h2>
+        </div>
+        <button type="button" className="rk-x" onClick={onClose} aria-label="Close">×</button>
+      </div>
+      <div className="rk-insp-body">
+        {pats.map((pid, i) => (
+          <figure key={pid} className="rk-insp-fig">
+            {r.alt.length > 0 && <figcaption className="eo-micro">{i === 0 ? 'A · Primary' : 'B · Alternative'}</figcaption>}
+            <div className={'rk-insp-stage' + (bg === 'checker' ? ' rk-checker' : '')}><Plaque pid={pid} scale={0.42} frame={false} /></div>
+            <div className="rk-insp-meta">
+              <code>{pid}</code>
+              <span><a href={RK_BASE + pid + '.png'} target="_blank" rel="noopener">PNG</a> · <a href={RK_BASE + pid + '.svg'} target="_blank" rel="noopener">SVG</a></span>
+            </div>
+          </figure>
+        ))}
+        <CylinderDetail r={r} />
+        <section>
+          <h3 className="rk-h3">Ordered pattern</h3>
+          <ol className="rk-pattern">
+            {p.rows.map((row, i) => (
+              <li key={i}><span className="eo-micro">Row {i + 1}</span>
+                <span className="rk-pattern-tiles">{row.map((c, j) => <span key={j}><i style={{ background: RK_TILE[c] }}></i>{c}</span>)}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+        <section>
+          <h3 className="rk-h3">Status</h3>
+          <p><StatusChip r={r} /> <span className="rk-dim">{p.basis}</span></p>
+          {[...p.notes, ...r.n].map((n, i) => <p key={i} className="rk-note">{n}</p>)}
+        </section>
+        <section>
+          <h3 className="rk-h3">Source assertions · {r.src.length}</h3>
+          <table className="rk-src">
+            <thead><tr><th>Source</th><th>Grade</th><th>Title</th><th>Cell</th></tr></thead>
+            <tbody>{r.src.map((s, i) => (
+              <tr key={i} className={s.x ? 'is-struck' : ''}><td><a href={s.u} target="_blank" rel="noopener">{s.s}</a></td><td>{s.g}</td><td>{s.t}</td><td><code>{s.c}</code></td></tr>
+            ))}</tbody>
+          </table>
+          {r.raw !== r.t && <p className="rk-dim">Raw source title: {r.raw}</p>}
+        </section>
+        <p className="rk-dim"><code>{r.id}</code></p>
+      </div>
+    </aside>
+  );
+}
+
+Object.assign(window, { RK, RK_BASE, RK_FAMILIES, RK_TILE, RK_GRADE, RK_BRANCH, RK_ALL, RK_BY_ID, RK_CELL, RK_BLANK, rkFamily, rkGradesUsed, rkDims, rkMatches, Plaque, TileChips, StatusChip, RkHeader, RkBriefing, RkFilters, Inspector });
+
+function CylinderDetail({r}) {
+  const a=RK.cylinders?.assignments?.find(x=>x.rank_id===r.id || x.rank_record_id===r.id || x.id===r.id);
+  if(!a) return <section><h3 className="rk-h3">Code cylinders</h3><p className="rk-dim">Unresolved · no wearer-side count assigned.</p></section>;
+  const layout=RK.cylinder_components?.layouts?.find(l=>l.id===a.layout_id);
+  return <section><h3 className="rk-h3">Code cylinders · candidate</h3><CylinderInline r={r}/><p className="rk-note">Left/right refer to the wearer's body, not the viewer. Cylinder assignments remain provisional.</p><p><code>{a.basis}</code></p>{a.notes?.map((n,i)=><p className="rk-note" key={i}>{n}</p>)}{layout&&<p><a href={layout.png_path.replace(/^assets\//,'')}>Layout PNG</a> · <a href={layout.svg_path.replace(/^assets\//,'')}>Layout SVG</a></p>}<details><summary>Exact observations and assignment</summary><pre style={{whiteSpace:'pre-wrap',fontSize:11}}>{JSON.stringify(a,null,2)}</pre></details><p><a href="code-cylinder-review.html">Cylinder components and all arrangements</a></p></section>;
+}
+function CylinderInline({r}) {
+  const a=RK.cylinders?.assignments?.find(x=>x.rank_id===r.id);
+  if(!a || a.wearer_left_count===null || a.wearer_right_count===null) return <span className="rk-cylinder-label">Cylinders unresolved</span>;
+  const part=RK.cylinder_components?.components?.find(x=>x.id==='code-cylinder-exposed-blue-silver-v1');
+  // Display the wearer's right group on the viewer's left. Keep devices separate
+  // from the opaque plaque; the center divider is UI, never a uniform rendering.
+  const group=(n,label)=><span className="rk-cylinder-side"><span className="rk-cylinder-icons">{part&&Array.from({length:n},(_,i)=><img key={i} src={part.png_path.replace(/^assets\//,'')} alt="Candidate exposed code cylinder" loading="lazy"/>)}</span><span>{label} {n}</span></span>;
+  return <span className="rk-cylinder" aria-label={'Candidate cylinders: wearer left '+a.wearer_left_count+', wearer right '+a.wearer_right_count}>{group(a.wearer_right_count,'R')}<span aria-hidden="true">·</span>{group(a.wearer_left_count,'L')}<span className="rk-cylinder-label">draft</span></span>;
+}
+function Downloads() {return <details className="rk-downloads"><summary className="eo-micro">Sources, native charts &amp; candidate library</summary><p><a href="review.html">Tile and plaque candidate library</a> · <a href="code-cylinder-review.html">Code cylinders</a> · <a href="../data/rank-catalog.json">Full evidence dataset</a> · <a href="https://nexus.eotir.com/rankchart.html/">Official Nexus chart</a></p><p className="rk-dim">Checker is a CSS inspection background; PNG alpha outside the opaque backing is real. All images and assignments are candidates, not adopted canon. Saved chart downloads remain plaque-only snapshots; cylinder arrangements appear separately in this review.</p><ul>{RK.charts.map(c=><li key={c.id}>{c.id}: <a href={'charts/'+c.id+'.png'} download>PNG</a> · <a href={'charts/'+c.id+'.svg'} download>SVG</a></li>)}</ul></details>;}
+
+function rkOrdered(f) {
+  const g = [...rkGradesUsed];
+  return f.order === 'down' ? g.reverse() : g;
+}
+function rkFamiliesOrdered(f) {
+  const fams = RK_FAMILIES.filter(fm => !f.families.length || f.families.includes(fm.id));
+  return f.order === 'down' ? [...fams].reverse() : fams;
+}
+
+function LedgerView({ f, sel, onSel }) {
+  const branchOrder = [...RK.branches.map(b => b.id), 'shared'];
+  const grades = rkOrdered(f);
+  let total = 0;
+  const sections = rkFamiliesOrdered(f).map(fm => {
+    const rows = [];
+    grades.filter(g => g.family === fm.id).forEach(g => {
+      branchOrder.forEach(b => {
+        const r = b === 'shared' ? RK.shared.find(s => s.g === g.id) : RK_CELL[b + '|' + g.id];
+        if (r && rkMatches(r, f)) rows.push({ r });
+        else if (!r && f.blanks && RK_BLANK[b + '|' + g.id] && (!f.branches.length || f.branches.includes(b)) && !f.q) rows.push({ blank: RK_BLANK[b + '|' + g.id] });
+      });
+    });
+    total += rows.length;
+    return { fm, rows };
+  }).filter(s => s.rows.length);
+  return (
+    <div className="rk-ledger">
+      <div className="rk-count eo-micro" role="status">{total} rows visible</div>
+      {sections.map(({ fm, rows }) => (
+        <section key={fm.id} className="rk-ledger-sec">
+          <div className="rk-secbar"><span className="rk-secbar-code">{fm.id}</span><span>{fm.label}</span><span className="rk-secbar-n">{rows.length}</span></div>
+          <div className="rk-ledger-head eo-micro"><span>Grade</span><span>Title · Branch</span><span>Plaque</span><span>Pattern</span><span>Status</span></div>
+          {rows.map(({ r, blank }) => blank ? (
+            <div key={'b' + blank.b + blank.g} className="rk-lrow rk-lrow--blank">
+              <span className="rk-grade">{blank.g}</span>
+              <span><b>Source blank</b><small>{RK_BRANCH[blank.b].label}</small></span>
+              <span className="rk-dim">No rank or insignia inferred</span><span></span><span></span>
+            </div>
+          ) : (
+            <button key={r.id} type="button" className={'rk-lrow' + (sel === r.id ? ' is-sel' : '')} onClick={() => onSel(r.id)}>
+              <span className="rk-grade">{r.g}</span>
+              <span><b>{r.t}</b><small>{RK_BRANCH[r.b].label}</small></span>
+              <span className="rk-lrow-pl"><Plaque pid={r.p} scale={0.17} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.17} bg={f.bg} />)}<CylinderInline r={r} /></span>
+              <span className="rk-lrow-pat"><TileChips pid={r.p} /><code>{r.p}</code></span>
+              <span><StatusChip r={r} /></span>
+            </button>
+          ))}
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function MatrixView({ f, sel, onSel }) {
+  const branches = RK.branches.filter(b => !f.branches.length || f.branches.includes(b.id));
+  const showShared = !f.branches.length || f.branches.includes('shared');
+  const grades = rkOrdered(f).filter(g => !f.families.length || f.families.includes(g.family));
+  const [scale, setScale] = React.useState(0.13);
+  let lastFam = null;
+  return (
+    <div className="rk-matrix-wrap">
+      <div className="rk-matrix-tools">
+        <span className="eo-micro">{branches.length} branches × {grades.length} grades</span>
+        <label className="eo-micro rk-range">Plaque scale <input type="range" min="0.08" max="0.24" step="0.01" value={scale} onChange={e => setScale(+e.target.value)} /></label>
+      </div>
+      <div className="rk-matrix" style={{ '--cols': branches.length }}>
+        <div className="rk-mx-corner eo-micro">Grade</div>
+        {branches.map(b => <div key={b.id} className={'rk-mx-col' + (b.military ? ' is-mil' : '')}>{b.label}</div>)}
+        {grades.map(g => {
+          const out = [];
+          if (g.family !== lastFam) {
+            lastFam = g.family;
+            const fm = RK_FAMILIES.find(x => x.id === g.family);
+            out.push(<div key={'f' + g.family} className="rk-mx-fam"><span className="rk-secbar-code">{fm.id}</span>{fm.label}</div>);
+          }
+          const shared = RK.shared.find(s => s.g === g.id);
+          out.push(<div key={'g' + g.id} className="rk-mx-grade">{g.id}</div>);
+          if (shared && !branches.some(b => RK_CELL[b.id + '|' + g.id])) {
+            const hit = showShared && rkMatches(shared, { ...f, branches: [] });
+            out.push(
+              <button key={'s' + g.id} type="button" className={'rk-mx-shared' + (sel === shared.id ? ' is-sel' : '') + (hit ? '' : ' is-dim')} onClick={() => onSel(shared.id)}>
+                <span className="rk-mx-shared-txt"><span className="rk-chip rk-chip--warn">Shared · unresolved</span><b>{shared.t}</b></span>
+                <span className="rk-mx-shared-pl"><Plaque pid={shared.p} scale={scale} bg={f.bg} />{shared.alt.map(a => <Plaque key={a} pid={a} scale={scale} bg={f.bg} />)}</span>
+              </button>
+            );
+            return out;
+          }
+          branches.forEach(b => {
+            const r = RK_CELL[b.id + '|' + g.id];
+            if (!r && !f.blanks) {out.push(<div key={b.id + g.id} className="rk-mx-cell" aria-label="Blank hidden"></div>); return;}
+            if (!r) { out.push(<div key={b.id + g.id} className="rk-mx-cell rk-mx-cell--blank"><span>Source blank</span></div>); return; }
+            const hit = rkMatches(r, { ...f, branches: [] });
+            out.push(
+              <button key={b.id + g.id} type="button" className={'rk-mx-cell' + (sel === r.id ? ' is-sel' : '') + (hit ? '' : ' is-dim')} onClick={() => onSel(r.id)}>
+                <Plaque pid={r.p} scale={scale} bg={f.bg} frame={false} /><CylinderInline r={r} />
+                <span className="rk-mx-title">{r.t}</span>
+              </button>
+            );
+          });
+          return out;
+        })}
+      </div>
+    </div>
+  );
+}
+
+function LadderView({ f, sel, onSel, branch, setBranch }) {
+  const isShared = branch === 'shared';
+  const grades = rkOrdered(f).filter(g => !f.families.length || f.families.includes(g.family));
+  const b = RK_BRANCH[branch];
+  const cov = RK.coverage.per_branch.find(x => x.branch_id === branch);
+  const rungs = grades.map(g => {
+    if (isShared) { const s = RK.shared.find(x => x.g === g.id); return s ? { g, r: s } : null; }
+    const r = RK_CELL[branch + '|' + g.id];
+    if (r) return { g, r };
+    if (RK_BLANK[branch + '|' + g.id]) return { g, blank: true };
+    return null;
+  }).filter(Boolean).filter(x => x.blank ? f.blanks && !f.q : rkMatches(x.r, { ...f, branches: [] }));
+  let lastFam = null;
+  return (
+    <div className="rk-ladder">
+      <nav className="rk-ladder-tabs" aria-label="Branch">
+        {[...RK.branches, RK_BRANCH.shared].map(x => (
+          <button key={x.id} type="button" aria-pressed={branch === x.id} onClick={() => setBranch(x.id)}>
+            {x.military && <i className="rk-mil-dot"></i>}{x.id === 'shared' ? 'Shared upper' : x.label}
+          </button>
+        ))}
+      </nav>
+      <div className="rk-ladder-hero">
+        <div>
+          <div className="eo-micro">{isShared ? 'Spans all twelve branches' : b.military ? 'Military branch' : 'Specialty branch'}</div>
+          <h2>{b.label}</h2>
+        </div>
+        {cov && <div className="rk-ladder-cov"><span><b>{cov.populated}</b> populated</span><span><b>{cov.blank}</b> source blank</span></div>}
+      </div>
+      <ol className="rk-rungs">
+        {rungs.map(({ g, r, blank }) => {
+          const head = g.family !== lastFam ? (lastFam = g.family, RK_FAMILIES.find(x => x.id === g.family)) : null;
+          return (
+            <React.Fragment key={g.id}>
+              {head && <li className="rk-rung-fam"><span className="rk-secbar-code">{head.id}</span>{head.label}</li>}
+              {blank ? (
+                <li className="rk-rung rk-rung--blank"><span className="rk-rung-g">{g.id}</span><span className="rk-dim">Source blank · no rank or insignia inferred</span></li>
+              ) : (
+                <li className={'rk-rung' + (sel === r.id ? ' is-sel' : '')}>
+                  <button type="button" onClick={() => onSel(r.id)}>
+                    <span className="rk-rung-g">{g.id}</span>
+                    <span className="rk-rung-t"><b>{r.t}</b><code>{r.p}</code><span className="rk-rung-meta"><StatusChip r={r} /><span className="eo-micro">{r.src.length} source{r.src.length === 1 ? '' : 's'}</span></span></span>
+                    <span className="rk-rung-pl"><Plaque pid={r.p} scale={0.3} bg={f.bg} />{r.alt.map(a => <Plaque key={a} pid={a} scale={0.3} bg={f.bg} />)}<CylinderInline r={r} /></span>
+                  </button>
+                </li>
+              )}
+            </React.Fragment>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
+
+Object.assign(window, { LedgerView, MatrixView, LadderView });
+
+
+function RankCatalogApp() {
+  const saved = (() => { try { return JSON.parse(localStorage.getItem('imperial-republic-rank-review-v2') || '{}'); } catch (e) { return {}; } })();
+  const [view, setView] = React.useState(['ledger','matrix','ladder'].includes(saved.view) ? saved.view : 'ledger');
+  const [branch, setBranch] = React.useState(saved.branch || 'navy');
+  const [f, setF] = React.useState({ q: '', branches: ['navy', 'marine', 'army'], families: [], order: 'up', bg: 'dark', blanks: true, ...(saved.f || {}) });
+  f.bg = f.bg === 'checker' ? 'checker' : 'dark';
+  const [sel, setSel] = React.useState(null);
+  React.useEffect(() => { try { localStorage.setItem('imperial-republic-rank-review-v2', JSON.stringify({ view, branch, f })); } catch(e) { console.warn('Rank review preferences could not be saved', e); } }, [view, branch, f]);
+  const close = React.useCallback(() => setSel(null), []);
+  const V = view === 'matrix' ? MatrixView : view === 'ladder' ? LadderView : LedgerView;
+  return (
+    <div className="rk-app" data-screen-label={'Rank catalog · ' + view}>
+      <RkHeader view={view} setView={setView} />
+      <main className="rk-main">
+        <RkBriefing /><Downloads />
+        <RkFilters f={f} set={setF} view={view} />
+        <V f={f} sel={sel} onSel={setSel} branch={branch} setBranch={setBranch} />
+      </main>
+      {sel && <Inspector id={sel} onClose={close} bg={f.bg} />}
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<RankCatalogApp />);

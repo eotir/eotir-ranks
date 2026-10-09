@@ -70,3 +70,9 @@ Artist-page URL for the second Taivaansusi rank table was not supplied or indepe
 - D:\eotir\projects\nexus\design\uploads\RankChart.html, Extended Rank Chart.html, Extended Rank Chart(htmlonly).html: local Nexus captures; design/theme/rankchart_data.jsx: transformed chart data.
 
 See docs/DISCOVERY.md for contradictions and docs/INTEGRATION.md for implementation limits.
+
+## Code-cylinder comparison update — 2026-10-09
+
+- [501st Imperial Line Officer costume standard](https://crls.501st.com/ioc/imperial-line-officer-olive-uniform): external costume count/style/placement guidance, not an Imperial Republic rank ladder.
+- [Exact saved-image cylinder observations](docs/research/code-cylinder-image-evidence.json), [web observations](docs/research/code-cylinder-web-evidence.json) and [candidate mapping policy](docs/CODE-CYLINDERS.md).
+- Ryan supplied Claude Design ranks presentation through D:\eotir\projects\.handoffs\Rank Plaque Catalog - Standalone.html and EOTIR-Ranks-site3.zip. The full archive is ignored staging; only rank presentation dependencies are promoted. Its design is not an independent authority for lore or insignia.

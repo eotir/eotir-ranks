@@ -1,0 +1,4092 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "CANDIDATE",
+  "approval": null,
+  "canonical": false,
+  "published": false,
+  "coordinate_convention": "Front view: wearer left = viewer right. This is a proposed chart convention, not recovered source authority.",
+  "scope": "69 military proposals, with all other populated and shared rank records explicitly unresolved; blank source cells are not ranks.",
+  "alternatives": [
+    {
+      "id": "saxton-sequence",
+      "url": "https://www.theforce.net/swtc/insignia/cylinders.html",
+      "total_to_wearer_counts": {
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          2,
+          1
+        ],
+        "4": [
+          2,
+          2
+        ]
+      },
+      "status": "EXTERNAL_COMPARISON_ONLY",
+      "note": "Three-device asymmetry opposes the proposed frontal interpretation of the supplied Whatsahonda chart."
+    },
+    {
+      "id": "duty-clearance",
+      "status": "UNASSIGNED_ALTERNATIVE",
+      "note": "Keep device issue keyed to uniform/duty/access scope rather than a universal grade entitlement."
+    }
+  ],
+  "input_hashes": {
+    "data/rank-catalog.json": "d4bfa4341a1adb5138839a5d0c9a7afa20ebf5e82b0b9ba64cc464d48621a8b0",
+    "data/code-cylinder-components.json": "30d751c9fd4bb9fc36ab089aeac422e1cfa3edf7158e055abd98c2d2a44a698c",
+    "docs/research/code-cylinder-image-evidence.json": "4edf9e1ca1739e57d3dafb16ee519982a332a58fac352b394d667e1a8cf9f6d0"
+  },
+  "assignments": [
+    {
+      "rank_id": "imperial-republic-navy-e1",
+      "branch_id": "navy",
+      "grade": "E-1",
+      "title": "Crewman",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e1",
+      "branch_id": "marine",
+      "grade": "E-1",
+      "title": "Private",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e1",
+      "branch_id": "army",
+      "grade": "E-1",
+      "title": "Private",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e1",
+      "branch_id": "ministries",
+      "grade": "E-1",
+      "title": "Associate Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e1",
+      "branch_id": "security-bureau",
+      "grade": "E-1",
+      "title": "Officer",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e1",
+      "branch_id": "royal-guard",
+      "grade": "E-1",
+      "title": "Guardsman",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e1",
+      "branch_id": "intelligence-service",
+      "grade": "E-1",
+      "title": "Informant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e2",
+      "branch_id": "navy",
+      "grade": "E-2",
+      "title": "Crewman First Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e2",
+      "branch_id": "marine",
+      "grade": "E-2",
+      "title": "Private First Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e2",
+      "branch_id": "army",
+      "grade": "E-2",
+      "title": "Private First Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e2",
+      "branch_id": "ministries",
+      "grade": "E-2",
+      "title": "Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e2",
+      "branch_id": "security-bureau",
+      "grade": "E-2",
+      "title": "Senior Officer",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e2",
+      "branch_id": "royal-guard",
+      "grade": "E-2",
+      "title": "Guardsman Second Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e2",
+      "branch_id": "intelligence-service",
+      "grade": "E-2",
+      "title": "Collaborator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e3",
+      "branch_id": "navy",
+      "grade": "E-3",
+      "title": "Lance Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e3",
+      "branch_id": "marine",
+      "grade": "E-3",
+      "title": "Squad Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e3",
+      "branch_id": "army",
+      "grade": "E-3",
+      "title": "Squad Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e3",
+      "branch_id": "ministries",
+      "grade": "E-3",
+      "title": "Senior Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e3",
+      "branch_id": "security-bureau",
+      "grade": "E-3",
+      "title": "Constable",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e3",
+      "branch_id": "royal-guard",
+      "grade": "E-3",
+      "title": "Guardsman First Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e3",
+      "branch_id": "intelligence-service",
+      "grade": "E-3",
+      "title": "Senior Collaborator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e4",
+      "branch_id": "navy",
+      "grade": "E-4",
+      "title": "Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e4",
+      "branch_id": "marine",
+      "grade": "E-4",
+      "title": "Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e4",
+      "branch_id": "army",
+      "grade": "E-4",
+      "title": "Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e4",
+      "branch_id": "ministries",
+      "grade": "E-4",
+      "title": "Supervisor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e4",
+      "branch_id": "security-bureau",
+      "grade": "E-4",
+      "title": "Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e4",
+      "branch_id": "royal-guard",
+      "grade": "E-4",
+      "title": "Corporal",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e4",
+      "branch_id": "intelligence-service",
+      "grade": "E-4",
+      "title": "Junior Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e5",
+      "branch_id": "navy",
+      "grade": "E-5",
+      "title": "Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e5",
+      "branch_id": "marine",
+      "grade": "E-5",
+      "title": "Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e5",
+      "branch_id": "army",
+      "grade": "E-5",
+      "title": "Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e5",
+      "branch_id": "ministries",
+      "grade": "E-5",
+      "title": "Assistant Manager",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e5",
+      "branch_id": "security-bureau",
+      "grade": "E-5",
+      "title": "Detective",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-e5",
+      "branch_id": "personal-staff",
+      "grade": "E-5",
+      "title": "Assistant Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e5",
+      "branch_id": "royal-guard",
+      "grade": "E-5",
+      "title": "Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e5",
+      "branch_id": "intelligence-service",
+      "grade": "E-5",
+      "title": "Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e6",
+      "branch_id": "navy",
+      "grade": "E-6",
+      "title": "Flight Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e6",
+      "branch_id": "marine",
+      "grade": "E-6",
+      "title": "Staff Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e6",
+      "branch_id": "army",
+      "grade": "E-6",
+      "title": "Staff Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e6",
+      "branch_id": "ministries",
+      "grade": "E-6",
+      "title": "Manager",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e6",
+      "branch_id": "security-bureau",
+      "grade": "E-6",
+      "title": "Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-e6",
+      "branch_id": "personal-staff",
+      "grade": "E-6",
+      "title": "Junior Office Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e6",
+      "branch_id": "royal-guard",
+      "grade": "E-6",
+      "title": "Sergeant First Class",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-e6",
+      "branch_id": "intelligence-service",
+      "grade": "E-6",
+      "title": "Senior Analyst",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-e7",
+      "branch_id": "navy",
+      "grade": "E-7",
+      "title": "Flight Sergeant Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-e7",
+      "branch_id": "marine",
+      "grade": "E-7",
+      "title": "Sergeant Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-e7",
+      "branch_id": "army",
+      "grade": "E-7",
+      "title": "Sergeant Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-0-right-0-v1",
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "basis": "PROPOSED_ENLISTED_NONE",
+      "source_observations": [],
+      "notes": [
+        "Provisional no-cylinder service layout for review. External enlisted omission does not prove zero entitlement; cylinder-bearing duty variants remain open."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-e7",
+      "branch_id": "ministries",
+      "grade": "E-7",
+      "title": "Senior Manager",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-e7",
+      "branch_id": "security-bureau",
+      "grade": "E-7",
+      "title": "Detective Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-e7",
+      "branch_id": "royal-guard",
+      "grade": "E-7",
+      "title": "Staff Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o1",
+      "branch_id": "navy",
+      "grade": "O-1",
+      "title": "Ensign",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/21",
+          "external_branch": "Imperial Navy",
+          "external_title": "Ensign",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o1",
+      "branch_id": "marine",
+      "grade": "O-1",
+      "title": "Third Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/20",
+          "external_branch": "Imperial Army",
+          "external_title": "Junior Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o1",
+      "branch_id": "army",
+      "grade": "O-1",
+      "title": "Third Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/20",
+          "external_branch": "Imperial Army",
+          "external_title": "Junior Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o1",
+      "branch_id": "judiciary",
+      "grade": "O-1",
+      "title": "Justice of the Peace (?)",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o1",
+      "branch_id": "security-bureau",
+      "grade": "O-1",
+      "title": "Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o1",
+      "branch_id": "royal-guard",
+      "grade": "O-1",
+      "title": "Master Sergeant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o1",
+      "branch_id": "state",
+      "grade": "O-1",
+      "title": "Assistant Attaché",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o1",
+      "branch_id": "regional-governance",
+      "grade": "O-1",
+      "title": "Deputy Mayor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o1",
+      "branch_id": "intelligence-service",
+      "grade": "O-1",
+      "title": "Junior Agent",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o2",
+      "branch_id": "navy",
+      "grade": "O-2",
+      "title": "Lieutenant Junior Grade",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/21",
+          "external_branch": "Imperial Navy",
+          "external_title": "Ensign",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o2",
+      "branch_id": "marine",
+      "grade": "O-2",
+      "title": "Second Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/20",
+          "external_branch": "Imperial Army",
+          "external_title": "Junior Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o2",
+      "branch_id": "army",
+      "grade": "O-2",
+      "title": "Second Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/20",
+          "external_branch": "Imperial Army",
+          "external_title": "Junior Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-o2",
+      "branch_id": "inquisition",
+      "grade": "O-2",
+      "title": "Municipal Inspector",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o2",
+      "branch_id": "judiciary",
+      "grade": "O-2",
+      "title": "Municipal Judge",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o2",
+      "branch_id": "security-bureau",
+      "grade": "O-2",
+      "title": "Senior Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-o2",
+      "branch_id": "personal-staff",
+      "grade": "O-2",
+      "title": "Political Officer",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o2",
+      "branch_id": "royal-guard",
+      "grade": "O-2",
+      "title": "Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o2",
+      "branch_id": "state",
+      "grade": "O-2",
+      "title": "Attaché",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o2",
+      "branch_id": "regional-governance",
+      "grade": "O-2",
+      "title": "Vice Mayor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o2",
+      "branch_id": "intelligence-service",
+      "grade": "O-2",
+      "title": "Agent",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o3",
+      "branch_id": "navy",
+      "grade": "O-3",
+      "title": "Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/19",
+          "external_branch": "Imperial Navy",
+          "external_title": "Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o3",
+      "branch_id": "marine",
+      "grade": "O-3",
+      "title": "First Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/18",
+          "external_branch": "Imperial Army",
+          "external_title": "Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o3",
+      "branch_id": "army",
+      "grade": "O-3",
+      "title": "First Lieutenant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/18",
+          "external_branch": "Imperial Army",
+          "external_title": "Lieutenant",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-o3",
+      "branch_id": "inquisition",
+      "grade": "O-3",
+      "title": "District Inspector",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o3",
+      "branch_id": "judiciary",
+      "grade": "O-3",
+      "title": "District Judge",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o3",
+      "branch_id": "security-bureau",
+      "grade": "O-3",
+      "title": "Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-o3",
+      "branch_id": "personal-staff",
+      "grade": "O-3",
+      "title": "Policy Advisor / Office Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o3",
+      "branch_id": "royal-guard",
+      "grade": "O-3",
+      "title": "Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o3",
+      "branch_id": "state",
+      "grade": "O-3",
+      "title": "Senior Attaché",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o3",
+      "branch_id": "regional-governance",
+      "grade": "O-3",
+      "title": "Mayor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o3",
+      "branch_id": "intelligence-service",
+      "grade": "O-3",
+      "title": "Senior Agent",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o4",
+      "branch_id": "navy",
+      "grade": "O-4",
+      "title": "Lieutenant Commander",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/17",
+          "external_branch": "Imperial Navy",
+          "external_title": "Lieutenant Commander",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o4",
+      "branch_id": "marine",
+      "grade": "O-4",
+      "title": "Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/16",
+          "external_branch": "Imperial Army",
+          "external_title": "Captain",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o4",
+      "branch_id": "army",
+      "grade": "O-4",
+      "title": "Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-1-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/16",
+          "external_branch": "Imperial Army",
+          "external_title": "Captain",
+          "observed_viewer_left": 1,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-o4",
+      "branch_id": "inquisition",
+      "grade": "O-4",
+      "title": "Provincinal Inspector",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o4",
+      "branch_id": "judiciary",
+      "grade": "O-4",
+      "title": "Provincinal Judge",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-o4",
+      "branch_id": "ministries",
+      "grade": "O-4",
+      "title": "Deputy Assistant Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o4",
+      "branch_id": "security-bureau",
+      "grade": "O-4",
+      "title": "Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-o4",
+      "branch_id": "personal-staff",
+      "grade": "O-4",
+      "title": "Communications Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o4",
+      "branch_id": "royal-guard",
+      "grade": "O-4",
+      "title": "Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o4",
+      "branch_id": "state",
+      "grade": "O-4",
+      "title": "Third Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o4",
+      "branch_id": "regional-governance",
+      "grade": "O-4",
+      "title": "Provincinal Mayor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o4",
+      "branch_id": "intelligence-service",
+      "grade": "O-4",
+      "title": "Staff Agent",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o5",
+      "branch_id": "navy",
+      "grade": "O-5",
+      "title": "Commander",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/15",
+          "external_branch": "Imperial Navy",
+          "external_title": "Commander",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o5",
+      "branch_id": "marine",
+      "grade": "O-5",
+      "title": "Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/14",
+          "external_branch": "Imperial Army",
+          "external_title": "Major",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o5",
+      "branch_id": "army",
+      "grade": "O-5",
+      "title": "Major",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/14",
+          "external_branch": "Imperial Army",
+          "external_title": "Major",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-o5",
+      "branch_id": "inquisition",
+      "grade": "O-5",
+      "title": "Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o5",
+      "branch_id": "judiciary",
+      "grade": "O-5",
+      "title": "Magistrate",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-o5",
+      "branch_id": "ministries",
+      "grade": "O-5",
+      "title": "Assistant Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o5",
+      "branch_id": "security-bureau",
+      "grade": "O-5",
+      "title": "Commander",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-o5",
+      "branch_id": "personal-staff",
+      "grade": "O-5",
+      "title": "Military Aide",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o5",
+      "branch_id": "royal-guard",
+      "grade": "O-5",
+      "title": "Commander",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o5",
+      "branch_id": "state",
+      "grade": "O-5",
+      "title": "Second Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o5",
+      "branch_id": "regional-governance",
+      "grade": "O-5",
+      "title": "Sub-Prefect",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o5",
+      "branch_id": "intelligence-service",
+      "grade": "O-5",
+      "title": "Master Agent",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-o6",
+      "branch_id": "navy",
+      "grade": "O-6",
+      "title": "Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/13",
+          "external_branch": "Imperial Navy",
+          "external_title": "Captain",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-o6",
+      "branch_id": "marine",
+      "grade": "O-6",
+      "title": "Lieutenant Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/14",
+          "external_branch": "Imperial Army",
+          "external_title": "Major",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-o6",
+      "branch_id": "army",
+      "grade": "O-6",
+      "title": "Lieutenant Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/14",
+          "external_branch": "Imperial Army",
+          "external_title": "Major",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-o6",
+      "branch_id": "inquisition",
+      "grade": "O-6",
+      "title": "Planetary Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-o6",
+      "branch_id": "judiciary",
+      "grade": "O-6",
+      "title": "Planatary Court Justice",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-o6",
+      "branch_id": "ministries",
+      "grade": "O-6",
+      "title": "Deputy Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-o6",
+      "branch_id": "security-bureau",
+      "grade": "O-6",
+      "title": "Deputy Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-o6",
+      "branch_id": "royal-guard",
+      "grade": "O-6",
+      "title": "Lieutenant Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-o6",
+      "branch_id": "state",
+      "grade": "O-6",
+      "title": "First Secretary",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-o6",
+      "branch_id": "regional-governance",
+      "grade": "O-6",
+      "title": "Lieutentant Governor / Prefect",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-o6",
+      "branch_id": "intelligence-service",
+      "grade": "O-6",
+      "title": "Assistant Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c1",
+      "branch_id": "navy",
+      "grade": "C-1",
+      "title": "Line Captain",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/13",
+          "external_branch": "Imperial Navy",
+          "external_title": "Captain",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c1",
+      "branch_id": "marine",
+      "grade": "C-1",
+      "title": "Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/12",
+          "external_branch": "Imperial Army",
+          "external_title": "Colonel",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c1",
+      "branch_id": "army",
+      "grade": "C-1",
+      "title": "Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/12",
+          "external_branch": "Imperial Army",
+          "external_title": "Colonel",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c1",
+      "branch_id": "inquisition",
+      "grade": "C-1",
+      "title": "System Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-c1",
+      "branch_id": "judiciary",
+      "grade": "C-1",
+      "title": "System Court Justice",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c1",
+      "branch_id": "ministries",
+      "grade": "C-1",
+      "title": "Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c1",
+      "branch_id": "security-bureau",
+      "grade": "C-1",
+      "title": "Assistant Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-c1",
+      "branch_id": "personal-staff",
+      "grade": "C-1",
+      "title": "Health Supervisor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c1",
+      "branch_id": "royal-guard",
+      "grade": "C-1",
+      "title": "Colonel",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c1",
+      "branch_id": "state",
+      "grade": "C-1",
+      "title": "Counsellor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-c1",
+      "branch_id": "regional-governance",
+      "grade": "C-1",
+      "title": "Senator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c1",
+      "branch_id": "intelligence-service",
+      "grade": "C-1",
+      "title": "Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c2",
+      "branch_id": "navy",
+      "grade": "C-2",
+      "title": "Commodore",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/11",
+          "external_branch": "Imperial Navy",
+          "external_title": "Commodore",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c2",
+      "branch_id": "marine",
+      "grade": "C-2",
+      "title": "Brigadier General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/10",
+          "external_branch": "Imperial Army",
+          "external_title": "Brigadier General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c2",
+      "branch_id": "army",
+      "grade": "C-2",
+      "title": "Brigadier General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-1-right-2-v1",
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/10",
+          "external_branch": "Imperial Army",
+          "external_title": "Brigadier General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 1
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c2",
+      "branch_id": "inquisition",
+      "grade": "C-2",
+      "title": "Sector Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c2",
+      "branch_id": "ministries",
+      "grade": "C-2",
+      "title": "Senior Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c2",
+      "branch_id": "security-bureau",
+      "grade": "C-2",
+      "title": "Station Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c2",
+      "branch_id": "royal-guard",
+      "grade": "C-2",
+      "title": "Brigadier General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c2",
+      "branch_id": "state",
+      "grade": "C-2",
+      "title": "Minister-Counsellor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-c2",
+      "branch_id": "regional-governance",
+      "grade": "C-2",
+      "title": "Governor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c2",
+      "branch_id": "intelligence-service",
+      "grade": "C-2",
+      "title": "Station Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c3",
+      "branch_id": "navy",
+      "grade": "C-3",
+      "title": "Rear Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/9",
+          "external_branch": "Imperial Navy",
+          "external_title": "Rear Admiral",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c3",
+      "branch_id": "marine",
+      "grade": "C-3",
+      "title": "Major General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/8",
+          "external_branch": "Imperial Army",
+          "external_title": "Major General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c3",
+      "branch_id": "army",
+      "grade": "C-3",
+      "title": "Major General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/8",
+          "external_branch": "Imperial Army",
+          "external_title": "Major General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c3",
+      "branch_id": "inquisition",
+      "grade": "C-3",
+      "title": "Region Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-c3",
+      "branch_id": "judiciary",
+      "grade": "C-3",
+      "title": "Sector Judicator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c3",
+      "branch_id": "ministries",
+      "grade": "C-3",
+      "title": "Deputy Assistant Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c3",
+      "branch_id": "security-bureau",
+      "grade": "C-3",
+      "title": "Assistant Bureau Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-c3",
+      "branch_id": "personal-staff",
+      "grade": "C-3",
+      "title": "Office Manager",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c3",
+      "branch_id": "royal-guard",
+      "grade": "C-3",
+      "title": "Major General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c3",
+      "branch_id": "state",
+      "grade": "C-3",
+      "title": "Resident Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-c3",
+      "branch_id": "regional-governance",
+      "grade": "C-3",
+      "title": "System Governor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c3",
+      "branch_id": "intelligence-service",
+      "grade": "C-3",
+      "title": "Assistant Bureau Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c4",
+      "branch_id": "navy",
+      "grade": "C-4",
+      "title": "Vice Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/7",
+          "external_branch": "Imperial Navy",
+          "external_title": "Vice Admiral",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c4",
+      "branch_id": "marine",
+      "grade": "C-4",
+      "title": "Lieutenant General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/6",
+          "external_branch": "Imperial Army",
+          "external_title": "Lieutenant General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c4",
+      "branch_id": "army",
+      "grade": "C-4",
+      "title": "Lieutenant General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/6",
+          "external_branch": "Imperial Army",
+          "external_title": "Lieutenant General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c4",
+      "branch_id": "inquisition",
+      "grade": "C-4",
+      "title": "Oversector Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-c4",
+      "branch_id": "judiciary",
+      "grade": "C-4",
+      "title": "Oversector Region Judicator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c4",
+      "branch_id": "ministries",
+      "grade": "C-4",
+      "title": "Assistant Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c4",
+      "branch_id": "security-bureau",
+      "grade": "C-4",
+      "title": "Bureau Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c4",
+      "branch_id": "royal-guard",
+      "grade": "C-4",
+      "title": "Lieutenant General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c4",
+      "branch_id": "state",
+      "grade": "C-4",
+      "title": "Chargé d'affaires",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-c4",
+      "branch_id": "regional-governance",
+      "grade": "C-4",
+      "title": "Sector Adjutant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c4",
+      "branch_id": "intelligence-service",
+      "grade": "C-4",
+      "title": "Bureau Chief",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c5",
+      "branch_id": "navy",
+      "grade": "C-5",
+      "title": "Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/5",
+          "external_branch": "Imperial Navy",
+          "external_title": "Admiral",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c5",
+      "branch_id": "marine",
+      "grade": "C-5",
+      "title": "General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_TITLE_BRIDGE",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/4",
+          "external_branch": "Imperial Army",
+          "external_title": "General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides.",
+        "Title/branch analogy is a proposed adaptation, not an externally documented Imperial Republic assignment."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c5",
+      "branch_id": "army",
+      "grade": "C-5",
+      "title": "General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/4",
+          "external_branch": "Imperial Army",
+          "external_title": "General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c5",
+      "branch_id": "inquisition",
+      "grade": "C-5",
+      "title": "Inspector General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-c5",
+      "branch_id": "judiciary",
+      "grade": "C-5",
+      "title": "Oversector Judicator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c5",
+      "branch_id": "ministries",
+      "grade": "C-5",
+      "title": "Under Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c5",
+      "branch_id": "security-bureau",
+      "grade": "C-5",
+      "title": "Assistant Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-c5",
+      "branch_id": "personal-staff",
+      "grade": "C-5",
+      "title": "Inspector General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c5",
+      "branch_id": "royal-guard",
+      "grade": "C-5",
+      "title": "General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c5",
+      "branch_id": "state",
+      "grade": "C-5",
+      "title": "Representative",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c5",
+      "branch_id": "intelligence-service",
+      "grade": "C-5",
+      "title": "Assistant Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-c6",
+      "branch_id": "navy",
+      "grade": "C-6",
+      "title": "Command Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-c6",
+      "branch_id": "marine",
+      "grade": "C-6",
+      "title": "Command General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-c6",
+      "branch_id": "army",
+      "grade": "C-6",
+      "title": "Command General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-c6",
+      "branch_id": "inquisition",
+      "grade": "C-6",
+      "title": "Royal Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-c6",
+      "branch_id": "judiciary",
+      "grade": "C-6",
+      "title": "Territorial Administrator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-c6",
+      "branch_id": "ministries",
+      "grade": "C-6",
+      "title": "Deputy Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-c6",
+      "branch_id": "security-bureau",
+      "grade": "C-6",
+      "title": "Deputy Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-c6",
+      "branch_id": "personal-staff",
+      "grade": "C-6",
+      "title": "State Security Advisor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-c6",
+      "branch_id": "royal-guard",
+      "grade": "C-6",
+      "title": "Command General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-c6",
+      "branch_id": "state",
+      "grade": "C-6",
+      "title": "Envoy",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-c6",
+      "branch_id": "intelligence-service",
+      "grade": "C-6",
+      "title": "Deputy Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-hc1",
+      "branch_id": "navy",
+      "grade": "HC-1",
+      "title": "Fleet Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/3",
+          "external_branch": "Imperial Navy",
+          "external_title": "Fleet Admiral",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-hc1",
+      "branch_id": "marine",
+      "grade": "HC-1",
+      "title": "Marshall",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-hc1",
+      "branch_id": "army",
+      "grade": "HC-1",
+      "title": "Surface Marshall",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-inquisition-hc1",
+      "branch_id": "inquisition",
+      "grade": "HC-1",
+      "title": "High Inquisitor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-hc1",
+      "branch_id": "judiciary",
+      "grade": "HC-1",
+      "title": "Judicator / Minister of Justice",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-hc1",
+      "branch_id": "ministries",
+      "grade": "HC-1",
+      "title": "Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-security-bureau-hc1",
+      "branch_id": "security-bureau",
+      "grade": "HC-1",
+      "title": "Director-General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-hc1",
+      "branch_id": "state",
+      "grade": "HC-1",
+      "title": "Ambassador",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-hc1",
+      "branch_id": "regional-governance",
+      "grade": "HC-1",
+      "title": "Moff",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-intelligence-service-hc1",
+      "branch_id": "intelligence-service",
+      "grade": "HC-1",
+      "title": "Director",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-hc2",
+      "branch_id": "navy",
+      "grade": "HC-2",
+      "title": "High Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-hc2",
+      "branch_id": "marine",
+      "grade": "HC-2",
+      "title": "High Marshall",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-hc2",
+      "branch_id": "army",
+      "grade": "HC-2",
+      "title": "High General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/2",
+          "external_branch": "Imperial Army",
+          "external_title": "High General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-judiciary-hc2",
+      "branch_id": "judiciary",
+      "grade": "HC-2",
+      "title": "High Judicator",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-ministries-hc2",
+      "branch_id": "ministries",
+      "grade": "HC-2",
+      "title": "High Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-personal-staff-hc2",
+      "branch_id": "personal-staff",
+      "grade": "HC-2",
+      "title": "Deputy Chief of Staff",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-royal-guard-hc2",
+      "branch_id": "royal-guard",
+      "grade": "HC-2",
+      "title": "Commandant",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-state-hc2",
+      "branch_id": "state",
+      "grade": "HC-2",
+      "title": "High Ambassador",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-hc2",
+      "branch_id": "regional-governance",
+      "grade": "HC-2",
+      "title": "High Moff",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-hc3",
+      "branch_id": "navy",
+      "grade": "HC-3",
+      "title": "Grand Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/1",
+          "external_branch": "Imperial Navy",
+          "external_title": "Grand Admiral",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-hc3",
+      "branch_id": "marine",
+      "grade": "HC-3",
+      "title": "Grand Marshall",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-hc3",
+      "branch_id": "army",
+      "grade": "HC-3",
+      "title": "Grand General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "EXTERNAL_TITLE_COMPARISON",
+      "source_observations": [
+        {
+          "file": "docs/research/code-cylinder-image-evidence.json",
+          "json_pointer": "/whatsahonda_military_observations/0",
+          "external_branch": "Imperial Army",
+          "external_title": "Grand General",
+          "observed_viewer_left": 2,
+          "observed_viewer_right": 2
+        }
+      ],
+      "notes": [
+        "Candidate front-view convention: chart viewer-left becomes wearer-right. The source does not specify wearer sides."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-hc3",
+      "branch_id": "regional-governance",
+      "grade": "HC-3",
+      "title": "Grand Moff",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-navy-hc4",
+      "branch_id": "navy",
+      "grade": "HC-4",
+      "title": "Lord Admiral",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-marine-hc4",
+      "branch_id": "marine",
+      "grade": "HC-4",
+      "title": "Lord Marshall",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-army-hc4",
+      "branch_id": "army",
+      "grade": "HC-4",
+      "title": "Lord General",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": "layout-wearer-left-2-right-2-v1",
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "basis": "PROPOSED_UPPER_EXTENSION",
+      "source_observations": [],
+      "notes": [
+        "Unmatched military title: propose the four-device senior family without inventing higher counts. No direct source rank match; approval required."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-regional-governance-hc4",
+      "branch_id": "regional-governance",
+      "grade": "HC-4",
+      "title": "Lord Moff",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-hc5",
+      "branch_id": null,
+      "grade": "HC-5",
+      "title": "Vice Chancellor / Royal Family",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-hc6",
+      "branch_id": null,
+      "grade": "HC-6",
+      "title": "High Councilor / Chief of Staff / Grand Minister",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-hc7",
+      "branch_id": null,
+      "grade": "HC-7",
+      "title": "Praetor / Royal First Family",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-rt1",
+      "branch_id": null,
+      "grade": "RT-1",
+      "title": "Supreme Chancellor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-rt2",
+      "branch_id": null,
+      "grade": "RT-2",
+      "title": "Empress",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-rt3",
+      "branch_id": null,
+      "grade": "RT-3",
+      "title": "Executor",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    },
+    {
+      "rank_id": "imperial-republic-shared-rt4",
+      "branch_id": null,
+      "grade": "RT-4",
+      "title": "Supreme Ruler",
+      "status": "CANDIDATE",
+      "approval": null,
+      "canonical": false,
+      "layout_id": null,
+      "wearer_left_count": null,
+      "wearer_right_count": null,
+      "basis": "UNRESOLVED",
+      "source_observations": [],
+      "notes": [
+        "No researched Imperial Republic branch-specific cylinder mapping. Do not inherit military counts from grade or matching title alone."
+      ]
+    }
+  ],
+  "coverage": {
+    "military_proposals": 69,
+    "unresolved_other_and_shared": 148,
+    "source_blank_cells_preserved": 66
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "status": "RESEARCH",
+  "imperial_republic_authority": false,
+  "sources": [
+    {
+      "id": "swc-current",
+      "url": "https://www.swc-empire.com/ing/general/ranks",
+      "kind": "external-game-primary-chart",
+      "observation": "Current table labels military/administrative ranks and linked badge graphics; text supplies no cylinder regulation. Saved older MHTML and current chart represent different revisions."
+    },
+    {
+      "id": "saxton-2000",
+      "url": "https://www.theforce.net/swtc/insignia/cylinders.html",
+      "kind": "external-fan-analysis",
+      "source_updated": "2000-10-16",
+      "observation": "Proposes wearer-left then right then left then right for totals 1–4; describes access permits and rank differentiation. This is the author’s analytical rule, not an Imperial Republic regulation. Describes silver pen-like devices and an uncommon concentric-shell form."
+    },
+    {
+      "id": "cloneintel",
+      "url": "https://cloneintel.com/IntelRanks.html",
+      "kind": "external-fan-analysis",
+      "observation": "Uses its own explicit canon model and rejects cylinders as rank insignia; conflicts with Saxton on interpretation. Do not merge either interpretation into a universal law."
+    },
+    {
+      "id": "501st-line-officer",
+      "url": "https://crls.501st.com/ioc/imperial-line-officer-olive-uniform",
+      "kind": "costume-approval-primary-standard",
+      "observation": "Costume standard permits 1–4 devices; optional level-two specifies wearer-left for a single device. Blue-topped dosimeter and other styles are listed; higher costume certification requires a film-referenced combination. These costume rules do not establish a complete per-rank ladder."
+    }
+  ]
+}

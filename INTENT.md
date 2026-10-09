@@ -76,3 +76,7 @@ The saved goal was invoked. Finish 69 military and 141 other populated branch ce
 ## Current next review
 
 Open assets/catalog-review.html, filter Navy and review all 23 bottom-up military grades. Select exact tile/material geometry before approving plaque versions and associations by pattern ID/hash. Review specialty proposals and unresolved shared upper alternatives afterward. See docs/COMPLETION-REPORT.md for complete coverage, evidence and limits.
+
+## Active continuation — code cylinders and Claude Design
+
+Ryan authorized researching and adding separately versioned code-cylinder candidates with provisional military associations, followed by integration of Claude Design’s ranks-only presentation. Earlier cylinder deferral is superseded for this candidate work. All visual/assignment approvals stay null; canon integration remains deferred. See docs/CODE-CYLINDERS.md.

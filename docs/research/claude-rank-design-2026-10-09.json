@@ -1,0 +1,153 @@
+{
+  "status": "PASS_LOCAL_BROWSER",
+  "date": "2026-10-09",
+  "sources": [
+    {
+      "path": "D:\\eotir\\projects\\.handoffs\\Rank Plaque Catalog - Standalone.html",
+      "sha256": "08edc827cd9893eb73a9824794c3786aca4fa93df8f6815efddf7247ac3619d4"
+    },
+    {
+      "path": "D:\\eotir\\projects\\.handoffs\\EOTIR-Ranks-site3.zip",
+      "sha256": "1740dec1a287cead2261c33b995fe0028859d096b4ead0d6061a0e90f10c7bde"
+    }
+  ],
+  "source_subset": [
+    "Rank Plaque Catalog.html",
+    "ranks/ranks_ui.jsx",
+    "ranks/ranks_views.jsx",
+    "theme/tokens.css",
+    "standalone React/ReactDOM and Latin font dependencies"
+  ],
+  "excluded": [
+    "exported synthetic plaques",
+    "ranks_data.js lore/data",
+    "other whole-site pages",
+    "Babel runtime",
+    "full standalone bundle"
+  ],
+  "authoritative_data": "data/rank-catalog.json",
+  "runtime": "React/ReactDOM 18.3.1, local MIT licensed; original Latin typography local OFL licensed",
+  "outputs": [
+    {
+      "path": "assets/site/fonts/5243b70e-40a8-44f1-90f6-51b838c4d5d4.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "bytes": 48256
+    },
+    {
+      "path": "assets/site/fonts/740670dc-8e2a-4425-a2ee-a0afc030b2a4.woff2",
+      "sha256": "7d75be85dd1627e27ec151e9a3701e661bc4f8c2a93611bdd92f3a05d6bbd942",
+      "bytes": 9756
+    },
+    {
+      "path": "assets/site/fonts/a67d4481-efc0-415a-a0b8-d07c9f2523c5.woff2",
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be",
+      "bytes": 31432
+    },
+    {
+      "path": "assets/site/fonts/c54dfba5-b903-4812-9487-1c34a76d6121.woff2",
+      "sha256": "ce5095dc1cb200aaa939e38067a0677018d10e9f26ec38cdcf1557ac524fc775",
+      "bytes": 9900
+    },
+    {
+      "path": "assets/site/fonts/chakrapetch-OFL.txt",
+      "sha256": "13831d02389d917d22fcfa6c79f98f8acbf61d230add0e73a4d4dc5f3bfb9e56",
+      "bytes": 4396
+    },
+    {
+      "path": "assets/site/fonts/d160f254-9af4-4f5a-bac3-7ac246bc7906.woff2",
+      "sha256": "a5888696e9eb1b4bbbecc8eb3922b8369f49d4bddb72263e033cbd17f399be76",
+      "bytes": 9968
+    },
+    {
+      "path": "assets/site/fonts/d3a37e09-c935-4d59-882e-acd3cc642383.woff2",
+      "sha256": "36ad966cb653de70ba37355c41003b02de8940b2df6cbcd46480a6ad8cadd65d",
+      "bytes": 9956
+    },
+    {
+      "path": "assets/site/fonts/inter-OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "bytes": 4377
+    },
+    {
+      "path": "assets/site/fonts/jetbrainsmono-OFL.txt",
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+      "bytes": 4399
+    },
+    {
+      "path": "assets/site/fonts.css",
+      "sha256": "dcd655668c5635d3e50ef541fb4d93a86aaf43adb97b162f43bc757d4091a592",
+      "bytes": 4235
+    },
+    {
+      "path": "assets/site/rank-catalog.css",
+      "sha256": "87adf0c20b5c715348f3e554f5d81995a61a4c7b3d2939e1fc5b70344f76f012",
+      "bytes": 20889
+    },
+    {
+      "path": "assets/site/rank-data.js",
+      "sha256": "1a36fb62d8e881b97e3290bcb2c06e5aad1d753b50014ad32b2efdd2e6258050",
+      "bytes": 849061
+    },
+    {
+      "path": "assets/site/rank-ui.js",
+      "sha256": "7f2c7f94f3ce0f4806e9fbadcf8ccfd8865e5460ffcf4098f556f3c77c14f9f7",
+      "bytes": 23555
+    },
+    {
+      "path": "assets/site/rank-ui.jsx",
+      "sha256": "cea00af2120b8a537b6eb9d3c715e2b93c80881aba5bd8f10606b4fa70b8e4e2",
+      "bytes": 23618
+    },
+    {
+      "path": "assets/site/README.md",
+      "sha256": "8ca652945e99e8802322fa1340c64138df091901f1de0d11e62cdfd587c6c5fd",
+      "bytes": 1745
+    },
+    {
+      "path": "assets/site/vendor/LICENSE.txt",
+      "sha256": "4fb5d68ba7e9f8666b09799dacb8cbe59b0890da0ab17f746a984902d200e4cd",
+      "bytes": 1115
+    },
+    {
+      "path": "assets/site/vendor/react-18.3.1.js",
+      "sha256": "28348fef6cb0ed8b2ceeb22deaf824428fd13875d84c73d38f77dd216fc24e7f",
+      "bytes": 109931
+    },
+    {
+      "path": "assets/site/vendor/react-dom-18.3.1.js",
+      "sha256": "f9044a5e9c39db8bb1a204dff924e526ec0a621e695bb69de1035811be8709e4",
+      "bytes": 1080227
+    }
+  ],
+  "browser": {
+    "url": "file:///D:/eotir/projects/ranks/assets/catalog-review.html",
+    "body_background": "rgb(11,12,16)",
+    "body_font_px": 13,
+    "default_military_rows": 69,
+    "catalog_records": 210,
+    "source_blanks": 66,
+    "shared_records": 7,
+    "matrix_military_cells": 69,
+    "navy_ladder_rungs": 23,
+    "inspector_proof": "Navy O-5 Commander: wearer R2/L1, candidate, EXTERNAL_TITLE_COMPARISON basis; note source does not specify wearer sides",
+    "mobile": {
+      "viewport_width": 390,
+      "document_scroll_width": 380,
+      "horizontal_overflow": false
+    },
+    "loaded_image_count_inspector": 229,
+    "broken_images": 0,
+    "console_errors": 0,
+    "single_review_data_payload": true,
+    "screenshots": [
+      "docs/research/claude-rank-design-ledger-2026-10-09.png",
+      "docs/research/claude-rank-design-inspector-2026-10-09.png",
+      "docs/research/claude-rank-design-mobile-2026-10-09.png"
+    ]
+  },
+  "limitations": [
+    "Local HTTP server/browser connection timed out; direct local-file offline QA passed. Root to verify served Pages.",
+    "Physical native plaque/chart assets unchanged.",
+    "Technical QA does not establish creative approval or canon."
+  ]
+}

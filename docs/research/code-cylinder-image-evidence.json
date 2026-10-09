@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-09",
+  "status": "EXTERNAL_REFERENCE_EVIDENCE_NOT_IMPERIAL_REPUBLIC_CANON",
+  "inspection": "Native source images viewed; reference crops retained, no creative asset modifications. Counts are visible individual small silver/gold devices, excluding large gold appointment squares and rank tiles.",
+  "sources": [
+    {
+      "path": "references/imperial-rank-table-whatsahonda.png",
+      "sha256": "5bd9b889a6ae46f2599e311f4f6aef2990e157df65ccde6fd3486dcf13fdb94d",
+      "dimensions": [
+        1958,
+        1084
+      ]
+    },
+    {
+      "path": "references/table-of-ranks-in-imperial-service-taivaansusi.png",
+      "sha256": "3a0449e865a2914e8eefe1f06dbd365189427f11b835597a185c256ca6b31e86",
+      "dimensions": [
+        2445,
+        2606
+      ]
+    },
+    {
+      "path": "references/imperial-uniform-recognition-chart-2-taivaansusi.png",
+      "sha256": "2c962fadf61ef9addebfa34a5076dc463e5477e1addd9a8148978721c52883f3",
+      "dimensions": [
+        7016,
+        9934
+      ]
+    },
+    {
+      "path": "references/combine-galactic-empire-ranks.mhtml",
+      "sha256": "70d692f020b6f4df4499e8285c942f5e5cd346142b2a68df900431c04ed90b4a",
+      "dimensions": null
+    },
+    {
+      "path": "docs/research/combine-saved-plaques-contact.png",
+      "sha256": "aa8e62292a0b83ca8b4c1fde8bbb952d42adf2c3d33af8bd9ce455618705db4b",
+      "dimensions": [
+        1200,
+        990
+      ]
+    }
+  ],
+  "coordinate_convention": "Image pixels, origin top-left; bbox [left,top,right,bottom], right/bottom exclusive. Chart viewer-left/right is authoritative observation. Wearer-left/right must be chosen explicitly; frontal uniform subjects reverse viewer sides.",
+  "whatsahonda_military_observations": [
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Grand General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        50,
+        139,
+        107
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Grand Admiral",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        50,
+        555,
+        107
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "High General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        107,
+        139,
+        161
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Fleet Admiral",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        107,
+        555,
+        161
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        161,
+        139,
+        214
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Admiral",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        161,
+        555,
+        214
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Lieutenant General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        214,
+        139,
+        269
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Vice Admiral",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        214,
+        555,
+        269
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Major General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        269,
+        139,
+        323
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Rear Admiral",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        269,
+        555,
+        323
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "total": 4,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Brigadier General",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        323,
+        139,
+        377
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Commodore",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        323,
+        555,
+        377
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Colonel",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        377,
+        139,
+        432
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Captain",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        377,
+        555,
+        432
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Major",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        432,
+        139,
+        486
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Commander",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        432,
+        555,
+        486
+      ],
+      "viewer_left": 2,
+      "viewer_right": 1,
+      "total": 3,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Captain",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        486,
+        139,
+        541
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Lieutenant Commander",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        486,
+        555,
+        541
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Lieutenant",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        541,
+        139,
+        594
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Lieutenant",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        541,
+        555,
+        594
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Junior Lieutenant",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        594,
+        139,
+        648
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Ensign",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        594,
+        555,
+        648
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Officer Candidate",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        648,
+        139,
+        703
+      ],
+      "viewer_left": 1,
+      "viewer_right": 0,
+      "total": 1,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Midshipman",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        648,
+        555,
+        703
+      ],
+      "viewer_left": 1,
+      "viewer_right": 0,
+      "total": 1,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Army",
+      "external_title": "Warrant Officer",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        0,
+        703,
+        139,
+        758
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    },
+    {
+      "external_branch": "Imperial Navy",
+      "external_title": "Warrant Officer",
+      "source": "references/imperial-rank-table-whatsahonda.png",
+      "bbox_xyxy": [
+        415,
+        703,
+        555,
+        758
+      ],
+      "viewer_left": 1,
+      "viewer_right": 1,
+      "total": 2,
+      "scope": "both single-row and double-row plaque variants when present",
+      "wearer_left": null,
+      "wearer_right": null,
+      "wearer_convention_status": "UNSPECIFIED_BY_CHART",
+      "confidence": "clear visible marks; comparison evidence only"
+    }
+  ],
+  "other_whatsahonda_observations": {
+    "enlisted": "Staff Sergeant, Sergeant, Corporal, Specialist, Private and Recruit cells use bars or N/A and do not depict cylinder side devices; omission alone is not a universal no-cylinder rule.",
+    "cross_branch": "Several nonmilitary columns visibly share these count families but titles differ. No wholesale Imperial Republic mapping inferred.",
+    "grand_ranks": "Large outer gold squares at Grand General and Grand Admiral are distinct appointment-like devices, not counted as cylinders."
+  },
+  "taivaansusi_rank_table": {
+    "cylinders": "No side-cylinder marks depicted anywhere in inspected chart; colored rank tiles and bars only. Cannot supply rank-to-cylinder rules.",
+    "source": "references/table-of-ranks-in-imperial-service-taivaansusi.png"
+  },
+  "taivaansusi_uniform_observations": [
+    {
+      "external_title": "Commander",
+      "external_institution": "Imperial Intelligence Service, Directorate of Active Measures (ACME)",
+      "dress": "Service dress",
+      "bbox_xyxy": [
+        1890,
+        1430,
+        2110,
+        1660
+      ],
+      "viewer_left": 1,
+      "viewer_right": 2,
+      "wearer_left": 2,
+      "wearer_right": 1,
+      "note": "Frontal wearer; plaque on viewer-right/wearer-left chest. One cylinder opposite plaque and two by plaque."
+    },
+    {
+      "external_title": "Grand Moff",
+      "external_institution": "governor of Greater Seswenna oversector",
+      "dress": "Service dress",
+      "bbox_xyxy": [
+        5880,
+        1430,
+        6160,
+        1660
+      ],
+      "viewer_left": 2,
+      "viewer_right": 2,
+      "wearer_left": 2,
+      "wearer_right": 2
+    },
+    {
+      "external_title": "Ardus Kaine, Grand Moff",
+      "dress": "Formal dress",
+      "bbox_xyxy": [
+        6430,
+        1430,
+        6660,
+        1670
+      ],
+      "viewer_left": null,
+      "viewer_right": 2,
+      "wearer_left": 2,
+      "wearer_right": null,
+      "note": "Viewer-left crop edge and cloak obscure complete count; do not invent opposite-pocket count."
+    }
+  ],
+  "combine_saved_snapshot": {
+    "snapshot_url": "https://holocron.swcombine.com/wiki/Ranks_of_the_Galactic_Empire",
+    "snapshot_date": "Fri, 09 Oct 2026 07:36:58 +0000",
+    "embedded_plaque_gif_count": 88,
+    "cylinders": "Decoded 88-GIF contact sheet depicts backing plates and colored tiles without adjacent cylinder marks. No cylinder-specific prose recovered from MHTML. Counts unavailable; do not infer zero.",
+    "distinction": "Saved historical Holocron chart is distinct from current swc-empire.com rank page."
+  },
+  "crops": [
+    {
+      "path": "docs/research/cylinder-crops/taivaansusi-commander-chest.png",
+      "dimensions": [
+        220,
+        230
+      ],
+      "sha256": "42df4e6f16838d650453f2e9d0e34ba1695d62438895584ed3a6157d7a28805c"
+    },
+    {
+      "path": "docs/research/cylinder-crops/taivaansusi-grand-moff-chest.png",
+      "dimensions": [
+        280,
+        230
+      ],
+      "sha256": "c5d040b8f96d5d2ba4d2b157b07e2749e2723761fa22a50cc02cafa44a158bcc"
+    },
+    {
+      "path": "docs/research/cylinder-crops/taivaansusi-kaine-chest.png",
+      "dimensions": [
+        230,
+        240
+      ],
+      "sha256": "39e7faf178b7c0a7876d9e56ee58bf5d53255b8aa61d91e7d1d9982905ae118a"
+    },
+    {
+      "path": "docs/research/cylinder-crops/taivaansusi-uniform-upper-row.png",
+      "dimensions": [
+        5060,
+        1370
+      ],
+      "sha256": "a920d018ebe872cb9642204ce0b304668fb41c97290f4407a9384964cf8ab412"
+    },
+    {
+      "path": "docs/research/cylinder-crops/taivaansusi-upper-chest-strip.png",
+      "dimensions": [
+        5060,
+        210
+      ],
+      "sha256": "09503c3db1faf095b25a5c6765376c4217d190b31e0412f00cf24a9df52f5948"
+    },
+    {
+      "path": "docs/research/cylinder-crops/whatsahonda-army-6x.png",
+      "dimensions": [
+        834,
+        4248
+      ],
+      "sha256": "e41c13db78e90fa7f7b52efada0f2e8a8007a9f5877e37c6d8b81de0feb7c1bd"
+    },
+    {
+      "path": "docs/research/cylinder-crops/whatsahonda-military-cylinders-2x.png",
+      "dimensions": [
+        1110,
+        1416
+      ],
+      "sha256": "3df59851fa663856f9f537d3ad3a1c7edd4c486208434268fa5b397204ea35a9"
+    }
+  ],
+  "mapping_policy": "Keep title-aligned proposals distinct from observed external counts. No source inspected here establishes Imperial Republic grade/class cylinder entitlement. Preserve unknown vs zero; flag any bridging/interpolation separately."
+}

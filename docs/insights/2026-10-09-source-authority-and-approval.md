@@ -45,3 +45,7 @@ Ryan explicitly authorized public GitHub repository visibility and static Pages 
 ## Source classification correction
 
 Ryan clarified the payroll/personnel exports are fictional worldbuilding. The earlier real-person privacy assumption was wrong. Do not confuse in-universe payroll titles, financial figures or named characters with real personal records. Rank-only projections remain useful to scope the working build, but they must not be justified by an invented privacy restriction.
+
+## Cylinder count and orientation evidence
+
+The supplied Whatsahonda chart depicts cylinder counts beside plaques, while external analyses disagree about whether counts encode rank. Keep counts, wearer-side placement and external title matching as explicit separate assertions. A front-facing chart reverses wearer-left/right; if the source does not label orientation, record that conversion as a candidate display convention. Missing cylinders in a plaque-only reference do not prove zero devices are authorized.

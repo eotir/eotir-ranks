@@ -13,7 +13,6 @@ Open [assets/review.html](assets/review.html) for the review hub and preserved t
 - [Pattern rationale](docs/PATTERN-RATIONALE.md), [decisions](docs/DECISIONS.md), [sources](sources.md) and [discovery](docs/DISCOVERY.md).
 - [Intent](INTENT.md), [agent instructions](AGENTS.md), [integration plan](docs/INTEGRATION.md) and [future transfer examples](staging/README.md).
 - [Completion report](docs/COMPLETION-REPORT.md): requirement audit and exact next review.
-- [Completion report](docs/COMPLETION-REPORT.md): requirement audit and next review.
 - [Session handoff](docs/sessions/2026-10-09-session.md) and [goal brief](docs/GOAL-PROMPT.md).
 
 ## Rebuild locally
@@ -24,7 +23,10 @@ In a terminal in this repository, install Python 3.10+ and dependencies, then ru
 python -m pip install -r requirements.txt
 python tools/build_catalog.py
 python tools/compose_assets.py --verify
+python tools/build_cylinders.py
+python tools/build_cylinder_assignments.py
 python tools/build_review.py
+python tools/verify_cylinders.py
 python tools/verify_catalog.py
 ```
 
@@ -43,3 +45,9 @@ GitHub Actions publishes the saved static review files from main to GitHub Pages
 Ryan clarified that all supplied payroll/personnel material belongs to the fictional Imperial Republic universe. Earlier privacy wording was an incorrect assumption; it is not a reason to withhold fictional source material. Secrets remain excluded.
 
 Publication workflow: .github/workflows/pages.yml packages existing assets/data/docs/references and root review documents. It does not regenerate images or ingest canon. GitHub Pages uses workflow deployment after two managed branch builds failed before running their build steps.
+
+## Code cylinders and redesigned catalog
+
+The Claude Design catalog supplies ledger, matrix and ladder views plus a rank inspector. Existing plaques and authoritative candidate/source data are retained; unrelated exported site content stays in ignored staging. Separate [cylinder components](assets/code-cylinder-review.html) include full/exposed devices and nine side-count arrangements. [Cylinder research and rules](docs/CODE-CYLINDERS.md) explain the provisional 69 military associations, external orientation conflict, enlisted no-device proposal and unresolved other branches. Existing chart downloads remain plaque-only snapshots.
+
+The runtime is served locally with checked-in React/ReactDOM; the source presentation is assets/site/rank-ui.jsx and its compiled runtime is assets/site/rank-ui.js. The Python builder refreshes data and HTML without regenerating plaque bytes.

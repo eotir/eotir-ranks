@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "status": "CANDIDATE",
+  "approval": null,
+  "coordinate_convention": "Front view: wearer left is viewer right; wearer right is viewer left.",
+  "scope": "Separate component/layout candidates only. No ranks, grades, classes or uniforms assigned.",
+  "source_basis": "Blue-cap silver clipped instrument design study, informed by external cylinder references; no exact prop replication claimed.",
+  "unresolved_state": "null count means unresolved; explicit left=0/right=0 means a deliberate no-cylinder layout.",
+  "raster_method": "Pillow shared vector primitives rendered at 3x then LANCZOS downsample; SVG uses same shapes.",
+  "approval_note": "Saving or publishing candidates does not establish Imperial Republic canon.",
+  "components": [
+    {
+      "id": "code-cylinder-full-blue-silver-v1",
+      "description": "Unassigned full blue-cap silver clipped code cylinder candidate",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        240,
+        720
+      ],
+      "png_path": "assets/cylinders/v1/code-cylinder-full-blue-silver-v1.png",
+      "svg_path": "assets/cylinders/v1/code-cylinder-full-blue-silver-v1.svg",
+      "png_sha256": "054b79fe27249949a932521045e9811b4a2f6304d8bd79929d8c0cb66b30cfa8",
+      "svg_sha256": "ce895a52d32881d6ba9b27b7fe4b60917d810ead631d9439d893c0be8fdf9b2c",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        66,
+        24,
+        175,
+        673
+      ]
+    },
+    {
+      "id": "code-cylinder-exposed-blue-silver-v1",
+      "description": "Unassigned pocket-exposed code cylinder candidate; implied occlusion at y=340",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        240,
+        360
+      ],
+      "png_path": "assets/cylinders/v1/code-cylinder-exposed-blue-silver-v1.png",
+      "svg_path": "assets/cylinders/v1/code-cylinder-exposed-blue-silver-v1.svg",
+      "png_sha256": "ec9572a289c748e9929ff8e8bab3d899967478adb64333651446f02f95ac0be8",
+      "svg_sha256": "cdc351a95a8263f58275d3c24bfedc3e6368975884e5be71a04e6c7e4100a294",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        66,
+        24,
+        175,
+        343
+      ],
+      "proposed_occlusion_y": 340,
+      "fabric_or_pocket_rendered": false
+    }
+  ],
+  "layouts": [
+    {
+      "id": "layout-wearer-left-0-right-0-v1",
+      "description": "Front-view candidate layout: wearer left 0, wearer right 0",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-0-right-0-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-0-right-0-v1.svg",
+      "png_sha256": "4376ad1f436ad430a8b05cd2696cd0eca3909ced3317ddf85b91037b08e0ac9a",
+      "svg_sha256": "189bb3fbc4b537c64fd6e4a7b6c0be31f00f0e089155f5d069edde8d9536a503",
+      "alpha_extrema": [
+        0,
+        0
+      ],
+      "alpha_bbox": null,
+      "wearer_left_count": 0,
+      "wearer_right_count": 0,
+      "viewer_left_count": 0,
+      "viewer_right_count": 0,
+      "placements": [],
+      "rank_assignment": null,
+      "layout_state": "EXPLICIT_NONE",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-0-right-1-v1",
+      "description": "Front-view candidate layout: wearer left 0, wearer right 1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-0-right-1-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-0-right-1-v1.svg",
+      "png_sha256": "dc6db4294dda7bab798c1b1c10ee39ec51d0c4c78a1d7e03ad552a77ddc0f101",
+      "svg_sha256": "b980148a9eafaf060a6f53702da0ff3da07d2fad2414de35690d9488ec0d76c1",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        139,
+        193
+      ],
+      "wearer_left_count": 0,
+      "wearer_right_count": 1,
+      "viewer_left_count": 1,
+      "viewer_right_count": 0,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-0-right-2-v1",
+      "description": "Front-view candidate layout: wearer left 0, wearer right 2",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-0-right-2-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-0-right-2-v1.svg",
+      "png_sha256": "77a15ff1e8e279aaf38f66f9e371c61b68f84ccb89f6c10791dfc9853b3954eb",
+      "svg_sha256": "5ab610a0ead7e1343319b0e0b1c5589856adc9625873297ad7e59eec0b0305e5",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        269,
+        193
+      ],
+      "wearer_left_count": 0,
+      "wearer_right_count": 2,
+      "viewer_left_count": 2,
+      "viewer_right_count": 0,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_right",
+          "slot": 1,
+          "x": 180,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-1-right-0-v1",
+      "description": "Front-view candidate layout: wearer left 1, wearer right 0",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-1-right-0-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-1-right-0-v1.svg",
+      "png_sha256": "d9327da234df00968219c84da5fbbbf350076de8965df181ee569d8af53756c6",
+      "svg_sha256": "c1c7f866177e635424fd6b7536e35ceffb180d637f87f6d474be9ebd13432ddb",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        782,
+        31,
+        839,
+        193
+      ],
+      "wearer_left_count": 1,
+      "wearer_right_count": 0,
+      "viewer_left_count": 0,
+      "viewer_right_count": 1,
+      "placements": [
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-1-right-1-v1",
+      "description": "Front-view candidate layout: wearer left 1, wearer right 1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-1-right-1-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-1-right-1-v1.svg",
+      "png_sha256": "3e2acd7e36a5598b2acb97be9940ee5b7d2e5d9fabad14f31c968445a77f1971",
+      "svg_sha256": "fc4ec1ceee204a38802e1ce7a4dfc6e46b14d013d41dfb11ba8115e1981a219d",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        839,
+        193
+      ],
+      "wearer_left_count": 1,
+      "wearer_right_count": 1,
+      "viewer_left_count": 1,
+      "viewer_right_count": 1,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-1-right-2-v1",
+      "description": "Front-view candidate layout: wearer left 1, wearer right 2",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-1-right-2-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-1-right-2-v1.svg",
+      "png_sha256": "9fc01968acc0880152a4d154a10a85756981796843122b2e95da450d4248e484",
+      "svg_sha256": "985fdcf5e5220e26bf1630f4d3492460a4c39632f52110339a80458ec57db7d2",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        839,
+        193
+      ],
+      "wearer_left_count": 1,
+      "wearer_right_count": 2,
+      "viewer_left_count": 2,
+      "viewer_right_count": 1,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_right",
+          "slot": 1,
+          "x": 180,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-2-right-0-v1",
+      "description": "Front-view candidate layout: wearer left 2, wearer right 0",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-2-right-0-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-2-right-0-v1.svg",
+      "png_sha256": "118f26c49268e71d20cfcd701ae3d59aa2de822927ef99b50523388a366b2627",
+      "svg_sha256": "e703d6d9b582e805e71d6d3b6a352ceae5a80483c4ef93d65c9f340a67e925ce",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        782,
+        31,
+        969,
+        193
+      ],
+      "wearer_left_count": 2,
+      "wearer_right_count": 0,
+      "viewer_left_count": 0,
+      "viewer_right_count": 2,
+      "placements": [
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 1,
+          "x": 880,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-2-right-1-v1",
+      "description": "Front-view candidate layout: wearer left 2, wearer right 1",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-2-right-1-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-2-right-1-v1.svg",
+      "png_sha256": "5b7c772ed77f00faa0f84f92abe035f16d316572f205885e1c2367b0def0d25e",
+      "svg_sha256": "cc288c11cc448d4d52b66ce879f169d4bc29c35e55bb0a27f39870e3eb0dfd10",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        969,
+        193
+      ],
+      "wearer_left_count": 2,
+      "wearer_right_count": 1,
+      "viewer_left_count": 1,
+      "viewer_right_count": 2,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 1,
+          "x": 880,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    },
+    {
+      "id": "layout-wearer-left-2-right-2-v1",
+      "description": "Front-view candidate layout: wearer left 2, wearer right 2",
+      "status": "CANDIDATE",
+      "approval": null,
+      "dimensions": [
+        1080,
+        230
+      ],
+      "png_path": "assets/cylinders/v1/layout-wearer-left-2-right-2-v1.png",
+      "svg_path": "assets/cylinders/v1/layout-wearer-left-2-right-2-v1.svg",
+      "png_sha256": "efea4dd79c65f8454033e3d7ce5c55182d6e18237e992bafd6318c1e5b16431b",
+      "svg_sha256": "9bc026b82c0eac08c42040662ff99326cc9bcfe094aab84aee7300953a1a2a47",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        82,
+        31,
+        969,
+        193
+      ],
+      "wearer_left_count": 2,
+      "wearer_right_count": 2,
+      "viewer_left_count": 2,
+      "viewer_right_count": 2,
+      "placements": [
+        {
+          "side": "wearer_right",
+          "slot": 0,
+          "x": 50,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_right",
+          "slot": 1,
+          "x": 180,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 0,
+          "x": 750,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        },
+        {
+          "side": "wearer_left",
+          "slot": 1,
+          "x": 880,
+          "y": 20,
+          "width": 120,
+          "height": 180
+        }
+      ],
+      "rank_assignment": null,
+      "layout_state": "COUNT_LAYOUT",
+      "reserved_center": [
+        350,
+        0,
+        350,
+        230
+      ]
+    }
+  ]
+}

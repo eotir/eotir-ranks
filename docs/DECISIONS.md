@@ -61,3 +61,7 @@ Ryan explicitly requested making eotir/eotir-ranks public and serving its static
 ## Fiction clarification and review redesign — 2026-10-09
 
 Ryan: payroll/personnel is all fiction in the sci-fi universe. Prior privacy framing was incorrect and does not establish a prohibition on publishing fictional material. Ryan requested dark mode only, smaller fonts/previews and a redesign. Use compact dark tables with expandable evidence and plain dark plaque backgrounds by default; optional dark checkerboard previews actual transparent edges. PNGs have real alpha outside the physical plaque; metal backing and tiles are opaque. No visual/assignment/canon approval is implied by the UI request.
+
+## Cylinder research and Claude Design integration — 2026-10-09
+
+Ryan authorized code-cylinder research primarily from supplied image/source references, with rank/class/grade associations, followed by the Claude Design site redesign. Supplied handoffs: D:\eotir\projects\.handoffs\Rank Plaque Catalog - Standalone.html and EOTIR-Ranks-site3.zip. Extract the full archive only into ignored staging and promote ranks-relevant presentation files. This is a site design change, not replacement/approval of plaque designs. Initial cylinder design and 69 military associations are proposals with null approval; other branch/shared mappings remain unresolved. See CODE-CYLINDERS.md for wearer/viewer conflicts and alternatives.
