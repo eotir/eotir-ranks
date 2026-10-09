@@ -208,12 +208,15 @@ function CylinderDetail({r}) {
 }
 function CylinderInline({r}) {
   const a=RK.cylinders?.assignments?.find(x=>x.rank_id===r.id);
-  if(!a || a.wearer_left_count===null || a.wearer_right_count===null) return <span className="rk-cylinder-label">Cylinders unresolved</span>;
+  if(!a || a.wearer_left_count===null || a.wearer_right_count===null) return <span className="rk-cylinder-label rk-cylinder-state">Cylinder assignment unresolved</span>;
+  // Zero is a proposed absence, not two empty device groups. Rendering blank
+  // icon slots made this state look like failed images instead of a decision.
+  if(a.wearer_left_count===0 && a.wearer_right_count===0) return <span className="rk-cylinder-label rk-cylinder-state">No cylinders proposed</span>;
   const part=RK.cylinder_components?.components?.find(x=>x.id==='code-cylinder-exposed-blue-silver-v1');
   // Display the wearer's right group on the viewer's left. Keep devices separate
   // from the opaque plaque; the center divider is UI, never a uniform rendering.
-  const group=(n,label)=><span className="rk-cylinder-side"><span className="rk-cylinder-icons">{part&&Array.from({length:n},(_,i)=><img key={i} src={part.png_path.replace(/^assets\//,'')} alt="Candidate exposed code cylinder" loading="lazy"/>)}</span><span>{label} {n}</span></span>;
-  return <span className="rk-cylinder" aria-label={'Candidate cylinders: wearer left '+a.wearer_left_count+', wearer right '+a.wearer_right_count}>{group(a.wearer_right_count,'R')}<span aria-hidden="true">·</span>{group(a.wearer_left_count,'L')}<span className="rk-cylinder-label">draft</span></span>;
+  const group=(n,label)=>n>0 && <span className="rk-cylinder-side" title={'Wearer '+label.toLowerCase()}><span className="rk-cylinder-icons">{part&&Array.from({length:n},(_,i)=><img key={i} src={part.png_path.replace(/^assets\//,'')} alt="Candidate exposed code cylinder" loading="lazy"/>)}</span><span>{label} × {n}</span></span>;
+  return <span className="rk-cylinder" aria-label={'Candidate cylinders: wearer left '+a.wearer_left_count+', wearer right '+a.wearer_right_count}>{group(a.wearer_right_count,'Right')}{group(a.wearer_left_count,'Left')}</span>;
 }
 function Downloads() {return <details className="rk-downloads"><summary className="eo-micro">Sources, native charts &amp; candidate library</summary><p><a href="review.html">Tile and plaque candidate library</a> · <a href="code-cylinder-review.html">Code cylinders</a> · <a href="../data/rank-catalog.json">Full evidence dataset</a> · <a href="https://nexus.eotir.com/rankchart.html/">Official Nexus chart</a></p><p className="rk-dim">Checker is a CSS inspection background; PNG alpha outside the opaque backing is real. All images and assignments are candidates, not adopted canon. Saved chart downloads remain plaque-only snapshots; cylinder arrangements appear separately in this review.</p><ul>{RK.charts.map(c=><li key={c.id}>{c.id}: <a href={'charts/'+c.id+'.png'} download>PNG</a> · <a href={'charts/'+c.id+'.svg'} download>SVG</a></li>)}</ul></details>;}
 

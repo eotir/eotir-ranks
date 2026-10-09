@@ -6,7 +6,7 @@ To edit JSX, compile with Babel's React preset using a local development tool.
 This adapter never adopts the design export's lore, ranks or synthetic plaques.
 """
 from pathlib import Path
-import json,re
+import json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 def read(path):
     return json.loads((ROOT/path).read_text(encoding='utf-8-sig'))
@@ -27,4 +27,10 @@ def build_site(legacy_page,catalog,composition,charts):
     fallback=re.sub(r'<script\b[^>]*>.*?</script>','',fallback,flags=re.S)
     fallback=re.sub(r'</?noscript\b[^>]*>','',fallback)
     payload=re.search(r'(<script[^>]+type="application/json".*?</script>)',legacy_page,re.S).group(1)
-    return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Imperial Republic · Rank Plaque Catalog</title><link rel="stylesheet" href="site/rank-catalog.css"></head><body><div id="root"><p class="rk-error">Loading rank review… If this persists, open the saved datasets or enable JavaScript.</p></div><noscript><main>'''+fallback+'''</main></noscript>'''+payload+'''<script src="site/vendor/react-18.3.1.js"></script><script src="site/vendor/react-dom-18.3.1.js"></script><script src="site/rank-data.js"></script><script src="site/rank-ui.js"></script></body></html>'''
+    page = '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Imperial Republic · Rank Plaque Catalog</title><link rel="stylesheet" href="site/rank-catalog.css"></head><body><div id="root"><p class="rk-error">Loading rank review… If this persists, open the saved datasets or enable JavaScript.</p></div><noscript><main>'''+fallback+'''</main></noscript>'''+payload+'''<script src="site/vendor/react-18.3.1.js"></script><script src="site/vendor/react-dom-18.3.1.js"></script><script src="site/rank-data.js"></script><script src="site/rank-ui.js"></script></body></html>'''
+
+    # Content versions prevent a cached runtime from disagreeing with new HTML.
+    for path in ('site/rank-catalog.css', 'site/rank-data.js', 'site/rank-ui.js'):
+        version = hashlib.sha256((ROOT/'assets'/path).read_bytes()).hexdigest()[:12]
+        page = page.replace('"'+path+'"', '"'+path+'?v='+version+'"')
+    return page
