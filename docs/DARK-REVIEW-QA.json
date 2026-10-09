@@ -1,0 +1,42 @@
+{
+  "observed_at_utc": "2026-10-09T13:48:22.220723+00:00",
+  "content_commit": "7116a39a546d3d2cac6b5aeb758fcd63daa5fc2f",
+  "local_browser": {
+    "bodyBackground": "rgb(16, 22, 31)",
+    "broken": 0,
+    "candidateLabel": true,
+    "font": "13px",
+    "images": 224,
+    "maxPreviewHeight": 116,
+    "maxPreviewWidth": 242,
+    "openDetails": 0,
+    "options": [
+      "dark",
+      "checker"
+    ],
+    "preview": "dark",
+    "rows": 283,
+    "status": "PASS",
+    "url": "file:///D:/eotir/projects/ranks/assets/catalog-review.html"
+  },
+  "independent_catalog_verifier": "PASS reported by bounded review worker after HTML-only rebuild",
+  "original_chart_and_plaque_bytes_changed": false,
+  "transparency": {
+    "method": "Actual RGBA PNG channel histogram, independent of CSS background",
+    "sample": "assets/composed/military-enlisted-e7-grey-blue-v1.png",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha0_pixels": 12988,
+    "alpha255_pixels": 593456,
+    "backplate_and_tiles": "opaque"
+  },
+  "publication": {
+    "initial_run": "https://github.com/eotir/eotir-ranks/actions/runs/37938341501",
+    "first_attempt": "failure before build steps; no log or annotation explained the cause",
+    "second_attempt": "confirmed queued with no jobs at last observation",
+    "live_dark_verification": "pending"
+  },
+  "fictional_source_data": "Payroll/personnel content is fictional worldbuilding; prior privacy framing was incorrect."
+}
