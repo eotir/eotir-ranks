@@ -21,3 +21,6 @@ credentials.json
 
 # Unrelated installer downloaded during concurrent host work; preserve locally.
 /references/OpenGSD.Path_0.1.1_x64_en-US.msi
+
+# Generated static publication package.
+/_site/

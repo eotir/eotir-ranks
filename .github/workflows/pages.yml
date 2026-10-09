@@ -1,0 +1,42 @@
+# Publish saved review assets without regenerating or promoting any candidates.
+name: Publish static rank review
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Package saved static files
+        # An allowlist excludes Git metadata, tooling, and local-only full exports.
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          output = Path('_site')
+          output.mkdir()
+          for folder in ('assets', 'data', 'docs', 'references'):
+              shutil.copytree(folder, output / folder)
+          for name in ('index.html', '.nojekyll', 'README.md', 'INTENT.md', 'AGENTS.md', 'sources.md'):
+              shutil.copy2(name, output / name)
+          assert (output / 'assets/catalog-review.html').is_file()
+          PY
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -79,3 +79,5 @@ Ryan authorized public repository visibility and GitHub Pages candidate review. 
 ## Fictional source data and compact dark review — 2026-10-09
 
 Ryan clarified all supplied payroll/personnel content is fictional worldbuilding. Earlier assumptions that those exports contain private real-world personnel data were incorrect. Do not impose real-person privacy restrictions on that material. Focused rank snapshots remain useful for build scope/provenance; full exports are retained locally. Preserve genuine credential exclusions. Ryan also requires a dark-only, compact review UI. Keep source/rationale expandable, maintain fixed physical preview scale and native image links, and distinguish CSS checkerboard preview from real PNG alpha.
+
+The current publisher is .github/workflows/pages.yml with GitHub Pages build_type=workflow. Two managed branch builds failed before any build step, without explanatory logs. Keep saved-image packaging separate from regeneration; verify successful deployment and served HTML hashes. The public URL is unchanged.

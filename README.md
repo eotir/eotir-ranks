@@ -38,6 +38,8 @@ Dependency minimum: [Pillow 12.1 release notes](https://pillow.readthedocs.io/en
 
 ## Static review site
 
-GitHub Pages serves main from the repository root. index.html opens the complete candidate chart; .nojekyll disables theme/Jekyll processing so saved assets are served directly. Pushing main updates the site automatically. Public publication is a review convenience and does not promote candidates to canon. The Pages API and public HTTP/browser checks establish the current deployment state.
+GitHub Actions publishes the saved static review files from main to GitHub Pages. index.html opens the complete candidate chart; .nojekyll disables theme/Jekyll processing so saved assets are served directly. Pushing main updates the site automatically. Public publication is a review convenience and does not promote candidates to canon. The Pages API and public HTTP/browser checks establish the current deployment state.
 
 Ryan clarified that all supplied payroll/personnel material belongs to the fictional Imperial Republic universe. Earlier privacy wording was an incorrect assumption; it is not a reason to withhold fictional source material. Secrets remain excluded.
+
+Publication workflow: .github/workflows/pages.yml packages existing assets/data/docs/references and root review documents. It does not regenerate images or ingest canon. GitHub Pages uses workflow deployment after two managed branch builds failed before running their build steps.
