@@ -1,0 +1,88 @@
+{
+  "observed_at_utc": "2026-10-09T13:26:06.829695+00:00",
+  "user_authorization": "2026-10-09: make the repository public and serve static HTML on GitHub Pages",
+  "repository": "https://github.com/eotir/eotir-ranks",
+  "visibility": "PUBLIC",
+  "anonymous_repository_api_verified": true,
+  "site_url": "https://eotir.github.io/eotir-ranks/",
+  "source": {
+    "branch": "main",
+    "path": "/"
+  },
+  "build_type": "legacy",
+  "verified_content_commit": "cadf5064a4911c5eb1b6c30b8ac6ac97eed2601c",
+  "successful_pages_build_id": 1271809845,
+  "deployment_run_url": "https://github.com/eotir/eotir-ranks/actions/runs/37936151123",
+  "http_checks": [
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "bytes": 540,
+      "sha256": "6f365e1a2f4a5bbb921e4b4210180add12396ad9c471c974e17d36676ec1a81a",
+      "matches_local": true
+    },
+    {
+      "path": "assets/catalog-review.html",
+      "http_status": 200,
+      "bytes": 1483359,
+      "sha256": "e62c3ae9a3433c6158800c2a41293f3d9364d0a277bbfb0527fa33a015199f3c",
+      "matches_local": true
+    },
+    {
+      "path": "assets/composed/military-enlisted-e7-grey-blue-v1.png",
+      "http_status": 200,
+      "bytes": 155996,
+      "sha256": "7dfd32b79662ec3dc53ef2d9856f50c6940ec3f3505f651c4f7e22997f3fc3f9",
+      "matches_local": true
+    },
+    {
+      "path": "assets/charts/military-chart.svg",
+      "http_status": 200,
+      "bytes": 18971936,
+      "sha256": "6e1c8e61f1ddac9ece66ae494abc040d589e01555d979baaac192994870fd69f",
+      "matches_local": true
+    },
+    {
+      "path": "assets/charts/all-branches-chart.png",
+      "http_status": 200,
+      "bytes": 6067486,
+      "sha256": "9ee8852bfbac022cde75168471fcc6a7b615b137a838fa9cd91915d2ed5de7cc",
+      "matches_local": true
+    }
+  ],
+  "browser_checks": {
+    "backgrounds": {
+      "checker": {
+        "color": "rgb(238, 238, 238)",
+        "image": "linear-gradient(45deg, rgb(204, 204, 204) 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(-45deg, rgb(204, 204, 204) 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(45deg, rgba(0, 0, 0, 0) 75%, rgb(204, 204, 204) 75%), linear-gradient(-45deg, rgba(0, 0, 0, 0) 75%, rgb(204, 204, 204) 75%)"
+      },
+      "dark": {
+        "color": "rgb(24, 33, 45)",
+        "image": "none"
+      },
+      "light": {
+        "color": "rgb(255, 255, 255)",
+        "image": "none"
+      }
+    },
+    "brokenImages": [],
+    "chartLinks": 28,
+    "e1Visible": 12,
+    "images": 224,
+    "initialVisible": 283,
+    "inquisitionVisible": 23,
+    "nativePngLink": "https://eotir.github.io/eotir-ranks/assets/composed/military-enlisted-e1-grey-blue-v1.png",
+    "navyVisible": 23,
+    "rows": 283,
+    "searchCrewmanVisible": 2,
+    "status": "PASS",
+    "title": "Imperial Republic candidate rank library",
+    "url": "https://eotir.github.io/eotir-ranks/assets/catalog-review.html"
+  },
+  "browser_errors": [],
+  "private_exports_remain_excluded": true,
+  "recognized_credentials_scan": "No known credential patterns in committed project text; two historical commits contain the same excluded-private-input boundary.",
+  "creative_approval": false,
+  "canonical_or_service_published_flags_changed": false,
+  "note": "Historical PUBLICATION-RECEIPT.json preserves the private delivery checkpoint. This receipt records the subsequent authorized public review site. A documentation-only follow-up commit adds this receipt; its push and Pages build are checked afterward."
+}

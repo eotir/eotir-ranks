@@ -18,8 +18,6 @@ As of 2026-10-09 this is a candidate asset-development Git workspace on main. Ry
 
 - The full goal has verified candidate coverage: data/rank-catalog.json, assets/catalog-review.html, 178 composed PNG/SVG pairs and fourteen chart pairs. Read docs/COMPLETION-REPORT.md and publication receipt. Original enlisted studies remain history; all new visuals/assignments have null approval.
 
-- The invoked full goal now has technically verified candidate coverage: data/rank-catalog.json, assets/catalog-review.html, 178 composed PNG/SVG pairs and fourteen chart pairs. See docs/COMPLETION-REPORT.md and publication receipt for delivery state. Original enlisted studies remain history. Every new assignment/visual is CANDIDATE with null approval.
-
 - Ryan strongly prefers starting with the Star Wars Combine Galactic Empire plaque design language plus another comprehensive chart. This is a design preference, not adoption of external ranks or approval of copied images.
 - Ryan's 2026-10-09 clarification: remain MOSTLY undecided on source precedence; focus on military ranks first and find common middle ground.
 - Begin with the Navy, Marine and Army overlap between Nexus and the IRAF Pay Scale sheet. Upper shared titles, other branches, historical payroll structures and special appointments remain unresolved.
@@ -73,3 +71,7 @@ As of 2026-10-09 this is a candidate asset-development Git workspace on main. Ry
 For discovery: verify document links, source hashes, captured ranges, and the military comparison. Distinguish local code inspection from live deployment/database verification. Do not run production publishers or canon ingestion to test a documentation task.
 
 For later implementation: validate the rank dataset independently of images, then pattern geometry/colors and all rank assignments; verify generated HTML/chart/DB consistency. Publication requires an explicit plan, approved input records, scoped writes, read-back metadata, CDN byte hashes and a receipt. Technical checks do not replace Ryan's creative approval.
+
+## Public static review — 2026-10-09
+
+Ryan authorized public repository visibility and GitHub Pages candidate review. Serve main/root with .nojekyll and index.html. Live URL: https://eotir.github.io/eotir-ranks/. This authorization permits exposing candidate pages/images while leaving every visual/assignment approval null and canon-service published/canonical flags false. The approved-input publication gates above still apply to canon promotion and production integration, not this explicitly authorized draft review site. Preserve historical private-delivery receipts; record current public deployment separately in docs/PAGES-PUBLICATION.json.

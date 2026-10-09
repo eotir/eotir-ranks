@@ -37,3 +37,7 @@ Preserve source assertions and formatting, use the military intersection for ini
 - D:\eotir\projects\music\docs\ANCHOR-CONTRIBUTOR-GUIDE.md
 - D:\eotir\projects\codex-monarch\canon-service\src\schemas.ts
 - D:\eotir\projects\codex-monarch\sync-worker\src\sync-entities.ts
+
+## Public review is a separate authorization
+
+Ryan explicitly authorized public GitHub repository visibility and static Pages hosting after the private draft delivery. This permits candidate exposure while leaving visual/assignment approvals and canon-service published/canonical flags unchanged. Preserve historical receipts with their original scope and add a new deployment receipt; do not rewrite a private-checkpoint receipt to imply it always represented a public site. Excluded historical exports must remain outside Git history.

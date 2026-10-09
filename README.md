@@ -2,6 +2,8 @@
 
 Candidate library for the Era of the Imperial Republic. Exact creative approval, rank-pattern adoption and canon promotion remain pending.
 
+Browse the [live candidate catalog](https://eotir.github.io/eotir-ranks/).
+
 Open [assets/review.html](assets/review.html) for the review hub and preserved tile history. [The complete catalog](assets/catalog-review.html) provides military and specialty branch candidates, filters, source assertions, ordered patterns, native PNG/SVG links and unresolved shared upper titles.
 
 - [Military chart PNG](assets/charts/military-chart.png) / [SVG](assets/charts/military-chart.svg).

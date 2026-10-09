@@ -106,3 +106,7 @@ No production D1, R2, PostgreSQL or canonical content writes were performed in d
 ## Complete-goal staging artifacts
 
 The private draft repository is https://github.com/eotir/eotir-ranks. See ../staging/README.md for local rank/uniform Markdown examples, an illustrative candidate JSON Schema and review-cache SQLite/PostgreSQL DDL. These examples do not implement monarch ingestion support or its editorial serving gate. SQLite DDL was exercised only in an in-memory database; PostgreSQL DDL remains unexecuted. No watched canonical folders or live services were modified.
+
+## Public review hosting — 2026-10-09
+
+Ryan authorized the independent eotir/eotir-ranks repository becoming public and its existing candidate HTML being served at https://eotir.github.io/eotir-ranks/. GitHub Pages serves main/root automatically without canon-service ingestion, D1, R2 or PostgreSQL writes. Public review visibility does not adopt rank mappings or change candidate approval metadata.

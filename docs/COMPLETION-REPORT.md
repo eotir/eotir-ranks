@@ -8,7 +8,7 @@ Status: technical build verified; final delivery commit/push verification record
 - [Complete filtered catalog](../assets/catalog-review.html) shows titles, grades, ordered patterns, source coordinates, rationale, conflicts, native PNG/SVG links and background controls.
 - [Military PNG](../assets/charts/military-chart.png) / [SVG](../assets/charts/military-chart.svg).
 - [All branches PNG](../assets/charts/all-branches-chart.png) / [SVG](../assets/charts/all-branches-chart.svg). Individual charts for all twelve branches are linked from the catalog.
-- Private repository: https://github.com/eotir/eotir-ranks.
+- Current public repository: https://github.com/eotir/eotir-ranks.
 
 ## Coverage
 
@@ -46,3 +46,7 @@ Historical payroll/personnel exports and the raw workbook capture remain local a
 ## Exact next review step
 
 Open the complete catalog, filter Navy, and review E-1 through HC-4 in order. First select the common tile/material geometry, then the seven grey/blue enlisted candidates, then the sixteen officer/command/high-command mappings. Record approval by exact pattern ID and PNG/SVG hashes, separately from source-hierarchy decisions. Review specialty palettes and shared upper alternatives afterward. Approved transfer requires the coordinated monarch type support and editorial serving gate described in INTEGRATION.md.
+
+## Subsequent public review publication
+
+Ryan authorized public visibility and GitHub Pages after the private delivery checkpoint. The static review URL is https://eotir.github.io/eotir-ranks/. PUBLICATION-RECEIPT.json remains the historical private-content receipt; PAGES-PUBLICATION.json records current public deployment and checks. No candidate approval or canon flag changed.
