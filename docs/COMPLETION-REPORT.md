@@ -1,6 +1,6 @@
 # Complete candidate-library delivery — 2026-10-09
 
-Status: technical build verified; final delivery commit/push verification recorded separately in PUBLICATION-RECEIPT.json. All visuals and rank associations remain unapproved CANDIDATES.
+Status: technical build verified; final delivery commit/push verification recorded separately in [PUBLICATION-RECEIPT.json](PUBLICATION-RECEIPT.json). All visuals and rank associations remain unapproved CANDIDATES.
 
 ## Review entry points
 

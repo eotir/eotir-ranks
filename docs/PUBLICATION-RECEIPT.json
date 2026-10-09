@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-10-09T13:05:21.285140+00:00",
+  "repository": "https://github.com/eotir/eotir-ranks",
+  "private": true,
+  "branch": "main",
+  "content_commit": "6719431a6dfc10b4fc5f3aff9a66656a5e872322",
+  "remote_head_matches_content_commit": true,
+  "remote_tree_all_520_blob_hashes_match_local_bytes": true,
+  "committed_files": 520,
+  "largest_file_bytes": 48785384,
+  "private_payroll_and_personnel_exports_excluded": true,
+  "temporary_rebuild_and_unrelated_installer_excluded": true,
+  "source_only_catalog_rebuild_sha256": "d4bfa4341a1adb5138839a5d0c9a7afa20ebf5e82b0b9ba64cc464d48621a8b0",
+  "candidate_status": "CANDIDATE",
+  "creative_approval": false,
+  "production_or_canonical_transfer": false,
+  "note": "This receipt verifies the content commit. A subsequent documentation-only commit adds this receipt and final session handoff; final remote HEAD is checked after that push."
+}
